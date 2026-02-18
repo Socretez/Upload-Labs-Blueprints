@@ -1,0 +1,908 @@
+[schematic]
+
+windows=Array[Dictionary]([{
+"container_data": {
+"PanelContainer/MainContainer/Input": {
+"id": "b218b0386b5a",
+"outputs_id": Array[String]([]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input2": {
+"id": "f6d0608e8936",
+"outputs_id": Array[String]([]),
+"resource": "",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input3": {
+"id": "f45844341e79",
+"outputs_id": Array[String]([]),
+"resource": "",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input4": {
+"id": "9697a5977c55",
+"outputs_id": Array[String]([]),
+"resource": "",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input5": {
+"id": "9a284267119a",
+"outputs_id": Array[String]([]),
+"resource": "",
+"variation": 0
+}
+},
+"filename": "window_auto_collect.tscn",
+"name": "auto_collect1000",
+"position": Vector2(4550, -100),
+"window": "auto_collect"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Boost": {
+"id": "aa885f826b8e",
+"outputs_id": Array[String]([]),
+"resource": "boost_research",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "014e1d4e579b",
+"outputs_id": Array[String]([]),
+"resource": "game",
+"variation": 69350
+},
+"PanelContainer/MainContainer/Points": {
+"id": "b72c9b4ca505",
+"outputs_id": Array[String](["9e1bf42305e1"]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/ResearchPower": {
+"id": "21e67e80f8c7",
+"outputs_id": Array[String]([]),
+"resource": "research_power",
+"variation": 0
+}
+},
+"filename": "window_data_lab.tscn",
+"name": "data_lab0000",
+"position": Vector2(4150, -750),
+"window": "data_lab"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Boost": {
+"id": "3571ebac4419",
+"outputs_id": Array[String]([]),
+"resource": "boost_research",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "27955c409cab",
+"outputs_id": Array[String]([]),
+"resource": "game",
+"variation": 69350
+},
+"PanelContainer/MainContainer/Points": {
+"id": "50fc4e12ef08",
+"outputs_id": Array[String](["f5610ca5d39a"]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/ResearchPower": {
+"id": "326996fc6be1",
+"outputs_id": Array[String]([]),
+"resource": "research_power",
+"variation": 0
+}
+},
+"filename": "window_data_lab.tscn",
+"name": "data_lab1000",
+"position": Vector2(4100, -800),
+"window": "data_lab"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Boost": {
+"id": "d7fac99cf58b",
+"outputs_id": Array[String]([]),
+"resource": "boost_research",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "0405b6c8342e",
+"outputs_id": Array[String]([]),
+"resource": "game",
+"variation": 69350
+},
+"PanelContainer/MainContainer/Points": {
+"id": "6d1436fa8a90",
+"outputs_id": Array[String](["131cd2ebfd30"]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/ResearchPower": {
+"id": "672117fb5f9f",
+"outputs_id": Array[String]([]),
+"resource": "research_power",
+"variation": 0
+}
+},
+"filename": "window_data_lab.tscn",
+"name": "data_lab10000",
+"position": Vector2(3000, -700),
+"window": "data_lab"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Boost": {
+"id": "2e6f9e7e364a",
+"outputs_id": Array[String]([]),
+"resource": "boost_research",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "f3c4d3541d3b",
+"outputs_id": Array[String]([]),
+"resource": "game",
+"variation": 69350
+},
+"PanelContainer/MainContainer/Points": {
+"id": "7e5d2a30931d",
+"outputs_id": Array[String](["5f980bd46eea"]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/ResearchPower": {
+"id": "1b7924daa07e",
+"outputs_id": Array[String]([]),
+"resource": "research_power",
+"variation": 0
+}
+},
+"filename": "window_data_lab.tscn",
+"name": "data_lab11000",
+"position": Vector2(2950, -750),
+"window": "data_lab"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Boost": {
+"id": "a30aed0d3b71",
+"outputs_id": Array[String]([]),
+"resource": "boost_research",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "5abae5aadbc3",
+"outputs_id": Array[String]([]),
+"resource": "game",
+"variation": 69350
+},
+"PanelContainer/MainContainer/Points": {
+"id": "eaccc933ab06",
+"outputs_id": Array[String](["630a50a9be8b"]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/ResearchPower": {
+"id": "07cd72e39304",
+"outputs_id": Array[String]([]),
+"resource": "research_power",
+"variation": 0
+}
+},
+"filename": "window_data_lab.tscn",
+"name": "data_lab12000",
+"position": Vector2(2900, -800),
+"window": "data_lab"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Boost": {
+"id": "901bd3699ca3",
+"outputs_id": Array[String]([]),
+"resource": "boost_research",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "e2326e40e081",
+"outputs_id": Array[String]([]),
+"resource": "game",
+"variation": 69350
+},
+"PanelContainer/MainContainer/Points": {
+"id": "cf6b8d03c96b",
+"outputs_id": Array[String](["d09d8cee7bc2"]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/ResearchPower": {
+"id": "c697cb4b90c0",
+"outputs_id": Array[String]([]),
+"resource": "research_power",
+"variation": 0
+}
+},
+"filename": "window_data_lab.tscn",
+"name": "data_lab13000",
+"position": Vector2(2850, -850),
+"window": "data_lab"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Boost": {
+"id": "4fa21fa79495",
+"outputs_id": Array[String]([]),
+"resource": "boost_research",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "0c870f6ce9f8",
+"outputs_id": Array[String]([]),
+"resource": "game",
+"variation": 69350
+},
+"PanelContainer/MainContainer/Points": {
+"id": "2fabc64391cd",
+"outputs_id": Array[String](["d67c8cf74e94"]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/ResearchPower": {
+"id": "b76d7c972ab0",
+"outputs_id": Array[String]([]),
+"resource": "research_power",
+"variation": 0
+}
+},
+"filename": "window_data_lab.tscn",
+"name": "data_lab2000",
+"position": Vector2(4050, -850),
+"window": "data_lab"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Boost": {
+"id": "8b5aa7a750cf",
+"outputs_id": Array[String]([]),
+"resource": "boost_research",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "dd486690f354",
+"outputs_id": Array[String]([]),
+"resource": "game",
+"variation": 69350
+},
+"PanelContainer/MainContainer/Points": {
+"id": "ccb59732262f",
+"outputs_id": Array[String](["d3e5a9b07f91"]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/ResearchPower": {
+"id": "2e54002d42a7",
+"outputs_id": Array[String]([]),
+"resource": "research_power",
+"variation": 0
+}
+},
+"filename": "window_data_lab.tscn",
+"name": "data_lab3000",
+"position": Vector2(4000, -900),
+"window": "data_lab"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Boost": {
+"id": "3b90701d970f",
+"outputs_id": Array[String]([]),
+"resource": "boost_research",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "c568b6ae9afa",
+"outputs_id": Array[String]([]),
+"resource": "game",
+"variation": 69350
+},
+"PanelContainer/MainContainer/Points": {
+"id": "486c86dd8e9d",
+"outputs_id": Array[String](["5085bf2b13a8"]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/ResearchPower": {
+"id": "3a0ec603588a",
+"outputs_id": Array[String]([]),
+"resource": "research_power",
+"variation": 0
+}
+},
+"filename": "window_data_lab.tscn",
+"name": "data_lab4000",
+"position": Vector2(3600, -700),
+"window": "data_lab"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Boost": {
+"id": "0511d8300758",
+"outputs_id": Array[String]([]),
+"resource": "boost_research",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "f0321c7e913f",
+"outputs_id": Array[String]([]),
+"resource": "game",
+"variation": 69350
+},
+"PanelContainer/MainContainer/Points": {
+"id": "4aa7e8e73242",
+"outputs_id": Array[String](["7d81e7b65ad9"]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/ResearchPower": {
+"id": "99dfeb155685",
+"outputs_id": Array[String]([]),
+"resource": "research_power",
+"variation": 0
+}
+},
+"filename": "window_data_lab.tscn",
+"name": "data_lab5000",
+"position": Vector2(3550, -750),
+"window": "data_lab"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Boost": {
+"id": "9fbb10f35d8c",
+"outputs_id": Array[String]([]),
+"resource": "boost_research",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "222121a9a301",
+"outputs_id": Array[String]([]),
+"resource": "game",
+"variation": 69350
+},
+"PanelContainer/MainContainer/Points": {
+"id": "898dbb9ee3a9",
+"outputs_id": Array[String](["97bed06ed7d7"]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/ResearchPower": {
+"id": "d556de720bde",
+"outputs_id": Array[String]([]),
+"resource": "research_power",
+"variation": 0
+}
+},
+"filename": "window_data_lab.tscn",
+"name": "data_lab6000",
+"position": Vector2(3500, -800),
+"window": "data_lab"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Boost": {
+"id": "8a013c070911",
+"outputs_id": Array[String]([]),
+"resource": "boost_research",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "e1d94e13e363",
+"outputs_id": Array[String]([]),
+"resource": "game",
+"variation": 69350
+},
+"PanelContainer/MainContainer/Points": {
+"id": "c81ced1e82cd",
+"outputs_id": Array[String](["bf934da9c12e"]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/ResearchPower": {
+"id": "1dd6d49fc62f",
+"outputs_id": Array[String]([]),
+"resource": "research_power",
+"variation": 0
+}
+},
+"filename": "window_data_lab.tscn",
+"name": "data_lab7000",
+"position": Vector2(3450, -850),
+"window": "data_lab"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Boost": {
+"id": "24ee0e99e46d",
+"outputs_id": Array[String]([]),
+"resource": "boost_research",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "ceaf74890790",
+"outputs_id": Array[String]([]),
+"resource": "game",
+"variation": 69350
+},
+"PanelContainer/MainContainer/Points": {
+"id": "8062eb534662",
+"outputs_id": Array[String](["9b60fdcf84f0"]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/ResearchPower": {
+"id": "4452141660be",
+"outputs_id": Array[String]([]),
+"resource": "research_power",
+"variation": 0
+}
+},
+"filename": "window_data_lab.tscn",
+"name": "data_lab8000",
+"position": Vector2(3400, -900),
+"window": "data_lab"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Boost": {
+"id": "eece4f53adba",
+"outputs_id": Array[String]([]),
+"resource": "boost_research",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "628410f27adb",
+"outputs_id": Array[String]([]),
+"resource": "game",
+"variation": 69350
+},
+"PanelContainer/MainContainer/Points": {
+"id": "04f86c66f44e",
+"outputs_id": Array[String](["48c915573b40"]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/ResearchPower": {
+"id": "82e577f5ca78",
+"outputs_id": Array[String]([]),
+"resource": "research_power",
+"variation": 0
+}
+},
+"filename": "window_data_lab.tscn",
+"name": "data_lab9000",
+"position": Vector2(2800, -900),
+"window": "data_lab"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input/0": {
+"id": "3c057d1b35c8",
+"outputs_id": Array[String]([]),
+"resource": "game",
+"variation": 69350
+},
+"PanelContainer/MainContainer/Input/1": {
+"id": "88abfd2e4b86",
+"outputs_id": Array[String]([]),
+"resource": "game",
+"variation": 69350
+},
+"PanelContainer/MainContainer/Input/2": {
+"id": "69a947b9a53b",
+"outputs_id": Array[String]([]),
+"resource": "game",
+"variation": 69350
+},
+"PanelContainer/MainContainer/Input/3": {
+"id": "bff450a939be",
+"outputs_id": Array[String]([]),
+"resource": "game",
+"variation": 69350
+},
+"PanelContainer/MainContainer/Input/4": {
+"id": "40654cf00ce5",
+"outputs_id": Array[String]([]),
+"resource": "game",
+"variation": 69350
+},
+"PanelContainer/MainContainer/Output": {
+"id": "b175df21ea17",
+"outputs_id": Array[String](["e2326e40e081", "5abae5aadbc3", "f3c4d3541d3b", "0405b6c8342e", "628410f27adb", "ceaf74890790", "e1d94e13e363", "222121a9a301", "f0321c7e913f", "c568b6ae9afa", "0c870f6ce9f8", "27955c409cab", "014e1d4e579b", "dd486690f354"]),
+"resource": "game",
+"variation": 69350
+}
+},
+"filename": "window_folder.tscn",
+"name": "folder1000",
+"position": Vector2(2400, -500),
+"window": "folder"
+}, {
+"color": 3,
+"container_data": {},
+"custom_icon": "research",
+"custom_name": "Research",
+"filename": "window_group.tscn",
+"name": "group1000",
+"position": Vector2(2400, -950),
+"size": Vector2(2500, 1250),
+"window": "group"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input/0": {
+"id": "48c915573b40",
+"outputs_id": Array[String]([]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/1": {
+"id": "d09d8cee7bc2",
+"outputs_id": Array[String]([]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/2": {
+"id": "630a50a9be8b",
+"outputs_id": Array[String]([]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/3": {
+"id": "5f980bd46eea",
+"outputs_id": Array[String]([]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/4": {
+"id": "131cd2ebfd30",
+"outputs_id": Array[String]([]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "7e824eda4367",
+"outputs_id": Array[String](["ee8af6fe0a18"]),
+"resource": "research",
+"variation": 0
+}
+},
+"filename": "window_inventory.tscn",
+"name": "inventory0000",
+"position": Vector2(3000, -250),
+"window": "inventory"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input/0": {
+"id": "9b60fdcf84f0",
+"outputs_id": Array[String]([]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/1": {
+"id": "bf934da9c12e",
+"outputs_id": Array[String]([]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/2": {
+"id": "97bed06ed7d7",
+"outputs_id": Array[String]([]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/3": {
+"id": "7d81e7b65ad9",
+"outputs_id": Array[String]([]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/4": {
+"id": "5085bf2b13a8",
+"outputs_id": Array[String]([]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "2e8494ec2b03",
+"outputs_id": Array[String](["a183cf07efbb"]),
+"resource": "research",
+"variation": 0
+}
+},
+"filename": "window_inventory.tscn",
+"name": "inventory00000",
+"position": Vector2(3600, -250),
+"window": "inventory"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input/0": {
+"id": "d3e5a9b07f91",
+"outputs_id": Array[String]([]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/1": {
+"id": "d67c8cf74e94",
+"outputs_id": Array[String]([]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/2": {
+"id": "f5610ca5d39a",
+"outputs_id": Array[String]([]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/3": {
+"id": "9e1bf42305e1",
+"outputs_id": Array[String]([]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/4": {
+"id": "6e2312a1c3c0",
+"outputs_id": Array[String]([]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "1e2ed38bdfd0",
+"outputs_id": Array[String](["be90fe5862e1"]),
+"resource": "research",
+"variation": 0
+}
+},
+"filename": "window_inventory.tscn",
+"name": "inventory000000",
+"position": Vector2(4150, -250),
+"window": "inventory"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input/0": {
+"id": "ee8af6fe0a18",
+"outputs_id": Array[String]([]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/1": {
+"id": "a183cf07efbb",
+"outputs_id": Array[String]([]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/2": {
+"id": "be90fe5862e1",
+"outputs_id": Array[String]([]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/3": {
+"id": "818035c10ed7",
+"outputs_id": Array[String]([]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/4": {
+"id": "70659f35c698",
+"outputs_id": Array[String]([]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "2e97cb355115",
+"outputs_id": Array[String](["74c2a92ba213", "b218b0386b5a"]),
+"resource": "research",
+"variation": 0
+}
+},
+"filename": "window_inventory.tscn",
+"name": "inventory01000",
+"position": Vector2(4550, -900),
+"window": "inventory"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Research": {
+"id": "74c2a92ba213",
+"outputs_id": Array[String]([]),
+"resource": "research",
+"variation": 0
+}
+},
+"filename": "window_research_advanced.tscn",
+"name": "research_advanced0000",
+"position": Vector2(4550, -400),
+"window": "research_advanced"
+}])
+connectors={
+"014e1d4e579b": {
+"has_pivot": false,
+"pivot_pos": Vector2(-6400, -775)
+},
+"0405b6c8342e": {
+"has_pivot": false,
+"pivot_pos": Vector2(-6400, -775)
+},
+"0511d8300758": {
+"has_pivot": true,
+"pivot_pos": Vector2(3375, -975)
+},
+"0c870f6ce9f8": {
+"has_pivot": false,
+"pivot_pos": Vector2(-6400, -775)
+},
+"131cd2ebfd30": {
+"has_pivot": false,
+"pivot_pos": Vector2(-2600, 375)
+},
+"222121a9a301": {
+"has_pivot": false,
+"pivot_pos": Vector2(-6400, -775)
+},
+"24ee0e99e46d": {
+"has_pivot": true,
+"pivot_pos": Vector2(3375, -975)
+},
+"27955c409cab": {
+"has_pivot": false,
+"pivot_pos": Vector2(-6400, -775)
+},
+"2e6f9e7e364a": {
+"has_pivot": true,
+"pivot_pos": Vector2(2775, -975)
+},
+"3571ebac4419": {
+"has_pivot": true,
+"pivot_pos": Vector2(3975, -975)
+},
+"3b90701d970f": {
+"has_pivot": true,
+"pivot_pos": Vector2(3375, -975)
+},
+"3c057d1b35c8": {
+"has_pivot": true,
+"pivot_pos": Vector2(2375, -975)
+},
+"48c915573b40": {
+"has_pivot": false,
+"pivot_pos": Vector2(-2600, 375)
+},
+"4fa21fa79495": {
+"has_pivot": true,
+"pivot_pos": Vector2(2775, -975)
+},
+"5085bf2b13a8": {
+"has_pivot": false,
+"pivot_pos": Vector2(-6400, -775)
+},
+"5abae5aadbc3": {
+"has_pivot": false,
+"pivot_pos": Vector2(-6400, -775)
+},
+"5f980bd46eea": {
+"has_pivot": false,
+"pivot_pos": Vector2(-2600, 375)
+},
+"628410f27adb": {
+"has_pivot": false,
+"pivot_pos": Vector2(-6400, -775)
+},
+"630a50a9be8b": {
+"has_pivot": false,
+"pivot_pos": Vector2(-2600, 375)
+},
+"74c2a92ba213": {
+"has_pivot": true,
+"pivot_pos": Vector2(4725, -450)
+},
+"7d81e7b65ad9": {
+"has_pivot": false,
+"pivot_pos": Vector2(-6400, -775)
+},
+"8a013c070911": {
+"has_pivot": true,
+"pivot_pos": Vector2(3375, -975)
+},
+"8b5aa7a750cf": {
+"has_pivot": true,
+"pivot_pos": Vector2(3975, -975)
+},
+"901bd3699ca3": {
+"has_pivot": true,
+"pivot_pos": Vector2(2775, -975)
+},
+"97bed06ed7d7": {
+"has_pivot": false,
+"pivot_pos": Vector2(-6400, -775)
+},
+"9b60fdcf84f0": {
+"has_pivot": false,
+"pivot_pos": Vector2(-6400, -775)
+},
+"9e1bf42305e1": {
+"has_pivot": false,
+"pivot_pos": Vector2(-6400, -775)
+},
+"9fbb10f35d8c": {
+"has_pivot": true,
+"pivot_pos": Vector2(3375, -975)
+},
+"a183cf07efbb": {
+"has_pivot": false,
+"pivot_pos": Vector2(-6400, -775)
+},
+"a30aed0d3b71": {
+"has_pivot": true,
+"pivot_pos": Vector2(2775, -975)
+},
+"aa885f826b8e": {
+"has_pivot": true,
+"pivot_pos": Vector2(3975, -975)
+},
+"b218b0386b5a": {
+"has_pivot": true,
+"pivot_pos": Vector2(4725, -150)
+},
+"be90fe5862e1": {
+"has_pivot": false,
+"pivot_pos": Vector2(-6400, -775)
+},
+"bf934da9c12e": {
+"has_pivot": false,
+"pivot_pos": Vector2(-6400, -775)
+},
+"c568b6ae9afa": {
+"has_pivot": false,
+"pivot_pos": Vector2(-6400, -775)
+},
+"ceaf74890790": {
+"has_pivot": false,
+"pivot_pos": Vector2(-6400, -775)
+},
+"d09d8cee7bc2": {
+"has_pivot": false,
+"pivot_pos": Vector2(-2600, 375)
+},
+"d3e5a9b07f91": {
+"has_pivot": false,
+"pivot_pos": Vector2(-6400, -775)
+},
+"d67c8cf74e94": {
+"has_pivot": false,
+"pivot_pos": Vector2(-6400, -775)
+},
+"d7fac99cf58b": {
+"has_pivot": true,
+"pivot_pos": Vector2(2775, -975)
+},
+"dd486690f354": {
+"has_pivot": false,
+"pivot_pos": Vector2(-2600, 375)
+},
+"e1d94e13e363": {
+"has_pivot": false,
+"pivot_pos": Vector2(-6400, -775)
+},
+"e2326e40e081": {
+"has_pivot": false,
+"pivot_pos": Vector2(-6400, -775)
+},
+"ee8af6fe0a18": {
+"has_pivot": false,
+"pivot_pos": Vector2(-6400, -775)
+},
+"eece4f53adba": {
+"has_pivot": true,
+"pivot_pos": Vector2(4925, -975)
+},
+"f0321c7e913f": {
+"has_pivot": false,
+"pivot_pos": Vector2(-6400, -775)
+},
+"f3c4d3541d3b": {
+"has_pivot": false,
+"pivot_pos": Vector2(-6400, -775)
+},
+"f5610ca5d39a": {
+"has_pivot": false,
+"pivot_pos": Vector2(-6400, -775)
+}
+}
+rect=Rect2(2400, -950, 2500, 1250)
+icon="research"

@@ -1,0 +1,1258 @@
+[schematic]
+
+windows=[{
+"color": 1,
+"container_data": {},
+"custom_icon": "code",
+"custom_name": "Coding",
+"filename": "window_group.tscn",
+"name": "group1000000000",
+"position": Vector2(800, 5550),
+"size": Vector2(3650, 3100),
+"window": "group"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Code": {
+"id": "602ed2e95eea",
+"outputs_id": Array[String]([]),
+"resource": "code_application",
+"variation": 0
+}
+},
+"filename": "window_build.tscn",
+"name": "build00000100000",
+"position": Vector2(4050, 5700),
+"window": "build"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Array": {
+"id": "cb3514331eda",
+"outputs_id": Array[String](["bdde229e4795"]),
+"resource": "array_decimal",
+"variation": 0
+},
+"PanelContainer/MainContainer/Variable": {
+"id": "df7ea307bebf",
+"outputs_id": Array[String]([]),
+"resource": "decimal",
+"variation": 0
+}
+},
+"filename": "window_code_array.tscn",
+"name": "code_array10000000000",
+"position": Vector2(2450, 8050),
+"window": "code_array"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Array": {
+"id": "1360f8a2c441",
+"outputs_id": Array[String](["bc60fe52e4c2", "d828341c6a37"]),
+"resource": "array_string",
+"variation": 0
+},
+"PanelContainer/MainContainer/Variable": {
+"id": "afb768715efc",
+"outputs_id": Array[String]([]),
+"resource": "string",
+"variation": 0
+}
+},
+"filename": "window_code_array.tscn",
+"name": "code_array1000100000",
+"position": Vector2(2450, 7750),
+"window": "code_array"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Array": {
+"id": "5107606bf248",
+"outputs_id": Array[String](["b8247350f1b5"]),
+"resource": "array_vector",
+"variation": 0
+},
+"PanelContainer/MainContainer/Variable": {
+"id": "32e6736bdc88",
+"outputs_id": Array[String]([]),
+"resource": "vector",
+"variation": 0
+}
+},
+"filename": "window_code_array.tscn",
+"name": "code_array11000000000",
+"position": Vector2(2450, 8350),
+"window": "code_array"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/CodeSpeed": {
+"id": "77b3aa0ca44e",
+"outputs_id": Array[String]([]),
+"resource": "code_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/bool/ResourceContainer/Resource": {
+"id": "b33c6b838593",
+"outputs_id": Array[String](["ca571e685f7d"]),
+"resource": "bool",
+"variation": 0
+},
+"PanelContainer/MainContainer/char/ResourceContainer/Resource": {
+"id": "1c33855dcc90",
+"outputs_id": Array[String]([]),
+"resource": "char",
+"variation": 0
+},
+"PanelContainer/MainContainer/float/ResourceContainer/Resource": {
+"id": "821bd9359f1e",
+"outputs_id": Array[String](["cfeadc8e2b7b", "5bedff889e10"]),
+"resource": "float",
+"variation": 0
+},
+"PanelContainer/MainContainer/int/ResourceContainer/Resource": {
+"id": "3c2c09066b6c",
+"outputs_id": Array[String](["37411ff96974"]),
+"resource": "int",
+"variation": 0
+}
+},
+"filename": "window_ide.tscn",
+"name": "ide0000000000",
+"position": Vector2(1650, 6400),
+"var_bool_ratio": 1.0,
+"var_char_ratio": 0.0,
+"var_float_ratio": 2.0,
+"var_int_ratio": 1.0,
+"window": "ide"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/CodeSpeed": {
+"id": "48943064a063",
+"outputs_id": Array[String]([]),
+"resource": "code_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/bool/ResourceContainer/Resource": {
+"id": "6b8d1228a621",
+"outputs_id": Array[String]([]),
+"resource": "bool",
+"variation": 0
+},
+"PanelContainer/MainContainer/char/ResourceContainer/Resource": {
+"id": "f1e7ac09ab9f",
+"outputs_id": Array[String](["0bbf2a76c48b", "9a489f74386c"]),
+"resource": "char",
+"variation": 0
+},
+"PanelContainer/MainContainer/float/ResourceContainer/Resource": {
+"id": "11a1bf9cbdc6",
+"outputs_id": Array[String]([]),
+"resource": "float",
+"variation": 0
+},
+"PanelContainer/MainContainer/int/ResourceContainer/Resource": {
+"id": "30e5950cfcc6",
+"outputs_id": Array[String](["bc95ab0e6a87", "a6054d24f6a5"]),
+"resource": "int",
+"variation": 0
+}
+},
+"filename": "window_ide.tscn",
+"name": "ide1000000000",
+"position": Vector2(1650, 5700),
+"var_bool_ratio": 0.0,
+"var_char_ratio": 2.0,
+"var_float_ratio": 0.0,
+"var_int_ratio": 2.0,
+"window": "ide"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/CodeSpeed": {
+"id": "646cf3b80a9d",
+"outputs_id": Array[String]([]),
+"resource": "code_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/bool/ResourceContainer/Resource": {
+"id": "6b7377ebeaac",
+"outputs_id": Array[String]([]),
+"resource": "bool",
+"variation": 0
+},
+"PanelContainer/MainContainer/char/ResourceContainer/Resource": {
+"id": "3a3a28b7e012",
+"outputs_id": Array[String](["33e388045ba3", "7369ae145a94"]),
+"resource": "char",
+"variation": 0
+},
+"PanelContainer/MainContainer/float/ResourceContainer/Resource": {
+"id": "916fe2e04d42",
+"outputs_id": Array[String](["7e2963527008", "bf995ac5affa", "a8dba955d5b0"]),
+"resource": "float",
+"variation": 0
+},
+"PanelContainer/MainContainer/int/ResourceContainer/Resource": {
+"id": "cdf6677a878e",
+"outputs_id": Array[String](["4e0f00bceae2"]),
+"resource": "int",
+"variation": 0
+}
+},
+"filename": "window_ide.tscn",
+"name": "ide2000000000",
+"position": Vector2(1650, 7750),
+"var_bool_ratio": 0.0,
+"var_char_ratio": 4.0,
+"var_float_ratio": 3.0,
+"var_int_ratio": 1.0,
+"window": "ide"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Output1/Splitted": {
+"id": "3b4b3baf21ed",
+"outputs_id": Array[String](["a0e13580c1da"]),
+"resource": "code_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output2/Splitted": {
+"id": "1c28e5aa3fd8",
+"outputs_id": Array[String](["646cf3b80a9d"]),
+"resource": "code_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Splitting": {
+"id": "60048a6b880a",
+"outputs_id": Array[String]([]),
+"resource": "code_speed",
+"variation": 0
+}
+},
+"filename": "window_if.tscn",
+"name": "if00000000000",
+"position": Vector2(850, 6950),
+"ratio": 17.0,
+"ratio2": 16.0,
+"window": "if"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Output1/Splitted": {
+"id": "419a8f1e8b83",
+"outputs_id": Array[String](["48943064a063"]),
+"resource": "code_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output2/Splitted": {
+"id": "5e5c935a5c65",
+"outputs_id": Array[String](["60048a6b880a"]),
+"resource": "code_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Splitting": {
+"id": "01c2091ada4e",
+"outputs_id": Array[String]([]),
+"resource": "code_speed",
+"variation": 0
+}
+},
+"filename": "window_if.tscn",
+"name": "if0000100000",
+"position": Vector2(1250, 5700),
+"ratio": 0.0,
+"ratio2": 1.0,
+"window": "if"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Code": {
+"id": "fd6c4ba04e62",
+"outputs_id": Array[String]([]),
+"resource": "code_driver",
+"variation": 0
+},
+"PanelContainer/MainContainer/Optimization": {
+"id": "a8dd2d634da8",
+"outputs_id": Array[String]([]),
+"resource": "code_optimization",
+"variation": 13
+},
+"PanelContainer/MainContainer/Optimized": {
+"id": "6df558bbaa76",
+"outputs_id": Array[String](["ca30587ac1a1", "ecf06c0fe1f3"]),
+"resource": "code_driver",
+"variation": 29
+}
+},
+"filename": "window_optimize_code.tscn",
+"name": "optimize_code1000000000",
+"position": Vector2(3650, 7750),
+"window": "optimize_code"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Output1/Splitted": {
+"id": "b8f69ae2f0e5",
+"outputs_id": Array[String](["80217566460e", "a91ce89ce55a"]),
+"resource": "code_optimization",
+"variation": 13
+},
+"PanelContainer/MainContainer/Output2/Splitted": {
+"id": "f5ea142049a5",
+"outputs_id": Array[String](["a8dd2d634da8"]),
+"resource": "code_optimization",
+"variation": 13
+},
+"PanelContainer/MainContainer/Splitting": {
+"id": "0f5d7c7a03bf",
+"outputs_id": Array[String]([]),
+"resource": "code_optimization",
+"variation": 13
+}
+},
+"filename": "window_segmenter.tscn",
+"name": "segmenter0",
+"position": Vector2(3650, 6400),
+"ratio": 0.0,
+"ratio2": 1.0,
+"window": "segmenter"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input1": {
+"id": "5bedff889e10",
+"outputs_id": Array[String]([]),
+"resource": "float",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input2": {
+"id": "cfeadc8e2b7b",
+"outputs_id": Array[String]([]),
+"resource": "float",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "555d58795230",
+"outputs_id": Array[String](["2b8de5ccdfe9"]),
+"resource": "vector",
+"variation": 0
+}
+},
+"filename": "window_variable_combiner.tscn",
+"name": "variable_combiner00000000000",
+"position": Vector2(2050, 6700),
+"window": "variable_combiner"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input1": {
+"id": "bc95ab0e6a87",
+"outputs_id": Array[String]([]),
+"resource": "int",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input2": {
+"id": "a6054d24f6a5",
+"outputs_id": Array[String]([]),
+"resource": "int",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "73383be25aca",
+"outputs_id": Array[String](["39c6b49665d9"]),
+"resource": "bigint",
+"variation": 0
+}
+},
+"filename": "window_variable_combiner.tscn",
+"name": "variable_combiner10000000000",
+"position": Vector2(2050, 6000),
+"window": "variable_combiner"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input1": {
+"id": "0bbf2a76c48b",
+"outputs_id": Array[String]([]),
+"resource": "char",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input2": {
+"id": "9a489f74386c",
+"outputs_id": Array[String]([]),
+"resource": "char",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "16ae55c6109f",
+"outputs_id": Array[String](["8254f0bfb44a"]),
+"resource": "string",
+"variation": 0
+}
+},
+"filename": "window_variable_combiner.tscn",
+"name": "variable_combiner1000100000",
+"position": Vector2(2050, 5700),
+"window": "variable_combiner"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input1": {
+"id": "bf995ac5affa",
+"outputs_id": Array[String]([]),
+"resource": "float",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input2": {
+"id": "a8dba955d5b0",
+"outputs_id": Array[String]([]),
+"resource": "float",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "2d3fc6f97b2c",
+"outputs_id": Array[String](["32e6736bdc88"]),
+"resource": "vector",
+"variation": 0
+}
+},
+"filename": "window_variable_combiner.tscn",
+"name": "variable_combiner200000000000",
+"position": Vector2(2050, 8350),
+"window": "variable_combiner"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input1": {
+"id": "4e0f00bceae2",
+"outputs_id": Array[String]([]),
+"resource": "int",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input2": {
+"id": "7e2963527008",
+"outputs_id": Array[String]([]),
+"resource": "float",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "4b9f665988f2",
+"outputs_id": Array[String](["df7ea307bebf"]),
+"resource": "decimal",
+"variation": 0
+}
+},
+"filename": "window_variable_combiner.tscn",
+"name": "variable_combiner20000100000",
+"position": Vector2(2050, 8050),
+"window": "variable_combiner"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input1": {
+"id": "33e388045ba3",
+"outputs_id": Array[String]([]),
+"resource": "char",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input2": {
+"id": "7369ae145a94",
+"outputs_id": Array[String]([]),
+"resource": "char",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "50b7ee6c04ef",
+"outputs_id": Array[String](["afb768715efc"]),
+"resource": "string",
+"variation": 0
+}
+},
+"filename": "window_variable_combiner.tscn",
+"name": "variable_combiner2000100000",
+"position": Vector2(2050, 7750),
+"window": "variable_combiner"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Code": {
+"id": "2d9a687b2397",
+"outputs_id": Array[String]([]),
+"resource": "code_optimization",
+"variation": 0
+},
+"PanelContainer/MainContainer/Optimization": {
+"id": "16371f91c402",
+"outputs_id": Array[String]([]),
+"resource": "code_optimization",
+"variation": 0
+},
+"PanelContainer/MainContainer/Optimized": {
+"id": "d6a0f718036a",
+"outputs_id": Array[String](["0f74e362ac91"]),
+"resource": "code_optimization",
+"variation": 4
+}
+},
+"filename": "window_optimize_code.tscn",
+"name": "optimize_code000000000000",
+"position": Vector2(2850, 6400),
+"window": "optimize_code"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Bugged": {
+"id": "02a85e59e3ae",
+"outputs_id": Array[String](["6b9590fcd149"]),
+"resource": "code_optimization",
+"variation": 45
+},
+"PanelContainer/MainContainer/Code": {
+"id": "3c3245554085",
+"outputs_id": Array[String]([]),
+"resource": "code_optimization",
+"variation": 12
+},
+"PanelContainer/MainContainer/CodeSpeed": {
+"id": "17dbe37ae5a8",
+"outputs_id": Array[String]([]),
+"resource": "code_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Fixed": {
+"id": "ea3fef0af588",
+"outputs_id": Array[String](["6ca3b34fb182"]),
+"resource": "code_optimization",
+"variation": 13
+}
+},
+"filename": "window_debug.tscn",
+"name": "debug000000000000",
+"position": Vector2(3250, 6400),
+"window": "debug"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/BugFix": {
+"id": "172bae3c4655",
+"outputs_id": Array[String]([]),
+"resource": "code_bugfix",
+"variation": 0
+},
+"PanelContainer/MainContainer/Code": {
+"id": "6b9590fcd149",
+"outputs_id": Array[String]([]),
+"resource": "code_optimization",
+"variation": 45
+},
+"PanelContainer/MainContainer/Fixed": {
+"id": "4deb784163d6",
+"outputs_id": Array[String](["1679265333e7"]),
+"resource": "code_optimization",
+"variation": 13
+}
+},
+"filename": "window_fix_code.tscn",
+"name": "fix_code000000",
+"position": Vector2(3250, 6850),
+"window": "fix_code"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Output1/Splitted": {
+"id": "e385e6c70509",
+"outputs_id": Array[String](["17dbe37ae5a8"]),
+"resource": "code_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output2/Splitted": {
+"id": "8e15ce88b616",
+"outputs_id": Array[String](["b8d28dc8890d"]),
+"resource": "code_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Splitting": {
+"id": "a0e13580c1da",
+"outputs_id": Array[String]([]),
+"resource": "code_speed",
+"variation": 0
+}
+},
+"filename": "window_if.tscn",
+"name": "if000000000000",
+"position": Vector2(1250, 6200),
+"ratio": 4.0,
+"ratio2": 13.0,
+"window": "if"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Code": {
+"id": "ca30587ac1a1",
+"outputs_id": Array[String]([]),
+"resource": "code_driver",
+"variation": 29
+}
+},
+"filename": "window_build.tscn",
+"name": "build000000000000",
+"position": Vector2(4050, 7750),
+"window": "build"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Code": {
+"id": "ecf06c0fe1f3",
+"outputs_id": Array[String]([]),
+"resource": "code_driver",
+"variation": 29
+},
+"PanelContainer/MainContainer/Contribution": {
+"id": "af42345bc7ea",
+"outputs_id": Array[String](["ccae9229dd31"]),
+"resource": "contribution",
+"variation": 0
+}
+},
+"filename": "window_commit.tscn",
+"name": "commit00000000000",
+"position": Vector2(4050, 7550),
+"window": "commit"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input1": {
+"id": "ca571e685f7d",
+"outputs_id": Array[String]([]),
+"resource": "bool",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input2": {
+"id": "37411ff96974",
+"outputs_id": Array[String]([]),
+"resource": "int",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "eb289f47f023",
+"outputs_id": Array[String](["5ff7a9d00e4b"]),
+"resource": "bitflag",
+"variation": 0
+}
+},
+"filename": "window_variable_combiner.tscn",
+"name": "variable_combiner0000100000",
+"position": Vector2(2050, 6400),
+"window": "variable_combiner"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Code": {
+"id": "b99b5d62581f",
+"outputs_id": Array[String](["172bae3c4655"]),
+"resource": "code_bugfix",
+"variation": 0
+},
+"PanelContainer/MainContainer/Requirements/Bool": {
+"id": "dcf471c21bb1",
+"outputs_id": Array[String]([]),
+"resource": "bool",
+"variation": 0
+},
+"PanelContainer/MainContainer/Requirements/Int": {
+"id": "07ccfe4ee93f",
+"outputs_id": Array[String]([]),
+"resource": "int",
+"variation": 0
+}
+},
+"filename": "window_code_bugfix.tscn",
+"name": "code_bugfix000000",
+"position": Vector2(2050, 7050),
+"window": "code_bugfix"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Code": {
+"id": "9838b7c35253",
+"outputs_id": Array[String](["fd6c4ba04e62"]),
+"resource": "code_driver",
+"variation": 0
+},
+"PanelContainer/MainContainer/Requirements/Decimal": {
+"id": "86df9d233053",
+"outputs_id": Array[String]([]),
+"resource": "hashmap_decimal",
+"variation": 0
+},
+"PanelContainer/MainContainer/Requirements/Vector": {
+"id": "4d03b1f2bdf2",
+"outputs_id": Array[String]([]),
+"resource": "hashmap_vector",
+"variation": 0
+}
+},
+"filename": "window_code_driver.tscn",
+"name": "code_driver0000000000",
+"position": Vector2(3250, 7750),
+"window": "code_driver"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Array": {
+"id": "63559cd2aa3c",
+"outputs_id": Array[String](["fc6dce488df5"]),
+"resource": "array_string",
+"variation": 0
+},
+"PanelContainer/MainContainer/Variable": {
+"id": "8254f0bfb44a",
+"outputs_id": Array[String]([]),
+"resource": "string",
+"variation": 0
+}
+},
+"filename": "window_code_array.tscn",
+"name": "code_array0000100000",
+"position": Vector2(2450, 5700),
+"window": "code_array"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input": {
+"id": "bdde229e4795",
+"outputs_id": Array[String]([]),
+"resource": "array_decimal",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "afc3b0bf2129",
+"outputs_id": Array[String](["86df9d233053"]),
+"resource": "hashmap_decimal",
+"variation": 0
+},
+"PanelContainer/MainContainer/String": {
+"id": "bc60fe52e4c2",
+"outputs_id": Array[String]([]),
+"resource": "array_string",
+"variation": 0
+}
+},
+"filename": "window_code_hashmap.tscn",
+"name": "code_hashmap0000100000",
+"position": Vector2(2850, 7750),
+"window": "code_hashmap"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/CodeSpeed": {
+"id": "e1e46f350c5d",
+"outputs_id": Array[String]([]),
+"resource": "code_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/bool/ResourceContainer/Resource": {
+"id": "16b92122c874",
+"outputs_id": Array[String](["dcf471c21bb1"]),
+"resource": "bool",
+"variation": 0
+},
+"PanelContainer/MainContainer/char/ResourceContainer/Resource": {
+"id": "cfc0c2f7ee7d",
+"outputs_id": Array[String]([]),
+"resource": "char",
+"variation": 0
+},
+"PanelContainer/MainContainer/float/ResourceContainer/Resource": {
+"id": "9e033704d36d",
+"outputs_id": Array[String]([]),
+"resource": "float",
+"variation": 0
+},
+"PanelContainer/MainContainer/int/ResourceContainer/Resource": {
+"id": "784b51e7a531",
+"outputs_id": Array[String](["07ccfe4ee93f"]),
+"resource": "int",
+"variation": 0
+}
+},
+"filename": "window_ide.tscn",
+"name": "ide00000000000",
+"position": Vector2(1650, 7050),
+"var_bool_ratio": 1.0,
+"var_char_ratio": 0.0,
+"var_float_ratio": 0.0,
+"var_int_ratio": 1.0,
+"window": "ide"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Boost": {
+"id": "089651f83333",
+"outputs_id": Array[String]([]),
+"resource": "boost_code",
+"variation": 0
+},
+"PanelContainer/MainContainer/CodeSpeed": {
+"id": "a181034f6bab",
+"outputs_id": Array[String](["01c2091ada4e"]),
+"resource": "code_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Contribution": {
+"id": "ccae9229dd31",
+"outputs_id": Array[String]([]),
+"resource": "contribution",
+"variation": 0
+}
+},
+"filename": "window_coder.tscn",
+"name": "coder000000000",
+"position": Vector2(850, 5700),
+"window": "coder"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input/0": {
+"id": "6ca3b34fb182",
+"outputs_id": Array[String]([]),
+"resource": "code_optimization",
+"variation": 13
+},
+"PanelContainer/MainContainer/Input/1": {
+"id": "1679265333e7",
+"outputs_id": Array[String]([]),
+"resource": "code_optimization",
+"variation": 13
+},
+"PanelContainer/MainContainer/Input/2": {
+"id": "ea5e938fdcb7",
+"outputs_id": Array[String]([]),
+"resource": "code_optimization",
+"variation": 13
+},
+"PanelContainer/MainContainer/Input/3": {
+"id": "5b51e099dee3",
+"outputs_id": Array[String]([]),
+"resource": "code_optimization",
+"variation": 13
+},
+"PanelContainer/MainContainer/Input/4": {
+"id": "bdaf39236c5d",
+"outputs_id": Array[String]([]),
+"resource": "code_optimization",
+"variation": 13
+},
+"PanelContainer/MainContainer/Output": {
+"id": "b165f3fe9fd1",
+"outputs_id": Array[String](["0f5d7c7a03bf"]),
+"resource": "code_optimization",
+"variation": 13
+}
+},
+"filename": "window_repository.tscn",
+"name": "repository000000",
+"position": Vector2(3250, 7150),
+"window": "repository"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input": {
+"id": "b8247350f1b5",
+"outputs_id": Array[String]([]),
+"resource": "array_vector",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "c303b0ec633d",
+"outputs_id": Array[String](["4d03b1f2bdf2"]),
+"resource": "hashmap_vector",
+"variation": 0
+},
+"PanelContainer/MainContainer/String": {
+"id": "d828341c6a37",
+"outputs_id": Array[String]([]),
+"resource": "array_string",
+"variation": 0
+}
+},
+"filename": "window_code_hashmap.tscn",
+"name": "code_hashmap00000000000",
+"position": Vector2(2850, 8050),
+"window": "code_hashmap"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Code": {
+"id": "8f3583bad3de",
+"outputs_id": Array[String](["2d9a687b2397", "16371f91c402", "1a2a9c046435"]),
+"resource": "code_optimization",
+"variation": 0
+},
+"PanelContainer/MainContainer/Requirements/Bitflag": {
+"id": "5ff7a9d00e4b",
+"outputs_id": Array[String]([]),
+"resource": "bitflag",
+"variation": 0
+},
+"PanelContainer/MainContainer/Requirements/Vector": {
+"id": "2b8de5ccdfe9",
+"outputs_id": Array[String]([]),
+"resource": "vector",
+"variation": 0
+}
+},
+"filename": "window_code_optimization.tscn",
+"name": "code_optimization0000000000",
+"position": Vector2(2450, 6400),
+"window": "code_optimization"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Array": {
+"id": "95c565d6f264",
+"outputs_id": Array[String](["96f3f4ca9661"]),
+"resource": "array_bigint",
+"variation": 0
+},
+"PanelContainer/MainContainer/Variable": {
+"id": "39c6b49665d9",
+"outputs_id": Array[String]([]),
+"resource": "bigint",
+"variation": 0
+}
+},
+"filename": "window_code_array.tscn",
+"name": "code_array00000000000",
+"position": Vector2(2450, 6000),
+"window": "code_array"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Output1/Splitted": {
+"id": "40fca7d1ecc9",
+"outputs_id": Array[String](["77b3aa0ca44e"]),
+"resource": "code_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output2/Splitted": {
+"id": "b262356bf521",
+"outputs_id": Array[String](["e1e46f350c5d"]),
+"resource": "code_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Splitting": {
+"id": "b8d28dc8890d",
+"outputs_id": Array[String]([]),
+"resource": "code_speed",
+"variation": 0
+}
+},
+"filename": "window_if.tscn",
+"name": "if000000000001",
+"position": Vector2(1250, 6600),
+"ratio": 12.0,
+"ratio2": 1.0,
+"window": "if"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Code": {
+"id": "0f74e362ac91",
+"outputs_id": Array[String]([]),
+"resource": "code_optimization",
+"variation": 4
+},
+"PanelContainer/MainContainer/Optimization": {
+"id": "1a2a9c046435",
+"outputs_id": Array[String]([]),
+"resource": "code_optimization",
+"variation": 0
+},
+"PanelContainer/MainContainer/Optimized": {
+"id": "1b634c9653af",
+"outputs_id": Array[String](["3c3245554085"]),
+"resource": "code_optimization",
+"variation": 12
+}
+},
+"filename": "window_optimize_code.tscn",
+"name": "optimize_code0000000000000",
+"position": Vector2(2850, 6700),
+"window": "optimize_code"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Code": {
+"id": "e9da404d0e95",
+"outputs_id": Array[String](["602ed2e95eea"]),
+"resource": "code_application",
+"variation": 0
+},
+"PanelContainer/MainContainer/Requirements/BitInt": {
+"id": "96f3f4ca9661",
+"outputs_id": Array[String]([]),
+"resource": "array_bigint",
+"variation": 0
+},
+"PanelContainer/MainContainer/Requirements/String": {
+"id": "fc6dce488df5",
+"outputs_id": Array[String]([]),
+"resource": "array_string",
+"variation": 0
+}
+},
+"filename": "window_code_application.tscn",
+"name": "code_application0000000000",
+"position": Vector2(2850, 5700),
+"window": "code_application"
+}, {
+"color": 6,
+"container_data": {},
+"custom_icon": "code",
+"custom_name": "0 / 1 (Build)",
+"filename": "window_group.tscn",
+"name": "group20000000000",
+"position": Vector2(1250, 5650),
+"size": Vector2(350, 350),
+"window": "group"
+}, {
+"color": 0,
+"container_data": {},
+"custom_icon": "code",
+"custom_name": "41 Optimizations",
+"filename": "window_group.tscn",
+"name": "group30000",
+"position": Vector2(3650, 6300),
+"size": Vector2(750, 800),
+"window": "group"
+}, {
+"color": 0,
+"container_data": {},
+"custom_icon": "code",
+"custom_name": "0 / 1 (Build)",
+"filename": "window_group.tscn",
+"name": "group0",
+"position": Vector2(3650, 6350),
+"size": Vector2(350, 350),
+"window": "group"
+}, {
+"color": 6,
+"container_data": {},
+"custom_icon": "code",
+"custom_name": "17 / 34 (Build)",
+"filename": "window_group.tscn",
+"name": "group2000100000",
+"position": Vector2(850, 6900),
+"size": Vector2(350, 350),
+"window": "group"
+}, {
+"color": 0,
+"container_data": {},
+"custom_icon": "",
+"custom_name": "6 Applications",
+"filename": "window_group.tscn",
+"name": "group30",
+"position": Vector2(4050, 5650),
+"size": Vector2(350, 400),
+"window": "group"
+}, {
+"color": 0,
+"container_data": {},
+"custom_icon": "code",
+"custom_name": "6 Applications",
+"filename": "window_group.tscn",
+"name": "group20000",
+"position": Vector2(1650, 5600),
+"size": Vector2(2750, 700),
+"window": "group"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Code": {
+"id": "9be33bb9764e",
+"outputs_id": Array[String]([]),
+"resource": "code_optimization",
+"variation": 29
+}
+},
+"filename": "window_build.tscn",
+"name": "build0000000000000",
+"position": Vector2(4050, 6750),
+"window": "build"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Code": {
+"id": "80217566460e",
+"outputs_id": Array[String]([]),
+"resource": "code_optimization",
+"variation": 13
+},
+"PanelContainer/MainContainer/Optimization": {
+"id": "a91ce89ce55a",
+"outputs_id": Array[String]([]),
+"resource": "code_optimization",
+"variation": 13
+},
+"PanelContainer/MainContainer/Optimized": {
+"id": "2c09a1cc1eb7",
+"outputs_id": Array[String](["9be33bb9764e"]),
+"resource": "code_optimization",
+"variation": 29
+}
+},
+"filename": "window_optimize_code.tscn",
+"name": "optimize_code0000000000001",
+"position": Vector2(4050, 6400),
+"window": "optimize_code"
+}]
+connectors={
+"01c2091ada4e": {
+"custom_points": Array[Vector2]([])
+},
+"07ccfe4ee93f": {
+"custom_points": Array[Vector2]([])
+},
+"089651f83333": {
+"custom_points": Array[Vector2]([Vector2(4450, 5500), Vector2(750, 8650)])
+},
+"0bbf2a76c48b": {
+"custom_points": Array[Vector2]([])
+},
+"0f5d7c7a03bf": {
+"custom_points": Array[Vector2]([])
+},
+"0f74e362ac91": {
+"custom_points": Array[Vector2]([])
+},
+"16371f91c402": {
+"custom_points": Array[Vector2]([])
+},
+"1679265333e7": {
+"custom_points": Array[Vector2]([])
+},
+"172bae3c4655": {
+"custom_points": Array[Vector2]([])
+},
+"17dbe37ae5a8": {
+"custom_points": Array[Vector2]([])
+},
+"1a2a9c046435": {
+"custom_points": Array[Vector2]([])
+},
+"2b8de5ccdfe9": {
+"custom_points": Array[Vector2]([])
+},
+"2d9a687b2397": {
+"custom_points": Array[Vector2]([])
+},
+"32e6736bdc88": {
+"custom_points": Array[Vector2]([])
+},
+"33e388045ba3": {
+"custom_points": Array[Vector2]([])
+},
+"37411ff96974": {
+"custom_points": Array[Vector2]([])
+},
+"39c6b49665d9": {
+"custom_points": Array[Vector2]([])
+},
+"3c3245554085": {
+"custom_points": Array[Vector2]([])
+},
+"48943064a063": {
+"custom_points": Array[Vector2]([])
+},
+"4d03b1f2bdf2": {
+"custom_points": Array[Vector2]([])
+},
+"4e0f00bceae2": {
+"custom_points": Array[Vector2]([])
+},
+"5bedff889e10": {
+"custom_points": Array[Vector2]([])
+},
+"5ff7a9d00e4b": {
+"custom_points": Array[Vector2]([])
+},
+"60048a6b880a": {
+"custom_points": Array[Vector2]([])
+},
+"602ed2e95eea": {
+"custom_points": Array[Vector2]([])
+},
+"646cf3b80a9d": {
+"custom_points": Array[Vector2]([Vector2(1275, 7825)])
+},
+"6b9590fcd149": {
+"custom_points": Array[Vector2]([])
+},
+"6ca3b34fb182": {
+"custom_points": Array[Vector2]([])
+},
+"7369ae145a94": {
+"custom_points": Array[Vector2]([])
+},
+"77b3aa0ca44e": {
+"custom_points": Array[Vector2]([])
+},
+"7e2963527008": {
+"custom_points": Array[Vector2]([])
+},
+"80217566460e": {
+"custom_points": Array[Vector2]([])
+},
+"8254f0bfb44a": {
+"custom_points": Array[Vector2]([])
+},
+"86df9d233053": {
+"custom_points": Array[Vector2]([])
+},
+"96f3f4ca9661": {
+"custom_points": Array[Vector2]([])
+},
+"9a489f74386c": {
+"custom_points": Array[Vector2]([])
+},
+"9be33bb9764e": {
+"custom_points": Array[Vector2]([])
+},
+"a0e13580c1da": {
+"custom_points": Array[Vector2]([])
+},
+"a6054d24f6a5": {
+"custom_points": Array[Vector2]([])
+},
+"a8dba955d5b0": {
+"custom_points": Array[Vector2]([])
+},
+"a8dd2d634da8": {
+"custom_points": Array[Vector2]([])
+},
+"a91ce89ce55a": {
+"custom_points": Array[Vector2]([])
+},
+"afb768715efc": {
+"custom_points": Array[Vector2]([])
+},
+"b8247350f1b5": {
+"custom_points": Array[Vector2]([])
+},
+"b8d28dc8890d": {
+"custom_points": Array[Vector2]([])
+},
+"bc60fe52e4c2": {
+"custom_points": Array[Vector2]([])
+},
+"bc95ab0e6a87": {
+"custom_points": Array[Vector2]([])
+},
+"bdde229e4795": {
+"custom_points": Array[Vector2]([])
+},
+"bf995ac5affa": {
+"custom_points": Array[Vector2]([])
+},
+"ca30587ac1a1": {
+"custom_points": Array[Vector2]([])
+},
+"ca571e685f7d": {
+"custom_points": Array[Vector2]([])
+},
+"ccae9229dd31": {
+"custom_points": Array[Vector2]([Vector2(800, 5600)])
+},
+"cfeadc8e2b7b": {
+"custom_points": Array[Vector2]([])
+},
+"d828341c6a37": {
+"custom_points": Array[Vector2]([])
+},
+"dcf471c21bb1": {
+"custom_points": Array[Vector2]([])
+},
+"df7ea307bebf": {
+"custom_points": Array[Vector2]([])
+},
+"e1e46f350c5d": {
+"custom_points": Array[Vector2]([])
+},
+"ecf06c0fe1f3": {
+"custom_points": Array[Vector2]([])
+},
+"fc6dce488df5": {
+"custom_points": Array[Vector2]([])
+},
+"fd6c4ba04e62": {
+"custom_points": Array[Vector2]([])
+}
+}
+rect=Rect2(800, 5550, 3650, 3100)
+icon="code"

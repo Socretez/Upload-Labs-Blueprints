@@ -1,0 +1,2318 @@
+[schematic]
+
+windows=Array[Dictionary]([{
+"container_data": {
+"PanelContainer/MainContainer/Input": {
+"id": "b8bd7016f32e",
+"outputs_id": Array[String]([]),
+"resource": "money",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input2": {
+"id": "37ecbd10b1ac",
+"outputs_id": Array[String]([]),
+"resource": "money",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input3": {
+"id": "d3bd91941d74",
+"outputs_id": Array[String]([]),
+"resource": "",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input4": {
+"id": "bcf3d4b25303",
+"outputs_id": Array[String]([]),
+"resource": "",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input5": {
+"id": "441468305595",
+"outputs_id": Array[String]([]),
+"resource": "",
+"variation": 0
+}
+},
+"filename": "window_auto_collect.tscn",
+"name": "auto_collect0000",
+"position": Vector2(-1750, -3700),
+"window": "auto_collect"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Output1/Splitted": {
+"id": "29aa74837cc5",
+"outputs_id": Array[String](["9a034ffd3eec"]),
+"resource": "download_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output2/Splitted": {
+"id": "7aeae7dd7dbb",
+"outputs_id": Array[String](["439d9db746f7"]),
+"resource": "download_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Splitting": {
+"id": "6e708fbf0443",
+"outputs_id": Array[String]([]),
+"resource": "download_speed",
+"variation": 0
+}
+},
+"filename": "window_download_limiter.tscn",
+"name": "download_limiter0000",
+"position": Vector2(-2250, -2750),
+"ratio": 5.0,
+"ratio2": 0.0,
+"window": "download_limiter"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Output1/Splitted": {
+"id": "a069bec56d09",
+"outputs_id": Array[String]([]),
+"resource": "download_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output2/Splitted": {
+"id": "7cf1829f6576",
+"outputs_id": Array[String]([]),
+"resource": "download_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Splitting": {
+"id": "6e331bed8978",
+"outputs_id": Array[String]([]),
+"resource": "download_speed",
+"variation": 0
+}
+},
+"filename": "window_download_limiter.tscn",
+"name": "download_limiter00000",
+"position": Vector2(-1050, -2650),
+"ratio": 1.0,
+"ratio2": 0.0,
+"window": "download_limiter"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input/0": {
+"id": "069c42f47975",
+"outputs_id": Array[String]([]),
+"resource": "download_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/1": {
+"id": "ae54cd2a0b0b",
+"outputs_id": Array[String]([]),
+"resource": "download_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/2": {
+"id": "d118c58aced6",
+"outputs_id": Array[String]([]),
+"resource": "download_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/3": {
+"id": "fe1d0d974312",
+"outputs_id": Array[String]([]),
+"resource": "download_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/4": {
+"id": "54088a0bfdcf",
+"outputs_id": Array[String]([]),
+"resource": "download_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "b3686f632491",
+"outputs_id": Array[String](["6e708fbf0443"]),
+"resource": "download_speed",
+"variation": 0
+}
+},
+"filename": "window_download_merger.tscn",
+"name": "download_merger0000",
+"position": Vector2(-2650, -2400),
+"window": "download_merger"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input/0": {
+"id": "9a034ffd3eec",
+"outputs_id": Array[String]([]),
+"resource": "download_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/1": {
+"id": "d9836057cd3e",
+"outputs_id": Array[String]([]),
+"resource": "download_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/2": {
+"id": "978285c58183",
+"outputs_id": Array[String]([]),
+"resource": "download_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/3": {
+"id": "4e5e44b2d763",
+"outputs_id": Array[String]([]),
+"resource": "download_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/4": {
+"id": "4a35915159ac",
+"outputs_id": Array[String]([]),
+"resource": "download_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "99219f2c994d",
+"outputs_id": Array[String](["6e331bed8978"]),
+"resource": "download_speed",
+"variation": 0
+}
+},
+"filename": "window_download_merger.tscn",
+"name": "download_merger00000",
+"position": Vector2(-1450, -2650),
+"window": "download_merger"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Boost": {
+"id": "cf52cf0233f2",
+"outputs_id": Array[String]([]),
+"resource": "boost_component",
+"variation": 0
+},
+"PanelContainer/MainContainer/Clocks/Clock": {
+"id": "1ff07a4d1ae9",
+"outputs_id": Array[String](["7e704021cebc"]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Clocks/Clock10": {
+"id": "880334453198",
+"outputs_id": Array[String](["9ab53e84e062"]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Clocks/Clock2": {
+"id": "b380f2596c10",
+"outputs_id": Array[String](["8a7493ded0c1"]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Clocks/Clock3": {
+"id": "bbf432de573c",
+"outputs_id": Array[String](["38d7366b9029"]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Clocks/Clock4": {
+"id": "bc526626b023",
+"outputs_id": Array[String](["41948332817a"]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Clocks/Clock5": {
+"id": "8dc02b8d870a",
+"outputs_id": Array[String](["76a909caffed"]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Clocks/Clock6": {
+"id": "9b5ba001d5a7",
+"outputs_id": Array[String](["146c29843e79"]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Clocks/Clock7": {
+"id": "637a700c623d",
+"outputs_id": Array[String](["5ed230be07fd"]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Clocks/Clock8": {
+"id": "c06b5a8b8898",
+"outputs_id": Array[String](["80fd3ccc1351"]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Clocks/Clock9": {
+"id": "e8f26a169fba",
+"outputs_id": Array[String](["620efead7213"]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Heat": {
+"id": "a0595cf6cfb3",
+"outputs_id": Array[String](["162bcf6640d9", "6ee0a4f85302", "0f20b527c120"]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/Module": {
+"id": "666da5e6578f",
+"outputs_id": Array[String]([]),
+"resource": "gpu",
+"variation": 0
+},
+"PanelContainer/MainContainer/Overclock": {
+"id": "ca2ebe448bfe",
+"outputs_id": Array[String]([]),
+"resource": "overclock",
+"variation": 0
+}
+},
+"filename": "window_gpu_cluster.tscn",
+"name": "gpu_cluster0000",
+"position": Vector2(-3250, -4600),
+"window": "gpu_cluster"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Boost": {
+"id": "47e05b76ddaa",
+"outputs_id": Array[String]([]),
+"resource": "boost_component",
+"variation": 0
+},
+"PanelContainer/MainContainer/Clocks/Clock": {
+"id": "a48585131d88",
+"outputs_id": Array[String](["92e3974246fc"]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Clocks/Clock10": {
+"id": "657b3bfed2a3",
+"outputs_id": Array[String](["6b1b3efa472f"]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Clocks/Clock2": {
+"id": "33fec71360e9",
+"outputs_id": Array[String](["56bd1c6211f1"]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Clocks/Clock3": {
+"id": "c1232ef0efed",
+"outputs_id": Array[String](["bcb8b9b5e020"]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Clocks/Clock4": {
+"id": "6ae2e252eb8d",
+"outputs_id": Array[String](["ebd793f979c2"]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Clocks/Clock5": {
+"id": "e229c8326fc4",
+"outputs_id": Array[String](["fe30822e2d0d"]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Clocks/Clock6": {
+"id": "d1f63c3fe88a",
+"outputs_id": Array[String](["dc9b30f75bd2"]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Clocks/Clock7": {
+"id": "252d05278dbe",
+"outputs_id": Array[String](["11d62830aa20"]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Clocks/Clock8": {
+"id": "a958f2ebcef3",
+"outputs_id": Array[String](["530a21c34a3b"]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Clocks/Clock9": {
+"id": "27298fe4231b",
+"outputs_id": Array[String](["d654e666c388"]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Heat": {
+"id": "14d5f7704f8e",
+"outputs_id": Array[String](["10ce1bd333ae", "75459de0b52f", "827e1eb466b4"]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/Module": {
+"id": "c622482d5351",
+"outputs_id": Array[String]([]),
+"resource": "gpu",
+"variation": 0
+},
+"PanelContainer/MainContainer/Overclock": {
+"id": "41f26f1b5fef",
+"outputs_id": Array[String]([]),
+"resource": "overclock",
+"variation": 0
+}
+},
+"filename": "window_gpu_cluster.tscn",
+"name": "gpu_cluster1000",
+"position": Vector2(-3200, -4550),
+"window": "gpu_cluster"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Output1/Splitted": {
+"id": "a2d31b714380",
+"outputs_id": Array[String](["c659b1db3a6d"]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output2/Splitted": {
+"id": "ed3a2345c7b8",
+"outputs_id": Array[String](["fecd6c20bdde"]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Splitting": {
+"id": "4fb086f56db5",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+}
+},
+"filename": "window_gpu_manager.tscn",
+"name": "gpu_manager0000",
+"position": Vector2(-2150, -4750),
+"ratio": 12.0,
+"ratio2": 100.0,
+"window": "gpu_manager"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Output1/Splitted": {
+"id": "6347558b389a",
+"outputs_id": Array[String](["70facd6a58b0", "e3672942c7c9"]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output2/Splitted": {
+"id": "902734d5cd5a",
+"outputs_id": Array[String](["56a51945e3d6"]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Splitting": {
+"id": "fecd6c20bdde",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+}
+},
+"filename": "window_gpu_manager.tscn",
+"name": "gpu_manager00010",
+"position": Vector2(-2150, -4400),
+"ratio": 70.0,
+"ratio2": 100.0,
+"window": "gpu_manager"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Output1/Splitted": {
+"id": "5e8cd64c682e",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output2/Splitted": {
+"id": "6b5cc98a292b",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Splitting": {
+"id": "c659b1db3a6d",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+}
+},
+"filename": "window_gpu_manager.tscn",
+"name": "gpu_manager1000",
+"position": Vector2(-1050, -4750),
+"ratio": 1.0,
+"ratio2": 0.0,
+"window": "gpu_manager"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input/0": {
+"id": "5977bc0454a5",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/1": {
+"id": "4cc2462c1da1",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/2": {
+"id": "3d0dea02a444",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/3": {
+"id": "5d5c71819518",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/4": {
+"id": "ff0025a05b7b",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/5": {
+"id": "4df9c5caf0c9",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/6": {
+"id": "c6d00857590c",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/7": {
+"id": "d4ae24ea0817",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/8": {
+"id": "b11899f8f74a",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/9": {
+"id": "a52dc7626832",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "7f89d990adbe",
+"outputs_id": Array[String](["4fb086f56db5"]),
+"resource": "gpu_speed",
+"variation": 0
+}
+},
+"filename": "window_gpu_synchronizer.tscn",
+"name": "gpu_synchronizer0000",
+"position": Vector2(-2550, -4500),
+"window": "gpu_synchronizer"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input/0": {
+"id": "7e704021cebc",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/1": {
+"id": "8a7493ded0c1",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/2": {
+"id": "38d7366b9029",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/3": {
+"id": "41948332817a",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/4": {
+"id": "76a909caffed",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/5": {
+"id": "146c29843e79",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/6": {
+"id": "5ed230be07fd",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/7": {
+"id": "80fd3ccc1351",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/8": {
+"id": "620efead7213",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/9": {
+"id": "9ab53e84e062",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "6554119470af",
+"outputs_id": Array[String](["5977bc0454a5"]),
+"resource": "gpu_speed",
+"variation": 0
+}
+},
+"filename": "window_gpu_synchronizer.tscn",
+"name": "gpu_synchronizer1000",
+"position": Vector2(-2650, -4600),
+"window": "gpu_synchronizer"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input/0": {
+"id": "92e3974246fc",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/1": {
+"id": "56bd1c6211f1",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/2": {
+"id": "bcb8b9b5e020",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/3": {
+"id": "ebd793f979c2",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/4": {
+"id": "fe30822e2d0d",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/5": {
+"id": "dc9b30f75bd2",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/6": {
+"id": "11d62830aa20",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/7": {
+"id": "530a21c34a3b",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/8": {
+"id": "d654e666c388",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/9": {
+"id": "6b1b3efa472f",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "69c64481370b",
+"outputs_id": Array[String](["4cc2462c1da1"]),
+"resource": "gpu_speed",
+"variation": 0
+}
+},
+"filename": "window_gpu_synchronizer.tscn",
+"name": "gpu_synchronizer2000",
+"position": Vector2(-2600, -4550),
+"window": "gpu_synchronizer"
+}, {
+"color": 6,
+"container_data": {},
+"custom_icon": "",
+"custom_name": "Hardware",
+"filename": "window_group.tscn",
+"name": "group0000",
+"position": Vector2(-4100, -4900),
+"size": Vector2(3400, 3250),
+"window": "group"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/0": {
+"id": "162bcf6640d9",
+"outputs_id": Array[String]([]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/1": {
+"id": "10ce1bd333ae",
+"outputs_id": Array[String]([]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/2": {
+"id": "665a89818d9b",
+"outputs_id": Array[String]([]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/3": {
+"id": "0f20b527c120",
+"outputs_id": Array[String]([]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/4": {
+"id": "9fe0fdb0dedc",
+"outputs_id": Array[String]([]),
+"resource": "heat",
+"variation": 0
+}
+},
+"filename": "window_heat_sink.tscn",
+"name": "heat_sink0000",
+"position": Vector2(-4050, -4800),
+"window": "heat_sink"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/0": {
+"id": "6ee0a4f85302",
+"outputs_id": Array[String]([]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/1": {
+"id": "75459de0b52f",
+"outputs_id": Array[String]([]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/2": {
+"id": "c78673215448",
+"outputs_id": Array[String]([]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/3": {
+"id": "827e1eb466b4",
+"outputs_id": Array[String]([]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/4": {
+"id": "52b9aba1c898",
+"outputs_id": Array[String]([]),
+"resource": "heat",
+"variation": 0
+}
+},
+"filename": "window_heat_sink.tscn",
+"name": "heat_sink1000",
+"position": Vector2(-4050, -4350),
+"window": "heat_sink"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/0": {
+"id": "982a4663ba37",
+"outputs_id": Array[String]([]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/1": {
+"id": "2990f9d21d8a",
+"outputs_id": Array[String]([]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/2": {
+"id": "98306323a0b0",
+"outputs_id": Array[String]([]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/3": {
+"id": "5535f7442ff4",
+"outputs_id": Array[String]([]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/4": {
+"id": "fcff258b7bc9",
+"outputs_id": Array[String]([]),
+"resource": "heat",
+"variation": 0
+}
+},
+"filename": "window_heat_sink.tscn",
+"name": "heat_sink2000",
+"position": Vector2(-4050, -3900),
+"window": "heat_sink"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/0": {
+"id": "671600cd02bd",
+"outputs_id": Array[String]([]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/1": {
+"id": "992d031d36db",
+"outputs_id": Array[String]([]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/2": {
+"id": "8b2d91804d0c",
+"outputs_id": Array[String]([]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/3": {
+"id": "3ae39d8a0bbf",
+"outputs_id": Array[String]([]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/4": {
+"id": "25c60a9d9e26",
+"outputs_id": Array[String]([]),
+"resource": "heat",
+"variation": 0
+}
+},
+"filename": "window_heat_sink.tscn",
+"name": "heat_sink3000",
+"position": Vector2(-4050, -3450),
+"window": "heat_sink"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/0": {
+"id": "011f0f3dbafb",
+"outputs_id": Array[String]([]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/1": {
+"id": "c7c802977917",
+"outputs_id": Array[String]([]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/2": {
+"id": "04fb038bc4f7",
+"outputs_id": Array[String]([]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/3": {
+"id": "c913b72edaad",
+"outputs_id": Array[String]([]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/4": {
+"id": "7b767dab59a0",
+"outputs_id": Array[String]([]),
+"resource": "heat",
+"variation": 0
+}
+},
+"filename": "window_heat_sink.tscn",
+"name": "heat_sink4000",
+"position": Vector2(-4050, -3000),
+"window": "heat_sink"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/0": {
+"id": "14c72e3d7077",
+"outputs_id": Array[String]([]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/1": {
+"id": "c73bbd5ede5f",
+"outputs_id": Array[String]([]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/2": {
+"id": "419e59c1b214",
+"outputs_id": Array[String]([]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/3": {
+"id": "8caa9422e6a5",
+"outputs_id": Array[String]([]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/4": {
+"id": "f9753311177c",
+"outputs_id": Array[String]([]),
+"resource": "heat",
+"variation": 0
+}
+},
+"filename": "window_heat_sink.tscn",
+"name": "heat_sink5000",
+"position": Vector2(-4050, -2150),
+"window": "heat_sink"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/0": {
+"id": "29f7a3b1f48c",
+"outputs_id": Array[String]([]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/1": {
+"id": "5dd7fedf0df2",
+"outputs_id": Array[String]([]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/2": {
+"id": "788c33fa71b2",
+"outputs_id": Array[String]([]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/3": {
+"id": "d1a52e26fcce",
+"outputs_id": Array[String]([]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/4": {
+"id": "80017861b64a",
+"outputs_id": Array[String]([]),
+"resource": "heat",
+"variation": 0
+}
+},
+"filename": "window_heat_sink.tscn",
+"name": "heat_sink50000",
+"position": Vector2(-4050, -2550),
+"window": "heat_sink"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input/0": {
+"id": "78c7faed9e4e",
+"outputs_id": Array[String]([]),
+"resource": "money",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/1": {
+"id": "5e0f83c671c4",
+"outputs_id": Array[String]([]),
+"resource": "money",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/2": {
+"id": "388b55f36751",
+"outputs_id": Array[String]([]),
+"resource": "money",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/3": {
+"id": "bfecc7881c33",
+"outputs_id": Array[String]([]),
+"resource": "money",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/4": {
+"id": "3228176be253",
+"outputs_id": Array[String]([]),
+"resource": "money",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "83fe18a26335",
+"outputs_id": Array[String](["b8bd7016f32e"]),
+"resource": "money",
+"variation": 0
+}
+},
+"filename": "window_inventory.tscn",
+"name": "inventory000",
+"position": Vector2(-1350, -3850),
+"window": "inventory"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/GPU": {
+"id": "e3672942c7c9",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Money": {
+"id": "14144d59e103",
+"outputs_id": Array[String](["78c7faed9e4e"]),
+"resource": "money",
+"variation": 0
+}
+},
+"filename": "window_mine_tether.tscn",
+"name": "mine_tether0000",
+"position": Vector2(-1750, -3950),
+"window": "mine_tether"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/GPU": {
+"id": "70facd6a58b0",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+}
+},
+"filename": "window_mine_token.tscn",
+"name": "mine_token0000",
+"position": Vector2(-1750, -4400),
+"window": "mine_token"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Boost": {
+"id": "59b987e8ac37",
+"outputs_id": Array[String]([]),
+"resource": "boost_component",
+"variation": 0
+},
+"PanelContainer/MainContainer/Download": {
+"id": "5183338fd310",
+"outputs_id": Array[String](["54088a0bfdcf"]),
+"resource": "download_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Heat": {
+"id": "1e78997ae187",
+"outputs_id": Array[String](["04fb038bc4f7", "5dd7fedf0df2", "c913b72edaad"]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/Module": {
+"id": "7828ccc71d62",
+"outputs_id": Array[String]([]),
+"resource": "router",
+"variation": 0
+},
+"PanelContainer/MainContainer/Overclock": {
+"id": "11385a929d64",
+"outputs_id": Array[String]([]),
+"resource": "overclock",
+"variation": 0
+},
+"PanelContainer/MainContainer/Upload": {
+"id": "ee9dd36ae102",
+"outputs_id": Array[String](["a510dbf9c326"]),
+"resource": "upload_speed",
+"variation": 0
+}
+},
+"filename": "window_network.tscn",
+"name": "network0000",
+"position": Vector2(-3050, -2400),
+"window": "network"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Boost": {
+"id": "4109d8532dd3",
+"outputs_id": Array[String]([]),
+"resource": "boost_component",
+"variation": 0
+},
+"PanelContainer/MainContainer/Download": {
+"id": "2e1e68f7e531",
+"outputs_id": Array[String](["fe1d0d974312"]),
+"resource": "download_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Heat": {
+"id": "c8ed93599404",
+"outputs_id": Array[String](["8b2d91804d0c", "29f7a3b1f48c", "8caa9422e6a5"]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/Module": {
+"id": "6b18a64d3d41",
+"outputs_id": Array[String]([]),
+"resource": "router",
+"variation": 0
+},
+"PanelContainer/MainContainer/Overclock": {
+"id": "0e0ab5b47f95",
+"outputs_id": Array[String]([]),
+"resource": "overclock",
+"variation": 0
+},
+"PanelContainer/MainContainer/Upload": {
+"id": "03fafe37a813",
+"outputs_id": Array[String](["9f4459463fb3"]),
+"resource": "upload_speed",
+"variation": 0
+}
+},
+"filename": "window_network.tscn",
+"name": "network1000",
+"position": Vector2(-3100, -2450),
+"window": "network"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Boost": {
+"id": "0e8c46772e6f",
+"outputs_id": Array[String]([]),
+"resource": "boost_component",
+"variation": 0
+},
+"PanelContainer/MainContainer/Download": {
+"id": "b408a3a568d0",
+"outputs_id": Array[String](["d118c58aced6"]),
+"resource": "download_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Heat": {
+"id": "8fde7fbcbae1",
+"outputs_id": Array[String](["419e59c1b214", "98306323a0b0", "788c33fa71b2"]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/Module": {
+"id": "7d5112e6f05e",
+"outputs_id": Array[String]([]),
+"resource": "router",
+"variation": 0
+},
+"PanelContainer/MainContainer/Overclock": {
+"id": "c3730c08d71e",
+"outputs_id": Array[String]([]),
+"resource": "overclock",
+"variation": 0
+},
+"PanelContainer/MainContainer/Upload": {
+"id": "1fc8fa178cfe",
+"outputs_id": Array[String](["b2bd0ddafefa"]),
+"resource": "upload_speed",
+"variation": 0
+}
+},
+"filename": "window_network.tscn",
+"name": "network2000",
+"position": Vector2(-3150, -2500),
+"window": "network"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Boost": {
+"id": "9e2e521a33d0",
+"outputs_id": Array[String]([]),
+"resource": "boost_component",
+"variation": 0
+},
+"PanelContainer/MainContainer/Download": {
+"id": "f64dddec8e27",
+"outputs_id": Array[String](["ae54cd2a0b0b"]),
+"resource": "download_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Heat": {
+"id": "c8fc51551040",
+"outputs_id": Array[String](["c7c802977917", "c73bbd5ede5f", "c78673215448"]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/Module": {
+"id": "d0c3fcdf27ce",
+"outputs_id": Array[String]([]),
+"resource": "router",
+"variation": 0
+},
+"PanelContainer/MainContainer/Overclock": {
+"id": "75f11a0871cb",
+"outputs_id": Array[String]([]),
+"resource": "overclock",
+"variation": 0
+},
+"PanelContainer/MainContainer/Upload": {
+"id": "236b92d2605e",
+"outputs_id": Array[String](["681f21ce9dc9"]),
+"resource": "upload_speed",
+"variation": 0
+}
+},
+"filename": "window_network.tscn",
+"name": "network3000",
+"position": Vector2(-3200, -2550),
+"window": "network"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Boost": {
+"id": "e965184218e8",
+"outputs_id": Array[String]([]),
+"resource": "boost_component",
+"variation": 0
+},
+"PanelContainer/MainContainer/Download": {
+"id": "e4e1451b4888",
+"outputs_id": Array[String](["069c42f47975"]),
+"resource": "download_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Heat": {
+"id": "a133e4678426",
+"outputs_id": Array[String](["011f0f3dbafb", "14c72e3d7077", "665a89818d9b"]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/Module": {
+"id": "44dc07b1e70b",
+"outputs_id": Array[String]([]),
+"resource": "router",
+"variation": 0
+},
+"PanelContainer/MainContainer/Overclock": {
+"id": "c16eefd645b4",
+"outputs_id": Array[String]([]),
+"resource": "overclock",
+"variation": 0
+},
+"PanelContainer/MainContainer/Upload": {
+"id": "98e48d479f8e",
+"outputs_id": Array[String](["ba1bc659e675"]),
+"resource": "upload_speed",
+"variation": 0
+}
+},
+"filename": "window_network.tscn",
+"name": "network4000",
+"position": Vector2(-3250, -2600),
+"window": "network"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Download": {
+"id": "439d9db746f7",
+"outputs_id": Array[String]([]),
+"resource": "download_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/DownloadOut": {
+"id": "07253bad2de7",
+"outputs_id": Array[String](["d9836057cd3e"]),
+"resource": "download_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Upload": {
+"id": "7d8d8638fede",
+"outputs_id": Array[String]([]),
+"resource": "upload_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/UploadOut": {
+"id": "073af09e7370",
+"outputs_id": Array[String](["b4337d15569a"]),
+"resource": "upload_speed",
+"variation": 0
+}
+},
+"filename": "window_network_exchanger.tscn",
+"name": "network_exchanger0000",
+"position": Vector2(-1850, -2550),
+"window": "network_exchanger"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Overclock": {
+"id": "e8340d130776",
+"outputs_id": Array[String](["ca2ebe448bfe"]),
+"resource": "overclock",
+"variation": 0
+}
+},
+"filename": "window_overclocker.tscn",
+"name": "overclocker0000",
+"position": Vector2(-3650, -4600),
+"power": 10,
+"window": "overclocker"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Overclock": {
+"id": "355f692fd462",
+"outputs_id": Array[String](["41f26f1b5fef"]),
+"resource": "overclock",
+"variation": 0
+}
+},
+"filename": "window_overclocker.tscn",
+"name": "overclocker1000",
+"position": Vector2(-3650, -4400),
+"power": 10,
+"window": "overclocker"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Overclock": {
+"id": "0cffaecb4dbb",
+"outputs_id": Array[String](["4096d2d28329"]),
+"resource": "overclock",
+"variation": 0
+}
+},
+"filename": "window_overclocker.tscn",
+"name": "overclocker2000",
+"position": Vector2(-3650, -3450),
+"power": 10,
+"window": "overclocker"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Overclock": {
+"id": "3f0e7a665114",
+"outputs_id": Array[String](["cf8269c5c6fa"]),
+"resource": "overclock",
+"variation": 0
+}
+},
+"filename": "window_overclocker.tscn",
+"name": "overclocker3000",
+"position": Vector2(-3650, -3250),
+"power": 10,
+"window": "overclocker"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Overclock": {
+"id": "276c9448678b",
+"outputs_id": Array[String](["c16eefd645b4"]),
+"resource": "overclock",
+"variation": 0
+}
+},
+"filename": "window_overclocker.tscn",
+"name": "overclocker4000",
+"position": Vector2(-3650, -2900),
+"power": 10,
+"window": "overclocker"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Overclock": {
+"id": "f0222f7ead14",
+"outputs_id": Array[String](["75f11a0871cb"]),
+"resource": "overclock",
+"variation": 0
+}
+},
+"filename": "window_overclocker.tscn",
+"name": "overclocker5000",
+"position": Vector2(-3650, -2700),
+"power": 10,
+"window": "overclocker"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Overclock": {
+"id": "2728948d4d93",
+"outputs_id": Array[String](["c3730c08d71e"]),
+"resource": "overclock",
+"variation": 0
+}
+},
+"filename": "window_overclocker.tscn",
+"name": "overclocker6000",
+"position": Vector2(-3650, -2500),
+"power": 10,
+"window": "overclocker"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Overclock": {
+"id": "18fc6569eac0",
+"outputs_id": Array[String](["0e0ab5b47f95"]),
+"resource": "overclock",
+"variation": 0
+}
+},
+"filename": "window_overclocker.tscn",
+"name": "overclocker7000",
+"position": Vector2(-3650, -2300),
+"power": 10,
+"window": "overclocker"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Overclock": {
+"id": "ec5b88ceb137",
+"outputs_id": Array[String](["11385a929d64"]),
+"resource": "overclock",
+"variation": 0
+}
+},
+"filename": "window_overclocker.tscn",
+"name": "overclocker8000",
+"position": Vector2(-3650, -2100),
+"power": 10,
+"window": "overclocker"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Clock": {
+"id": "032523c9ff2c",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Money": {
+"id": "b6fdb7d5e645",
+"outputs_id": Array[String](["5e0f83c671c4"]),
+"resource": "money",
+"variation": 0
+}
+},
+"filename": "window_processing_seller.tscn",
+"name": "processing_seller0000",
+"position": Vector2(-1750, -3450),
+"window": "processing_seller"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Boost": {
+"id": "2b5f15694a66",
+"outputs_id": Array[String]([]),
+"resource": "boost_component",
+"variation": 0
+},
+"PanelContainer/MainContainer/Clocks/Clock": {
+"id": "c09cbca5eef1",
+"outputs_id": Array[String](["bb503f9aeb27"]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Clocks/Clock2": {
+"id": "835f19ea4892",
+"outputs_id": Array[String](["fc3b2291f532"]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Clocks/Clock3": {
+"id": "087de978cbb8",
+"outputs_id": Array[String](["cdb029800df1"]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Clocks/Clock4": {
+"id": "2c0eaf8d91e9",
+"outputs_id": Array[String](["4e9b2986d134"]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Clocks/Clock5": {
+"id": "86a42989aba1",
+"outputs_id": Array[String](["a6ce6ebffe46"]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Heat": {
+"id": "3866d248ffb9",
+"outputs_id": Array[String](["2990f9d21d8a", "992d031d36db", "5535f7442ff4"]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/Module": {
+"id": "c6f27bb3b6ae",
+"outputs_id": Array[String]([]),
+"resource": "cpu_core",
+"variation": 0
+},
+"PanelContainer/MainContainer/Overclock": {
+"id": "cf8269c5c6fa",
+"outputs_id": Array[String]([]),
+"resource": "overclock",
+"variation": 0
+}
+},
+"filename": "window_processor.tscn",
+"name": "processor0000",
+"position": Vector2(-3200, -3400),
+"window": "processor"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Boost": {
+"id": "ad7d9ac22dc4",
+"outputs_id": Array[String]([]),
+"resource": "boost_component",
+"variation": 0
+},
+"PanelContainer/MainContainer/Clocks/Clock": {
+"id": "558491330ae0",
+"outputs_id": Array[String](["f5da5a93216e"]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Clocks/Clock2": {
+"id": "e42d2eeee778",
+"outputs_id": Array[String](["af3846bda721"]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Clocks/Clock3": {
+"id": "93b32a9a3f48",
+"outputs_id": Array[String](["2b25a3f8cb47"]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Clocks/Clock4": {
+"id": "0e2f4af12dae",
+"outputs_id": Array[String](["c7e3dc28d5d1"]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Clocks/Clock5": {
+"id": "e5f460f203de",
+"outputs_id": Array[String](["e91049152446"]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Heat": {
+"id": "db171c1d2660",
+"outputs_id": Array[String](["982a4663ba37", "671600cd02bd", "3ae39d8a0bbf"]),
+"resource": "heat",
+"variation": 0
+},
+"PanelContainer/MainContainer/Module": {
+"id": "c14c2178d427",
+"outputs_id": Array[String]([]),
+"resource": "cpu_core",
+"variation": 0
+},
+"PanelContainer/MainContainer/Overclock": {
+"id": "4096d2d28329",
+"outputs_id": Array[String]([]),
+"resource": "overclock",
+"variation": 0
+}
+},
+"filename": "window_processor.tscn",
+"name": "processor1000",
+"position": Vector2(-3250, -3450),
+"window": "processor"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input/0": {
+"id": "f5da5a93216e",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/1": {
+"id": "af3846bda721",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/2": {
+"id": "2b25a3f8cb47",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/3": {
+"id": "c7e3dc28d5d1",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/4": {
+"id": "e91049152446",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "f0b0df4e272b",
+"outputs_id": Array[String](["29918379dbe2"]),
+"resource": "clock_speed",
+"variation": 0
+}
+},
+"filename": "window_synchronizer.tscn",
+"name": "synchronizer0000",
+"position": Vector2(-2650, -3450),
+"window": "synchronizer"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input/0": {
+"id": "bb503f9aeb27",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/1": {
+"id": "fc3b2291f532",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/2": {
+"id": "cdb029800df1",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/3": {
+"id": "4e9b2986d134",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/4": {
+"id": "a6ce6ebffe46",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "c5cfb1200994",
+"outputs_id": Array[String](["7228e674e734"]),
+"resource": "clock_speed",
+"variation": 0
+}
+},
+"filename": "window_synchronizer.tscn",
+"name": "synchronizer1000",
+"position": Vector2(-2600, -3400),
+"window": "synchronizer"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input/0": {
+"id": "29918379dbe2",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/1": {
+"id": "7228e674e734",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/2": {
+"id": "a6b10be5e96c",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/3": {
+"id": "9ae08d55783e",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/4": {
+"id": "0db63628186a",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "4e3a406a82c0",
+"outputs_id": Array[String](["5875cd0e8ef9"]),
+"resource": "clock_speed",
+"variation": 0
+}
+},
+"filename": "window_synchronizer.tscn",
+"name": "synchronizer2000",
+"position": Vector2(-2550, -3350),
+"window": "synchronizer"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Clock": {
+"id": "cf427c494f7c",
+"outputs_id": Array[String](["a6b10be5e96c"]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/GPU": {
+"id": "56a51945e3d6",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+}
+},
+"filename": "window_task_scheduler.tscn",
+"name": "task_scheduler000",
+"position": Vector2(-2650, -3700),
+"window": "task_scheduler"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Output1/Splitted": {
+"id": "34f14409b66e",
+"outputs_id": Array[String](["032523c9ff2c"]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output2/Splitted": {
+"id": "9164c56bb701",
+"outputs_id": Array[String](["72c82e9a1e32"]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Splitting": {
+"id": "5875cd0e8ef9",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+}
+},
+"filename": "window_thread_manager.tscn",
+"name": "thread_manager0000",
+"position": Vector2(-2150, -3200),
+"ratio": 0.0,
+"ratio2": 1.0,
+"window": "thread_manager"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Output1/Splitted": {
+"id": "cdef6077ed0a",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output2/Splitted": {
+"id": "b1673fce0861",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Splitting": {
+"id": "72c82e9a1e32",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+}
+},
+"filename": "window_thread_manager.tscn",
+"name": "thread_manager00000",
+"position": Vector2(-1050, -3200),
+"ratio": 100.0,
+"ratio2": 0.0,
+"window": "thread_manager"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Output1/Splitted": {
+"id": "117cbc776e41",
+"outputs_id": Array[String](["7d8d8638fede"]),
+"resource": "upload_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output2/Splitted": {
+"id": "03d062ed83f6",
+"outputs_id": Array[String](["8276fc9ebe36"]),
+"resource": "upload_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Splitting": {
+"id": "54bc6e2608bc",
+"outputs_id": Array[String]([]),
+"resource": "upload_speed",
+"variation": 0
+}
+},
+"filename": "window_upload_limiter.tscn",
+"name": "upload_limiter0000",
+"position": Vector2(-2250, -2400),
+"ratio": 0.0,
+"ratio2": 100.0,
+"window": "upload_limiter"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input/0": {
+"id": "ba1bc659e675",
+"outputs_id": Array[String]([]),
+"resource": "upload_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/1": {
+"id": "681f21ce9dc9",
+"outputs_id": Array[String]([]),
+"resource": "upload_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/2": {
+"id": "b2bd0ddafefa",
+"outputs_id": Array[String]([]),
+"resource": "upload_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/3": {
+"id": "9f4459463fb3",
+"outputs_id": Array[String]([]),
+"resource": "upload_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/4": {
+"id": "a510dbf9c326",
+"outputs_id": Array[String]([]),
+"resource": "upload_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "45b9fda9fd90",
+"outputs_id": Array[String](["54bc6e2608bc"]),
+"resource": "upload_speed",
+"variation": 0
+}
+},
+"filename": "window_upload_merger.tscn",
+"name": "upload_merger0000",
+"position": Vector2(-2650, -2900),
+"window": "upload_merger"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input/0": {
+"id": "b4337d15569a",
+"outputs_id": Array[String]([]),
+"resource": "upload_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/1": {
+"id": "8276fc9ebe36",
+"outputs_id": Array[String]([]),
+"resource": "upload_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/2": {
+"id": "31eec9d2dd04",
+"outputs_id": Array[String]([]),
+"resource": "upload_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/3": {
+"id": "a4f2b4841633",
+"outputs_id": Array[String]([]),
+"resource": "upload_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/4": {
+"id": "07926f1a77f8",
+"outputs_id": Array[String]([]),
+"resource": "upload_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "48fe52d77786",
+"outputs_id": Array[String]([]),
+"resource": "upload_speed",
+"variation": 0
+}
+},
+"filename": "window_upload_merger.tscn",
+"name": "upload_merger00000",
+"position": Vector2(-1450, -2300),
+"window": "upload_merger"
+}])
+connectors={
+"011f0f3dbafb": {
+"has_pivot": true,
+"pivot_pos": Vector2(-2675, -4825)
+},
+"032523c9ff2c": {
+"has_pivot": false,
+"pivot_pos": Vector2(0, 0)
+},
+"04fb038bc4f7": {
+"has_pivot": true,
+"pivot_pos": Vector2(-2675, -4825)
+},
+"069c42f47975": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"0e0ab5b47f95": {
+"has_pivot": true,
+"pivot_pos": Vector2(-3275, -1981)
+},
+"0e8c46772e6f": {
+"has_pivot": true,
+"pivot_pos": Vector2(4975, -975)
+},
+"0f20b527c120": {
+"has_pivot": true,
+"pivot_pos": Vector2(-2675, -4825)
+},
+"10ce1bd333ae": {
+"has_pivot": true,
+"pivot_pos": Vector2(-2675, -4825)
+},
+"11385a929d64": {
+"has_pivot": true,
+"pivot_pos": Vector2(-3275, -1931)
+},
+"11d62830aa20": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"146c29843e79": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"14c72e3d7077": {
+"has_pivot": true,
+"pivot_pos": Vector2(-2675, -4825)
+},
+"162bcf6640d9": {
+"has_pivot": true,
+"pivot_pos": Vector2(-2675, -4825)
+},
+"2990f9d21d8a": {
+"has_pivot": true,
+"pivot_pos": Vector2(-2675, -4825)
+},
+"29918379dbe2": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"29f7a3b1f48c": {
+"has_pivot": true,
+"pivot_pos": Vector2(-2675, -4825)
+},
+"2b25a3f8cb47": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"2b5f15694a66": {
+"has_pivot": true,
+"pivot_pos": Vector2(4975, -975)
+},
+"38d7366b9029": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"3ae39d8a0bbf": {
+"has_pivot": true,
+"pivot_pos": Vector2(-2675, -4825)
+},
+"4096d2d28329": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"4109d8532dd3": {
+"has_pivot": true,
+"pivot_pos": Vector2(4975, -975)
+},
+"41948332817a": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"419e59c1b214": {
+"has_pivot": true,
+"pivot_pos": Vector2(-2675, -4825)
+},
+"41f26f1b5fef": {
+"has_pivot": true,
+"pivot_pos": Vector2(-3275, -3621)
+},
+"439d9db746f7": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"44dc07b1e70b": {
+"has_pivot": true,
+"pivot_pos": Vector2(4975, -975)
+},
+"47e05b76ddaa": {
+"has_pivot": true,
+"pivot_pos": Vector2(4975, -975)
+},
+"4cc2462c1da1": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"4e9b2986d134": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"4fb086f56db5": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"530a21c34a3b": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"54088a0bfdcf": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"54bc6e2608bc": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"5535f7442ff4": {
+"has_pivot": true,
+"pivot_pos": Vector2(-2675, -4825)
+},
+"56a51945e3d6": {
+"has_pivot": true,
+"pivot_pos": Vector2(-2475, -3700)
+},
+"56bd1c6211f1": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"5875cd0e8ef9": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"5977bc0454a5": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"59b987e8ac37": {
+"has_pivot": true,
+"pivot_pos": Vector2(4975, -975)
+},
+"5dd7fedf0df2": {
+"has_pivot": true,
+"pivot_pos": Vector2(-2675, -4825)
+},
+"5e0f83c671c4": {
+"has_pivot": false,
+"pivot_pos": Vector2(0, 0)
+},
+"5ed230be07fd": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"620efead7213": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"665a89818d9b": {
+"has_pivot": true,
+"pivot_pos": Vector2(-2675, -4825)
+},
+"666da5e6578f": {
+"has_pivot": true,
+"pivot_pos": Vector2(4975, -975)
+},
+"671600cd02bd": {
+"has_pivot": true,
+"pivot_pos": Vector2(-2675, -4825)
+},
+"681f21ce9dc9": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"6b18a64d3d41": {
+"has_pivot": true,
+"pivot_pos": Vector2(4975, -975)
+},
+"6b1b3efa472f": {
+"has_pivot": false,
+"pivot_pos": Vector2(100, 3700)
+},
+"6e331bed8978": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"6e708fbf0443": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"6ee0a4f85302": {
+"has_pivot": true,
+"pivot_pos": Vector2(-2675, -4825)
+},
+"70facd6a58b0": {
+"has_pivot": false,
+"pivot_pos": Vector2(1050, 3275)
+},
+"7228e674e734": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"72c82e9a1e32": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"75459de0b52f": {
+"has_pivot": true,
+"pivot_pos": Vector2(-2675, -4825)
+},
+"75f11a0871cb": {
+"has_pivot": true,
+"pivot_pos": Vector2(-3275, -2081)
+},
+"76a909caffed": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"7828ccc71d62": {
+"has_pivot": true,
+"pivot_pos": Vector2(4975, -975)
+},
+"788c33fa71b2": {
+"has_pivot": true,
+"pivot_pos": Vector2(-2675, -4825)
+},
+"78c7faed9e4e": {
+"has_pivot": false,
+"pivot_pos": Vector2(0, 0)
+},
+"7d5112e6f05e": {
+"has_pivot": true,
+"pivot_pos": Vector2(4975, -975)
+},
+"7d8d8638fede": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"7e704021cebc": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"80fd3ccc1351": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"8276fc9ebe36": {
+"has_pivot": false,
+"pivot_pos": Vector2(100, 3700)
+},
+"827e1eb466b4": {
+"has_pivot": true,
+"pivot_pos": Vector2(-2675, -4825)
+},
+"8a7493ded0c1": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"8b2d91804d0c": {
+"has_pivot": true,
+"pivot_pos": Vector2(-2675, -4825)
+},
+"8caa9422e6a5": {
+"has_pivot": true,
+"pivot_pos": Vector2(-2675, -4825)
+},
+"92e3974246fc": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"982a4663ba37": {
+"has_pivot": true,
+"pivot_pos": Vector2(-2675, -4825)
+},
+"98306323a0b0": {
+"has_pivot": true,
+"pivot_pos": Vector2(-2675, -4825)
+},
+"992d031d36db": {
+"has_pivot": true,
+"pivot_pos": Vector2(-2675, -4825)
+},
+"9a034ffd3eec": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"9ab53e84e062": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"9e2e521a33d0": {
+"has_pivot": true,
+"pivot_pos": Vector2(4975, -975)
+},
+"9f4459463fb3": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"a510dbf9c326": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"a6b10be5e96c": {
+"has_pivot": false,
+"pivot_pos": Vector2(100, 3700)
+},
+"a6ce6ebffe46": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"ad7d9ac22dc4": {
+"has_pivot": true,
+"pivot_pos": Vector2(4975, -975)
+},
+"ae54cd2a0b0b": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"af3846bda721": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"b2bd0ddafefa": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"b4337d15569a": {
+"has_pivot": false,
+"pivot_pos": Vector2(100, 3700)
+},
+"b8bd7016f32e": {
+"has_pivot": true,
+"pivot_pos": Vector2(-1775, -3475)
+},
+"ba1bc659e675": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"bb503f9aeb27": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"bcb8b9b5e020": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"c14c2178d427": {
+"has_pivot": true,
+"pivot_pos": Vector2(4975, -975)
+},
+"c16eefd645b4": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"c3730c08d71e": {
+"has_pivot": true,
+"pivot_pos": Vector2(-3275, -2031)
+},
+"c622482d5351": {
+"has_pivot": true,
+"pivot_pos": Vector2(4975, -975)
+},
+"c659b1db3a6d": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"c6f27bb3b6ae": {
+"has_pivot": true,
+"pivot_pos": Vector2(4975, -975)
+},
+"c73bbd5ede5f": {
+"has_pivot": true,
+"pivot_pos": Vector2(-2675, -4825)
+},
+"c78673215448": {
+"has_pivot": true,
+"pivot_pos": Vector2(-2675, -4825)
+},
+"c7c802977917": {
+"has_pivot": true,
+"pivot_pos": Vector2(-2675, -4825)
+},
+"c7e3dc28d5d1": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"c913b72edaad": {
+"has_pivot": true,
+"pivot_pos": Vector2(-2675, -4825)
+},
+"ca2ebe448bfe": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"cdb029800df1": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"cf52cf0233f2": {
+"has_pivot": true,
+"pivot_pos": Vector2(4975, -975)
+},
+"cf8269c5c6fa": {
+"has_pivot": true,
+"pivot_pos": Vector2(-3275, -2821)
+},
+"d0c3fcdf27ce": {
+"has_pivot": true,
+"pivot_pos": Vector2(4975, -975)
+},
+"d118c58aced6": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"d654e666c388": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"d9836057cd3e": {
+"has_pivot": false,
+"pivot_pos": Vector2(1050, 3275)
+},
+"dc9b30f75bd2": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"e3672942c7c9": {
+"has_pivot": false,
+"pivot_pos": Vector2(0, 0)
+},
+"e91049152446": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"e965184218e8": {
+"has_pivot": true,
+"pivot_pos": Vector2(4975, -975)
+},
+"ebd793f979c2": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"f5da5a93216e": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"fc3b2291f532": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"fe1d0d974312": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"fe30822e2d0d": {
+"has_pivot": false,
+"pivot_pos": Vector2(2050, 3675)
+},
+"fecd6c20bdde": {
+"has_pivot": true,
+"pivot_pos": Vector2(-1975, -4425)
+}
+}
+rect=Rect2(-4100, -4900, 3400, 3250)
+icon="processor"

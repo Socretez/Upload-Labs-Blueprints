@@ -1,0 +1,27 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Env files
+.env
+.env.*
+
+# Logs
+*.log
+
+# Temp/cache
+*.tmp
+*.temp
+*.cache
+.cache/
+.tmp/
+tmp/
+
+# Local agent instructions
+agents.md
