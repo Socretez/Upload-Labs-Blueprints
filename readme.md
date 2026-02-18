@@ -3,7 +3,7 @@
 A schematic database for **Upload Labs**, now focused on **version 2.1.x** builds and end-game progression.
 
 ## Wiki Plug
-Make sure you visit the Uplaod Labs Wiki [here](https://labs-wiki.enigmastudio.dev/en/home)!
+Make sure you visit the Upload Labs Wiki [here](https://labs-wiki.enigmastudio.dev/en/home)!
 
 ## Repository Layout
 
