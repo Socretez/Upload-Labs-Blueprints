@@ -49,16 +49,12 @@ Download the text file associated with the schematic you want. Open text file â†
 | Imprinting | 2 |
 | Duplication | 2 |
 
-{.dense}
-
 ## Summary
 
 | Code | Points Needed |
 | --- | --- |
 | Application | 8 |
 | Optimization | 41 |
-
-{.dense}
 
 ## First-Run Order (Quick Start)
 
