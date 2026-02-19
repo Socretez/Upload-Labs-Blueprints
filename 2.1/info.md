@@ -68,12 +68,21 @@ Download the text file associated with the schematic you want. Open text file �
 
 Minimum AR Recommendation: ~150 Advanced Research Spent
 
-**CPU/GPU:Network**
-I would consider a 1:1:1 AR setup. You may go with a +1 GPU Offset to increase the download usage from its current low usage (approx `1:3.1` DL:UL) if you prefer that over going Upload Speed Heavy.
-**Hacking / Research**
+**CPU:Network:GPU**
+I would consider a 1:1:1 AR Offset Ratio. You may go with a +1 GPU Offset to increase the download usage from its current low usage (approx `1:3.1` DL:UL) if you prefer that over going Upload Speed Heavy.
+**Hacking:Research**
 Overall these two should be higher than others; it's worth the extra cost in Advanced Research to increase Hack and Research Nodes by a few offsets from Hardware.
 **Coding**
-You need 8 Application Points and 41 Optimization Points for this setup. You won't need to increase purchases in the future once you're happy with where your coding speed is at (AGI Considering).
+You need 8 Application Points and 41 Optimization Points for this setup. Once you find yourself in a comfortable position to get these required points from building Applications and Optimizations you're done here. You won't need to increase purchases in the future once you're happy with where your coding speed is at (AGI Considering, there may be a time down the road you want to take some points out).
+
+| CPU | Network | GPU | Hacking | Research | Coding |
+| --- | --- | --- | --- | --- | --- |
+| 1 | 1 | 1 | 3 | 3 | 1 |
+| 3 | 3 | 3 | 5 | 6 | 5 |
+| 5 | 5 | 5 | 8 | 8 | 8 |
+| 8 | 8 | 9 | 10 | 11 | 8 |
+
+Note: This chart is **not** a suggested progression path and is for **Reference Only**. It showcases ratio offsets at various Advanced Research investments.
 
 ## 2.1 Schematic Index
 
@@ -105,17 +114,15 @@ The Works: Toggle Group A exports money to Main Production's Inventory (and then
 This Node Group generates, processes, and uploads files for Money and Infected Computers. It consists of two sections:
 
 - Main Line: Download → Compress → `Imprint` → Multiply (Dupe/Decomp) → AI Trainer/Gen
-- Import Line: Download → Process and Modify → `Export to Imprinter`
+- Imprint Line: Download → Process and Modify → `Export to Imprinter`
 
 The Works: This Node Group is fed Network and CPU resources from Hardware. It also distributes leftover CPU to Research. It distributes Component Boost (Drain) to Hardware. It exports Money to the Mini-Factory to both Toggle Groups. Make sure you are using a single Factory Toggle Group at a time.
 
 #### Virus
 
-This Node Group generates, processes, and exports a specified ratio of virus to the Imprinter Line.
+This Node Group generates, processes, and exports a specified ratio of virus to the Imprinter Line. It generates virus using programs, while any can realistically be used, game virus requires real CPU usage (approx `1/16th` of Main Line). Using Decomp apps down to Video, Sound, Images, or Texts would make it cheaper, but it's already running off of virtually nothing (`1/3200th`). Text, for example requires `1/(6.4e11)` (about 1 in 640 billion), etc. Since ratios cannot go that low, you'll end up with surplus Virus and wasted CPU, which considering how low the usage is, the surplus Virus and wasted CPU is fine.
 
 The Works: It is fed the exact Network and CPU resources needed to generate enough virus with a small, negligible surplus of Virus.
-
-- 1/32e2 of Main Line resources. Practically free!
 
 #### AGI
 
@@ -162,7 +169,7 @@ Once reaching the desired Optimization Points: `41`, pause the whole Node Group.
 
 **Important Note:** Make sure you pause to purchase Optimized Debugging in the Optimization Upgrades Menu as soon as you acquire 3 Optimization Points. The ratios supplied are locked for players with `Double Variables` Advanced Research Upgrades and `Optimized Debugging`. Your outputs will not match up correctly if you are missing either the Advanced Research or Optimization.
 
-The Works: This Node Group receives Code Boost from the AGI Node Group.
+The Works: This Node Group receives Code Boost from the AGI Node Group. The default state of this schematic is in "running mode" which would be the mode you would be using for the majority of the run. **Consider the instructions above when starting a run.**
 
 #### Mini Factory
 
