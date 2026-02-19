@@ -22,7 +22,7 @@ Download the text file associated with the schematic you want. Open text file â†
 ### Optimizations (41)
 
 | Optimization | Points Needed |
-| --- | --- |
+| :--- | :---: |
 | Optimized Debugging | 3 |
 | Antivirus Pro | 1 |
 | Compression | 2 |
@@ -52,7 +52,7 @@ Download the text file associated with the schematic you want. Open text file â†
 ## Summary
 
 | Code | Points Needed |
-| --- | --- |
+| :--- | :---: |
 | Application | 8 |
 | Optimization | 41 |
 
@@ -76,7 +76,7 @@ Overall these two should be higher than others; it's worth the extra cost in Adv
 You need 8 Application Points and 41 Optimization Points for this setup. Once you find yourself in a comfortable position to get these required points from building Applications and Optimizations you're done here. You won't need to increase purchases in the future once you're happy with where your coding speed is at (AGI Considering, there may be a time down the road you want to take some points out).
 
 | CPU | Network | GPU | Hacking | Research | Coding |
-| --- | --- | --- | --- | --- | --- |
+| :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | 1 | 1 | 3 | 3 | 1 |
 | 3 | 3 | 3 | 5 | 6 | 5 |
 | 5 | 5 | 5 | 8 | 8 | 8 |
