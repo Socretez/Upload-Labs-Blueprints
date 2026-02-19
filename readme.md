@@ -61,11 +61,11 @@ This architecture is easier to tune, scales better for end-game throughput, and 
 ### Code Points Needed
 
 | Code | Points Needed |
-| --- | --- |
+| :--- | :---: |
 | Application | 8 |
 | Optimization | 41 |
 
-### Application Path (2.1)
+### Application Unlocked Tracked in 2.1
 
 - Virus Extractor
 - Obfuscator
