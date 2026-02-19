@@ -9,13 +9,20 @@ If you have any further questions or issues, feel free to join the official [Upl
 `This is still a WIP as there is balancing to be completed between lines, however it is very usable in its current state.`
 
 ## Official Wiki
-Make sure you visit the Upload Labs Wiki [here](https://labs-wiki.enigmastudio.dev/en/home)!
+
+Make sure you visit the [Upload Labs Wiki](https://labs-wiki.enigmastudio.dev/en/home)!
 
 ## Repository Layout
 
 - `2.1/` - Active Schematics and notes for version 2.1.
   - 2.1/Examples - Screenshots
 - `Archive/` - Legacy reference materials and older schematic structure.
+
+## Examples
+
+The `2.1/Examples/` directory contains screenshot references for each 2.1 schematic.
+
+Screenshots may not reflect the exact node ratios used in the current schematic revision and should be treated as visual reference only.
 
 ## 2.1 Schematic Index
 
