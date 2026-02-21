@@ -2,11 +2,11 @@
 
 A schematic database for **Upload Labs**, now focused on **version 2.1.x** builds and end-game progression.
 
-Please read `2.1/info.md` for instructions on how to use each and all schematics.
+Please read `2.1/info.md` for instructions on how to use the schematics.
 
-If you have any further questions or issues, feel free to join the official [Upload Labs Discord](https://discord.com/invite/qPCBgfbMXT) to join the discussion. Channel: `#lab-schematics`
+If you have any further questions or issues, join the official [Upload Labs Discord](https://discord.com/invite/qPCBgfbMXT) and continue the discussion in `#lab-schematics`.
 
-`This is still a WIP as there is balancing to be completed between lines, however it is very usable in its current state.`
+This is still a WIP. Balancing between lines is still in progress, but the current schematics are usable.
 
 ## Official Wiki
 
@@ -16,6 +16,7 @@ Make sure you visit the [Upload Labs Wiki](https://labs-wiki.enigmastudio.dev/en
 
 - `2.1/` - Active Schematics and notes for version 2.1.
   - 2.1/Examples - Screenshots
+  - 2.1/Aux - Standalone schematics that are intentionally isolated from `The Works`
 - `Archive/` - Legacy reference materials and older schematic structure.
 
 ## Examples
@@ -44,6 +45,14 @@ Screenshots may not reflect the exact node ratios used in the current schematic 
    - Controlled application/optimization point builder with ratio toggles for 8/41 targets.
 9. `2.1/9. Mini-Factory.txt`
    - Dual-mode factory cash module for early import boost or stabilized late-run machine output.
+
+## 2.1 Auxiliary Schematics (Standalone)
+
+These schematics are not part of `The Works` and are maintained as isolated builds for targeted goals.
+
+1. `2.1/Aux/Back-End Dev.txt`
+   - Dedicated optimization-code generator for unlocking the `Back-End Dev` achievement requirement of `59` Optimization Points.
+   - Uses a quality-first coding approach for stable optimization point progression.
 
 ## Version Focus
 
@@ -76,7 +85,7 @@ This architecture is easier to tune, scales better for end-game throughput, and 
 | Application | 8 |
 | Optimization | 41 |
 
-### Application Unlocked Tracked in 2.1
+### Applications Tracked in 2.1
 
 - Virus Extractor
 - Obfuscator
@@ -117,7 +126,7 @@ This architecture is easier to tune, scales better for end-game throughput, and 
 
 ## How to Use Schematics
 
-This repo is intended to be used as a **respository** for schematic imports.
+This repo is intended to be used as a **repository** for schematic imports.
 
 1. Open the repository page in your browser.
 2. Open the `2.1` schematic `.txt` file you want to use.

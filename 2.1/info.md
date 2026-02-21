@@ -56,6 +56,16 @@ Download the text file associated with the schematic you want. Open text file â†
 | Application | 8 |
 | Optimization | 41 |
 
+## Auxiliary Achievement Target
+
+`The Works` baseline is `41` Optimization Points.
+
+`Back-End Dev` achievement target is `59` Optimization Points.
+
+- Additional Optimization Points needed above The Works baseline (`41 -> 59`): `18`
+- Standalone schematic path: `2.1/Aux/Back-End Dev.txt`
+- Intent: high-quality Optimization Code generation in an isolated coding schematic
+
 ## First-Run Order (Quick Start)
 
 1. Turn on `Hacking` first (or second with `Coding`) after portal.
@@ -73,7 +83,7 @@ I would consider a 1:1:1 AR Offset Ratio. You may go with a +1 GPU Offset to inc
 **Hacking:Research**
 Overall these two should be higher than others; it's worth the extra cost in Advanced Research to increase Hack and Research Nodes by a few offsets from Hardware.
 **Coding**
-You need 8 Application Points and 41 Optimization Points for this setup. Once you find yourself in a comfortable position to get these required points from building Applications and Optimizations you're done here. You won't need to increase purchases in the future once you're happy with where your coding speed is at (AGI Considering, there may be a time down the road you want to take some points out).
+You need 8 Application Points and 41 Optimization Points for this setup. Once you are in a comfortable position to get these required points from building Applications and Optimizations, you are done here. You will not need to increase purchases in the future once you are happy with your coding speed (AGI considered, there may be a time down the road when you want to take some points out).
 
 | CPU | Network | GPU | Hacking | Research | Coding |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -95,6 +105,10 @@ Note: This chart is **not** a suggested progression path and is for **Reference 
 7. `2.1/7. Hacking.txt`
 8. `2.1/8. Coding.txt`
 9. `2.1/9. Mini-Factory.txt`
+
+## 2.1 Auxiliary Schematic Index (Standalone)
+
+1. `2.1/Aux/Back-End Dev.txt`
 
 ### The Works (281 Nodes)
 
@@ -166,8 +180,6 @@ Once reaching the desired Optimization Points: `41`, pause the whole Node Group.
 - Set `17 / 34 (Build)` Toggle (34:16) to 17:16
   - Set Optimization's `0 / 1 (Build)` Toggle (1:1) to 0:1
 - Unpause Node Group
-
-**Important Note:** Make sure you pause to purchase Optimized Debugging in the Optimization Upgrades Menu as soon as you acquire 3 Optimization Points. The ratios supplied are locked for players with `Double Variables` Advanced Research Upgrades and `Optimized Debugging`. Your outputs will not match up correctly if you are missing either the Advanced Research or Optimization.
 
 The Works: This Node Group receives Code Boost from the AGI Node Group. The default state of this schematic is in "running mode" which would be the mode you would be using for the majority of the run. **Consider the instructions above when starting a run.**
 
