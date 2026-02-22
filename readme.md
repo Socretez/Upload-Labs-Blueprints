@@ -142,4 +142,4 @@ This repo is intended to be used as a **repository** for schematic imports.
 ## WIP
 
 - [ ] Optimize import lines to `Main Production:AGI`.
-- [ ] Optimize Research Dissassembly
+- [ ] Optimize Research Disassembly
