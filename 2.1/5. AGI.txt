@@ -189,55 +189,6 @@ windows=[{
 "window": "gpu_manager"
 }, {
 "container_data": {
-"PanelContainer/MainContainer/AI": {
-"id": "06480b58746c",
-"outputs_id": Array[String](["18476efaaa45", "8d4ce2d5790d", "200e42edf66f"]),
-"resource": "ai",
-"variation": 0
-},
-"PanelContainer/MainContainer/GameNeuron": {
-"id": "c49b21507603",
-"outputs_id": Array[String]([]),
-"resource": "neuron_game",
-"variation": 131100
-},
-"PanelContainer/MainContainer/ImageNeuron": {
-"id": "c25e29208265",
-"outputs_id": Array[String]([]),
-"resource": "neuron_image",
-"variation": 131100
-},
-"PanelContainer/MainContainer/ProgramNeuron": {
-"id": "425455d1b51a",
-"outputs_id": Array[String]([]),
-"resource": "neuron_program",
-"variation": 131100
-},
-"PanelContainer/MainContainer/SoundNeuron": {
-"id": "b77df95e74e5",
-"outputs_id": Array[String]([]),
-"resource": "neuron_sound",
-"variation": 131100
-},
-"PanelContainer/MainContainer/TextNeuron": {
-"id": "1c4216146233",
-"outputs_id": Array[String]([]),
-"resource": "neuron_text",
-"variation": 131100
-},
-"PanelContainer/MainContainer/VideoNeuron": {
-"id": "9ba956f5f882",
-"outputs_id": Array[String]([]),
-"resource": "neuron_video",
-"variation": 131100
-}
-},
-"filename": "window_agi.tscn",
-"name": "agi0",
-"position": Vector2(6250, 3900),
-"window": "agi"
-}, {
-"container_data": {
 "PanelContainer/MainContainer/Output1/Splitted": {
 "id": "6bb203004bcc",
 "outputs_id": Array[String](["76e1972a24c5"]),
@@ -263,31 +214,6 @@ windows=[{
 "ratio": 2.0,
 "ratio2": 1.0,
 "window": "allocator"
-}, {
-"container_data": {
-"PanelContainer/MainContainer/Clock": {
-"id": "24362e21adea",
-"outputs_id": Array[String]([]),
-"resource": "clock_speed",
-"variation": 0
-},
-"PanelContainer/MainContainer/Input": {
-"id": "29dacc359aa6",
-"outputs_id": Array[String]([]),
-"resource": "program",
-"variation": 132124
-},
-"PanelContainer/MainContainer/Output": {
-"id": "9f6a29564e92",
-"outputs_id": Array[String](["cea8b0f1473e"]),
-"resource": "text",
-"variation": 132124
-}
-},
-"filename": "window_decompiler.tscn",
-"name": "decompiler2",
-"position": Vector2(5350, 5000),
-"window": "decompiler"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Clock": {
@@ -338,75 +264,6 @@ windows=[{
 "name": "duplicator0",
 "position": Vector2(4550, 5000),
 "window": "duplicator"
-}, {
-"container_data": {
-"PanelContainer/MainContainer/Clock": {
-"id": "b045d9276c0c",
-"outputs_id": Array[String]([]),
-"resource": "gpu_speed",
-"variation": 0
-},
-"PanelContainer/MainContainer/Image": {
-"id": "0dcb9d019fab",
-"outputs_id": Array[String](["3a30f06b89e7"]),
-"resource": "image",
-"variation": 132124
-},
-"PanelContainer/MainContainer/Sound": {
-"id": "5843ea2753d5",
-"outputs_id": Array[String](["05c29fffb759"]),
-"resource": "sound",
-"variation": 132124
-},
-"PanelContainer/MainContainer/Video": {
-"id": "26aec4df59e1",
-"outputs_id": Array[String]([]),
-"resource": "video",
-"variation": 132124
-}
-},
-"filename": "window_splicer.tscn",
-"name": "splicer0",
-"position": Vector2(5350, 4600),
-"window": "splicer"
-}, {
-"container_data": {
-"PanelContainer/MainContainer/AI": {
-"id": "200e42edf66f",
-"outputs_id": Array[String]([]),
-"resource": "ai",
-"variation": 0
-},
-"PanelContainer/MainContainer/Boost": {
-"id": "1cfdae4db334",
-"outputs_id": Array[String]([]),
-"resource": "boost_code",
-"variation": 0
-}
-},
-"filename": "window_boost_code.tscn",
-"name": "code0",
-"position": Vector2(6250, 5000),
-"window": "code"
-}, {
-"container_data": {
-"PanelContainer/MainContainer/AI": {
-"id": "8d4ce2d5790d",
-"outputs_id": Array[String]([]),
-"resource": "ai",
-"variation": 0
-},
-"PanelContainer/MainContainer/Boost": {
-"id": "9f21b7ad0a4c",
-"outputs_id": Array[String]([]),
-"resource": "boost_hack",
-"variation": 0
-}
-},
-"filename": "window_boost_hack.tscn",
-"name": "hack0",
-"position": Vector2(6250, 4800),
-"window": "hack"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Output1/Splitted": {
@@ -489,16 +346,6 @@ windows=[{
 "ratio2": 1.0,
 "window": "download_limiter"
 }, {
-"color": 0,
-"container_data": {},
-"custom_icon": "processor",
-"custom_name": "96:9",
-"filename": "window_group.tscn",
-"name": "group31",
-"position": Vector2(3700, 4550),
-"size": Vector2(350, 350),
-"window": "group"
-}, {
 "container_data": {
 "PanelContainer/MainContainer/Output1/Splitted": {
 "id": "5408776fa361",
@@ -525,16 +372,6 @@ windows=[{
 "ratio": 4.1,
 "ratio2": 12.0,
 "window": "thread_manager"
-}, {
-"color": 0,
-"container_data": {},
-"custom_icon": "research",
-"custom_name": "0.81:14",
-"filename": "window_group.tscn",
-"name": "group25",
-"position": Vector2(3700, 3900),
-"size": Vector2(350, 350),
-"window": "group"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Download": {
@@ -711,6 +548,93 @@ windows=[{
 "window": "trainer"
 }, {
 "container_data": {
+"PanelContainer/MainContainer/AI": {
+"id": "8d4ce2d5790d",
+"outputs_id": Array[String]([]),
+"resource": "ai",
+"variation": 0
+},
+"PanelContainer/MainContainer/Boost": {
+"id": "9f21b7ad0a4c",
+"outputs_id": Array[String]([]),
+"resource": "boost_hack",
+"variation": 0
+}
+},
+"filename": "window_boost_hack.tscn",
+"name": "hack0",
+"position": Vector2(6250, 4800),
+"window": "hack"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/AI": {
+"id": "200e42edf66f",
+"outputs_id": Array[String]([]),
+"resource": "ai",
+"variation": 0
+},
+"PanelContainer/MainContainer/Boost": {
+"id": "1cfdae4db334",
+"outputs_id": Array[String]([]),
+"resource": "boost_code",
+"variation": 0
+}
+},
+"filename": "window_boost_code.tscn",
+"name": "code0",
+"position": Vector2(6250, 5000),
+"window": "code"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/AI": {
+"id": "06480b58746c",
+"outputs_id": Array[String](["18476efaaa45", "8d4ce2d5790d", "200e42edf66f"]),
+"resource": "ai",
+"variation": 0
+},
+"PanelContainer/MainContainer/GameNeuron": {
+"id": "c49b21507603",
+"outputs_id": Array[String]([]),
+"resource": "neuron_game",
+"variation": 131100
+},
+"PanelContainer/MainContainer/ImageNeuron": {
+"id": "c25e29208265",
+"outputs_id": Array[String]([]),
+"resource": "neuron_image",
+"variation": 131100
+},
+"PanelContainer/MainContainer/ProgramNeuron": {
+"id": "425455d1b51a",
+"outputs_id": Array[String]([]),
+"resource": "neuron_program",
+"variation": 131100
+},
+"PanelContainer/MainContainer/SoundNeuron": {
+"id": "b77df95e74e5",
+"outputs_id": Array[String]([]),
+"resource": "neuron_sound",
+"variation": 131100
+},
+"PanelContainer/MainContainer/TextNeuron": {
+"id": "1c4216146233",
+"outputs_id": Array[String]([]),
+"resource": "neuron_text",
+"variation": 131100
+},
+"PanelContainer/MainContainer/VideoNeuron": {
+"id": "9ba956f5f882",
+"outputs_id": Array[String]([]),
+"resource": "neuron_video",
+"variation": 131100
+}
+},
+"filename": "window_agi.tscn",
+"name": "agi0",
+"position": Vector2(6250, 3900),
+"window": "agi"
+}, {
+"container_data": {
 "PanelContainer/MainContainer/File": {
 "id": "3a30f06b89e7",
 "outputs_id": Array[String]([]),
@@ -734,6 +658,62 @@ windows=[{
 "name": "_VBoxContainer_7899",
 "position": Vector2(5800, 4400),
 "window": "trainer"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Clock": {
+"id": "b045d9276c0c",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Image": {
+"id": "0dcb9d019fab",
+"outputs_id": Array[String](["3a30f06b89e7"]),
+"resource": "image",
+"variation": 132124
+},
+"PanelContainer/MainContainer/Sound": {
+"id": "5843ea2753d5",
+"outputs_id": Array[String](["05c29fffb759"]),
+"resource": "sound",
+"variation": 132124
+},
+"PanelContainer/MainContainer/Video": {
+"id": "26aec4df59e1",
+"outputs_id": Array[String]([]),
+"resource": "video",
+"variation": 132124
+}
+},
+"filename": "window_splicer.tscn",
+"name": "splicer0",
+"position": Vector2(5350, 4600),
+"window": "splicer"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Clock": {
+"id": "24362e21adea",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input": {
+"id": "29dacc359aa6",
+"outputs_id": Array[String]([]),
+"resource": "program",
+"variation": 132124
+},
+"PanelContainer/MainContainer/Output": {
+"id": "9f6a29564e92",
+"outputs_id": Array[String](["cea8b0f1473e"]),
+"resource": "text",
+"variation": 132124
+}
+},
+"filename": "window_decompiler.tscn",
+"name": "decompiler2",
+"position": Vector2(5350, 5000),
+"window": "decompiler"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Clock": {
@@ -809,6 +789,26 @@ windows=[{
 "name": "_VBoxContainer_7898",
 "position": Vector2(5850, 4450),
 "window": "trainer"
+}, {
+"color": 0,
+"container_data": {},
+"custom_icon": "research",
+"custom_name": "0.81:14",
+"filename": "window_group.tscn",
+"name": "group25",
+"position": Vector2(3700, 3900),
+"size": Vector2(350, 350),
+"window": "group"
+}, {
+"color": 0,
+"container_data": {},
+"custom_icon": "processor",
+"custom_name": "96:9",
+"filename": "window_group.tscn",
+"name": "group31",
+"position": Vector2(3700, 4550),
+"size": Vector2(350, 350),
+"window": "group"
 }]
 connectors={
 "05c29fffb759": {
@@ -899,13 +899,13 @@ connectors={
 "custom_points": Array[Vector2]([])
 },
 "a8d644d12506": {
-"custom_points": Array[Vector2]([])
+"custom_points": Array[Vector2]([Vector2(3125, 4689)])
 },
 "ac9dfbefda27": {
 "custom_points": Array[Vector2]([])
 },
 "adaa1c9e8cc5": {
-"custom_points": Array[Vector2]([])
+"custom_points": Array[Vector2]([Vector2(3125, 4039)])
 },
 "b045d9276c0c": {
 "custom_points": Array[Vector2]([])
@@ -917,7 +917,7 @@ connectors={
 "custom_points": Array[Vector2]([])
 },
 "b7e0dbf40188": {
-"custom_points": Array[Vector2]([])
+"custom_points": Array[Vector2]([Vector2(3125, 5289)])
 },
 "bb8c212386e0": {
 "custom_points": Array[Vector2]([])

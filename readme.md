@@ -6,8 +6,6 @@ Please read `2.1/info.md` for instructions on how to use the schematics.
 
 If you have any further questions or issues, join the official [Upload Labs Discord](https://discord.com/invite/qPCBgfbMXT) and continue the discussion in `#lab-schematics`.
 
-This is still a WIP. Balancing between lines is still in progress, but the current schematics are usable.
-
 ## Official Wiki
 
 Make sure you visit the [Upload Labs Wiki](https://labs-wiki.enigmastudio.dev/en/home)!
@@ -42,7 +40,7 @@ Screenshots may not reflect the exact node ratios used in the current schematic 
 7. `2.1/7. Hacking.txt`
    - Portal-ready hacking setup focused on fast early breaches and infection progression.
 8. `2.1/8. Coding.txt`
-   - Controlled application/optimization point builder with ratio toggles for 8/41 targets.
+   - Controlled application/optimization point builder with ratio toggles for 9/43 targets.
 9. `2.1/9. Mini-Factory.txt`
    - Dual-mode factory cash module for early import boost or stabilized late-run machine output.
 
@@ -82,8 +80,8 @@ This architecture is easier to tune, scales better for end-game throughput, and 
 
 | Code | Points Needed |
 | :--- | :---: |
-| Application | 8 |
-| Optimization | 41 |
+| Application | 9 |
+| Optimization | 43 |
 
 ### Applications Tracked in 2.1
 
@@ -92,6 +90,7 @@ This architecture is easier to tune, scales better for end-game throughput, and 
 - Re-downloader
 - Flipper
 - Splicer
+- Disassembler
 - Imprinter
 - Brute-force Decryptor
 - Duplicator
@@ -121,6 +120,7 @@ This architecture is easier to tune, scales better for end-game throughput, and 
 - Brute-force (2)
 - Splicing (1)
 - Flipping (3)
+- Disassembling (2)
 - Imprinting (2)
 - Duplication (2)
 
@@ -139,7 +139,14 @@ This repo is intended to be used as a **repository** for schematic imports.
 - Build all new or updated production lines under `2.1/`.
 - Prioritize modular virus/modifier intake + imprint stages over reviving old All-in-One blocks.
 
-## WIP
+## Changelog / WIP
 
-- [ ] Optimize import lines to `Main Production:AGI`.
-- [ ] Optimize Research Disassembly
+- [ ] Create AGI Auxiliary Starter Kit Schematics.
+- [x] Optimize Research Disassembly.
+  - Completed: 02/24/26
+- [x] Optimize import lines to `Main Production:AGI`.
+  - Completed: 02/24/26
+- [x] Create Back-End Dev Auxiliary Schematic.
+  - Completed: 02/21/26
+- [x] Populate Examples Images.
+  - Completed: 02/19/26

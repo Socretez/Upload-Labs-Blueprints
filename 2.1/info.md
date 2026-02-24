@@ -8,18 +8,19 @@ The following information is a companion guide to the text file schematics locat
 
 Download the text file associated with the schematic you want. Open text file → Select All / Copy → In-Game Import. If you fail to copy the whole text file contents into your clipboard, your import will fail.
 
-### Applications (8)
+### Applications (9)
 
 - Virus Extractor
 - Obfuscator
 - Re-downloader
 - Flipper
 - Splicer
+- Disassembler
 - Imprinter
 - Brute-force Decryptor
 - Duplicator
 
-### Optimizations (41)
+### Optimizations (43)
 
 | Optimization | Points Needed |
 | :--- | :---: |
@@ -46,6 +47,7 @@ Download the text file associated with the schematic you want. Open text file �
 | Brute-force | 2 |
 | Splicing | 1 |
 | Flipping | 3 |
+| Disassembling | 2 |
 | Imprinting | 2 |
 | Duplication | 2 |
 
@@ -53,16 +55,16 @@ Download the text file associated with the schematic you want. Open text file �
 
 | Code | Points Needed |
 | :--- | :---: |
-| Application | 8 |
-| Optimization | 41 |
+| Application | 9 |
+| Optimization | 43 |
 
 ## Auxiliary Achievement Target
 
-`The Works` baseline is `41` Optimization Points.
+`The Works` baseline is `43` Optimization Points.
 
 `Back-End Dev` achievement target is `59` Optimization Points.
 
-- Additional Optimization Points needed above The Works baseline (`41 -> 59`): `18`
+- Additional Optimization Points needed above The Works baseline (`43 -> 59`): `16`
 - Standalone schematic path: `2.1/Aux/Back-End Dev.txt`
 - Intent: high-quality Optimization Code generation in an isolated coding schematic
 
@@ -70,7 +72,7 @@ Download the text file associated with the schematic you want. Open text file �
 
 1. Turn on `Hacking` first (or second with `Coding`) after portal.
 2. In `The Works` hardware toggles, start with Toggle A `ON` and Toggle B `OFF`.
-3. Turn on `Coding` and build until you reach `8` Application Points and `41` Optimization Points.
+3. Turn on `Coding` and build until you reach `9` Application Points and `43` Optimization Points.
 4. Purchase required coding/optimization upgrades as soon as they unlock (especially `Optimized Debugging` at 3 Optimization Points).
 5. Once setup purchases are done, switch into production by toggling both A and B as directed in The Works.
 
@@ -83,7 +85,7 @@ I would consider a 1:1:1 AR Offset Ratio. You may go with a +1 GPU Offset to inc
 **Hacking:Research**
 Overall these two should be higher than others; it's worth the extra cost in Advanced Research to increase Hack and Research Nodes by a few offsets from Hardware.
 **Coding**
-You need 8 Application Points and 41 Optimization Points for this setup. Once you are in a comfortable position to get these required points from building Applications and Optimizations, you are done here. You will not need to increase purchases in the future once you are happy with your coding speed (AGI considered, there may be a time down the road when you want to take some points out).
+You need 9 Application Points and 43 Optimization Points for this setup. Once you are in a comfortable position to get these required points from building Applications and Optimizations, you are done here. You will not need to increase purchases in the future once you are happy with your coding speed (AGI considered, there may be a time down the road when you want to take some points out).
 
 | CPU | Network | GPU | Hacking | Research | Coding |
 | :---: | :---: | :---: | :---: | :---: | :---: |
@@ -109,8 +111,9 @@ Note: This chart is **not** a suggested progression path and is for **Reference 
 ## 2.1 Auxiliary Schematic Index (Standalone)
 
 1. `2.1/Aux/Back-End Dev.txt`
+2. `AGI Auxiliary Starter Kit` (WIP)
 
-### The Works (281 Nodes)
+### The Works (292 Nodes)
 
 This schematic holds all others. Specific Works-Wide notes can be found in individual sections below.
 
@@ -129,6 +132,8 @@ This Node Group generates, processes, and uploads files for Money and Infected C
 
 - Main Line: Download → Compress → `Imprint` → Multiply (Dupe/Decomp) → AI Trainer/Gen
 - Imprint Line: Download → Process and Modify → `Export to Imprinter`
+
+Uploader vs Server: You're given two options for uploading. Use the basic Uploader for kickstarting your server run. Toggle only one on at a time. Swap the Uploader/Server when you can generate your first `Storage Unit`.
 
 The Works: This Node Group is fed Network and CPU resources from Hardware. It also distributes leftover CPU to Research. It distributes Component Boost (Drain) to Hardware. It exports Money to the Mini-Factory to both Toggle Groups. Make sure you are using a single Factory Toggle Group at a time.
 
@@ -170,12 +175,12 @@ Before turning this Node Group on for the first time:
 - Set `17 / 34 (Build)` Toggle (17:16) to 34:16
   - Set Optimization's `0 / 1 (Build)` Toggle (0:1) to 1:1
 
-Once reaching the desired Application Points: `8`, pause the whole Node Group.
+Once reaching the desired Application Points: `9`, pause the whole Node Group.
 
 - Set Application's `0 / 1 (Build)` Toggle (1:1) to 0:1
 - Unpause Node Group
 
-Once reaching the desired Optimization Points: `41`, pause the whole Node Group.
+Once reaching the desired Optimization Points: `43`, pause the whole Node Group.
 
 - Set `17 / 34 (Build)` Toggle (34:16) to 17:16
   - Set Optimization's `0 / 1 (Build)` Toggle (1:1) to 0:1
