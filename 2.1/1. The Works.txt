@@ -947,106 +947,6 @@ windows=[{
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Materials/PCB": {
-"id": "dc585ce137da",
-"outputs_id": Array[String]([]),
-"resource": "pcb",
-"variation": 0
-},
-"PanelContainer/MainContainer/Product": {
-"id": "57dbb14f43a1",
-"outputs_id": Array[String]([]),
-"resource": "router",
-"variation": 0
-},
-"PanelContainer/MainContainer/Speed": {
-"id": "ee375d3e4aa5",
-"outputs_id": Array[String]([]),
-"resource": "work_speed",
-"variation": 0
-}
-},
-"filename": "window_router_assembler.tscn",
-"name": "router_assembler0",
-"position": Vector2(8250, 4400),
-"window": "router_assembler"
-}, {
-"container_data": {
-"PanelContainer/MainContainer/Materials/PCB": {
-"id": "5abde54b1479",
-"outputs_id": Array[String]([]),
-"resource": "pcb",
-"variation": 0
-},
-"PanelContainer/MainContainer/Product": {
-"id": "0b27f9b2f3ad",
-"outputs_id": Array[String](["ef990cea88ce"]),
-"resource": "router",
-"variation": 0
-},
-"PanelContainer/MainContainer/Speed": {
-"id": "9dd9817a7c61",
-"outputs_id": Array[String]([]),
-"resource": "work_speed",
-"variation": 0
-}
-},
-"filename": "window_router_assembler.tscn",
-"name": "router_assembler1",
-"position": Vector2(8300, 4450),
-"window": "router_assembler"
-}, {
-"container_data": {
-"PanelContainer/MainContainer/Materials/PCB": {
-"id": "d8c1a219b462",
-"outputs_id": Array[String]([]),
-"resource": "pcb",
-"variation": 0
-},
-"PanelContainer/MainContainer/Product": {
-"id": "a0eb2be9cafd",
-"outputs_id": Array[String](["160b2550f758"]),
-"resource": "router",
-"variation": 0
-},
-"PanelContainer/MainContainer/Speed": {
-"id": "aa2301cf1056",
-"outputs_id": Array[String]([]),
-"resource": "work_speed",
-"variation": 0
-}
-},
-"filename": "window_router_assembler.tscn",
-"name": "router_assembler2",
-"position": Vector2(8350, 4500),
-"window": "router_assembler"
-}, {
-"container_data": {
-"PanelContainer/MainContainer/Materials/PCB": {
-"id": "b13de519de4e",
-"outputs_id": Array[String]([]),
-"resource": "pcb",
-"variation": 0
-},
-"PanelContainer/MainContainer/Product": {
-"id": "9af4e39518c9",
-"outputs_id": Array[String](["fcd1e6d34de4"]),
-"resource": "router",
-"variation": 0
-},
-"PanelContainer/MainContainer/Speed": {
-"id": "06abc57cd986",
-"outputs_id": Array[String]([]),
-"resource": "work_speed",
-"variation": 0
-}
-},
-"filename": "window_router_assembler.tscn",
-"name": "router_assembler3",
-"position": Vector2(8400, 4550),
-"window": "router_assembler"
-}, {
-"container_data": {
-"PanelContainer/MainContainer/Materials/PCB": {
 "id": "ef42f3777a64",
 "outputs_id": Array[String]([]),
 "resource": "pcb",
@@ -4247,31 +4147,6 @@ windows=[{
 "window": "trainer"
 }, {
 "container_data": {
-"PanelContainer/MainContainer/File": {
-"id": "05c29fffb759",
-"outputs_id": Array[String]([]),
-"resource": "sound",
-"variation": 132124
-},
-"PanelContainer/MainContainer/GPU": {
-"id": "ce7bd5e8ee23",
-"outputs_id": Array[String]([]),
-"resource": "gpu_speed",
-"variation": 0
-},
-"PanelContainer/MainContainer/Neurons": {
-"id": "e0026aa62b2e",
-"outputs_id": Array[String](["b77df95e74e5"]),
-"resource": "neuron_sound",
-"variation": 131100
-}
-},
-"filename": "window_trainer.tscn",
-"name": "_VBoxContainer_7893",
-"position": Vector2(5750, 4350),
-"window": "trainer"
-}, {
-"container_data": {
 "PanelContainer/MainContainer/Output1/Splitted": {
 "id": "3320e084316b",
 "outputs_id": Array[String](["f77192505826"]),
@@ -4658,61 +4533,6 @@ windows=[{
 "position": Vector2(4050, 6400),
 "window": "optimize_code"
 }, {
-"container_data": {
-"PanelContainer/MainContainer/Materials/PCB": {
-"id": "df2b8f07af69",
-"outputs_id": Array[String]([]),
-"resource": "pcb",
-"variation": 0
-},
-"PanelContainer/MainContainer/Product": {
-"id": "7cd1ec907177",
-"outputs_id": Array[String](["849007e6bb14"]),
-"resource": "router",
-"variation": 0
-},
-"PanelContainer/MainContainer/Speed": {
-"id": "0daed6788b24",
-"outputs_id": Array[String]([]),
-"resource": "work_speed",
-"variation": 0
-}
-},
-"filename": "window_router_assembler.tscn",
-"name": "router_assembler4",
-"position": Vector2(8450, 4600),
-"window": "router_assembler"
-}, {
-"color": 0,
-"container_data": {},
-"custom_icon": "",
-"custom_name": "Factory",
-"filename": "window_group.tscn",
-"name": "group14",
-"position": Vector2(8050, 1500),
-"size": Vector2(1200, 4000),
-"window": "group"
-}, {
-"color": 1,
-"container_data": {},
-"custom_icon": "",
-"custom_name": "Toggle A",
-"filename": "window_group.tscn",
-"name": "group2",
-"position": Vector2(8050, 1600),
-"size": Vector2(1150, 900),
-"window": "group"
-}, {
-"color": 1,
-"container_data": {},
-"custom_icon": "",
-"custom_name": "Toggle B",
-"filename": "window_group.tscn",
-"name": "group15",
-"position": Vector2(8050, 2550),
-"size": Vector2(1150, 800),
-"window": "group"
-}, {
 "color": 0,
 "container_data": {},
 "custom_icon": "",
@@ -5076,31 +4896,6 @@ windows=[{
 "position": Vector2(5950, 2000),
 "window": "distillator"
 }, {
-"container_data": {
-"PanelContainer/MainContainer/File": {
-"id": "3a30f06b89e7",
-"outputs_id": Array[String]([]),
-"resource": "image",
-"variation": 132124
-},
-"PanelContainer/MainContainer/GPU": {
-"id": "9f008adfef88",
-"outputs_id": Array[String]([]),
-"resource": "gpu_speed",
-"variation": 0
-},
-"PanelContainer/MainContainer/Neurons": {
-"id": "c3d46f55f3d3",
-"outputs_id": Array[String](["c25e29208265"]),
-"resource": "neuron_image",
-"variation": 131100
-}
-},
-"filename": "window_trainer.tscn",
-"name": "_VBoxContainer_7899",
-"position": Vector2(5800, 4400),
-"window": "trainer"
-}, {
 "color": 0,
 "container_data": {},
 "custom_icon": "",
@@ -5235,16 +5030,6 @@ windows=[{
 "ratio": 6.0,
 "ratio2": 0.34,
 "window": "thread_manager"
-}, {
-"color": 0,
-"container_data": {},
-"custom_icon": "",
-"custom_name": "Master Toggle",
-"filename": "window_group.tscn",
-"name": "group26",
-"position": Vector2(8050, 1550),
-"size": Vector2(1150, 1850),
-"window": "group"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Download": {
@@ -5645,31 +5430,6 @@ windows=[{
 "name": "distillator1",
 "position": Vector2(4550, 4600),
 "window": "distillator"
-}, {
-"container_data": {
-"PanelContainer/MainContainer/File": {
-"id": "cea8b0f1473e",
-"outputs_id": Array[String]([]),
-"resource": "text",
-"variation": 132124
-},
-"PanelContainer/MainContainer/GPU": {
-"id": "4900ea991e28",
-"outputs_id": Array[String]([]),
-"resource": "gpu_speed",
-"variation": 0
-},
-"PanelContainer/MainContainer/Neurons": {
-"id": "0313f1e751c1",
-"outputs_id": Array[String](["1c4216146233"]),
-"resource": "neuron_text",
-"variation": 131100
-}
-},
-"filename": "window_trainer.tscn",
-"name": "_VBoxContainer_7898",
-"position": Vector2(5850, 4450),
-"window": "trainer"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Output1/Splitted": {
@@ -6454,25 +6214,6 @@ windows=[{
 "position": Vector2(7650, 5250),
 "window": "virus_manipulator"
 }, {
-"container_data": {
-"PanelContainer/MainContainer/Boost": {
-"id": "cc6ddd107181",
-"outputs_id": Array[String](["b8fc4fb48f3a", "56ea43841414", "66ae1333d201", "4fcc0ff61ca5", "2a67db376db5", "a5f65d76b2a2", "955c8813d8d3", "4fc75bd2f72e", "c25ccd17be73"]),
-"resource": "boost_component",
-"variation": 0
-},
-"PanelContainer/MainContainer/Infections": {
-"id": "4853c2f8dc40",
-"outputs_id": Array[String]([]),
-"resource": "infected_computer",
-"variation": 0
-}
-},
-"filename": "window_drain.tscn",
-"name": "drain0",
-"position": Vector2(7600, 2850),
-"window": "drain"
-}, {
 "color": 0,
 "container_data": {},
 "custom_icon": "",
@@ -6614,16 +6355,6 @@ windows=[{
 "name": "group32",
 "position": Vector2(4500, 8550),
 "size": Vector2(300, 100),
-"window": "group"
-}, {
-"color": 6,
-"container_data": {},
-"custom_icon": "processor",
-"custom_name": "CPU/GPU",
-"filename": "window_group.tscn",
-"name": "group4",
-"position": Vector2(850, 1550),
-"size": Vector2(2250, 2150),
 "window": "group"
 }, {
 "color": 0,
@@ -6821,31 +6552,6 @@ windows=[{
 "window": "decomposer"
 }, {
 "container_data": {
-"PanelContainer/MainContainer/Clock": {
-"id": "acfbe8caff84",
-"outputs_id": Array[String]([]),
-"resource": "clock_speed",
-"variation": 0
-},
-"PanelContainer/MainContainer/Input": {
-"id": "b673aa3afc52",
-"outputs_id": Array[String]([]),
-"resource": "game",
-"variation": 207390
-},
-"PanelContainer/MainContainer/Output": {
-"id": "e1bde1bd9644",
-"outputs_id": Array[String](["ae285ea4b806", "59c92384fb69"]),
-"resource": "video",
-"variation": 207390
-}
-},
-"filename": "window_scrapper.tscn",
-"name": "scrapper1",
-"position": Vector2(7100, 6050),
-"window": "scrapper"
-}, {
-"container_data": {
 "PanelContainer/MainContainer/Research": {
 "id": "5285f78a2bbe",
 "outputs_id": Array[String]([]),
@@ -6857,56 +6563,6 @@ windows=[{
 "name": "research_advanced0",
 "position": Vector2(7500, 7050),
 "window": "research_advanced"
-}, {
-"container_data": {
-"PanelContainer/MainContainer/Clock": {
-"id": "3d601bbccf99",
-"outputs_id": Array[String]([]),
-"resource": "clock_speed",
-"variation": 0
-},
-"PanelContainer/MainContainer/File": {
-"id": "e580849acaf1",
-"outputs_id": Array[String]([]),
-"resource": "game",
-"variation": 73730
-},
-"PanelContainer/MainContainer/Output": {
-"id": "a1932c7be34d",
-"outputs_id": Array[String](["90db6c3c7479"]),
-"resource": "game",
-"variation": 73758
-}
-},
-"filename": "window_compressor_max.tscn",
-"name": "compressor_max5",
-"position": Vector2(6650, 5700),
-"window": "compressor_max"
-}, {
-"container_data": {
-"PanelContainer/MainContainer/Clock": {
-"id": "09fd27bdf4e5",
-"outputs_id": Array[String]([]),
-"resource": "clock_speed",
-"variation": 0
-},
-"PanelContainer/MainContainer/File": {
-"id": "90db6c3c7479",
-"outputs_id": Array[String]([]),
-"resource": "game",
-"variation": 73758
-},
-"PanelContainer/MainContainer/Output": {
-"id": "81676624b073",
-"outputs_id": Array[String](["3c1e2d22ddf7"]),
-"resource": "game",
-"variation": 74270
-}
-},
-"filename": "window_refiner.tscn",
-"name": "refiner0",
-"position": Vector2(6700, 5750),
-"window": "refiner"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Clock": {
@@ -6982,37 +6638,6 @@ windows=[{
 "name": "enhancer_max1",
 "position": Vector2(6200, 6100),
 "window": "enhancer_max"
-}, {
-"container_data": {
-"PanelContainer/MainContainer/Boost": {
-"id": "60a405505912",
-"outputs_id": Array[String]([]),
-"resource": "boost_research",
-"variation": 0
-},
-"PanelContainer/MainContainer/File": {
-"id": "f1ed7992d52b",
-"outputs_id": Array[String]([]),
-"resource": "image",
-"variation": 207586
-},
-"PanelContainer/MainContainer/Points": {
-"id": "4a8783060fcc",
-"outputs_id": Array[String](["b038fc85df82", "5285f78a2bbe"]),
-"resource": "research",
-"variation": 0
-},
-"PanelContainer/MainContainer/ResearchPower": {
-"id": "a5f79302a1d0",
-"outputs_id": Array[String]([]),
-"resource": "research_power",
-"variation": 0
-}
-},
-"filename": "window_data_lab.tscn",
-"name": "_VBoxContainer_12654",
-"position": Vector2(7500, 6400),
-"window": "data_lab"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Clock": {
@@ -7638,31 +7263,6 @@ windows=[{
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Clock": {
-"id": "9e4ef191b183",
-"outputs_id": Array[String]([]),
-"resource": "clock_speed",
-"variation": 0
-},
-"PanelContainer/MainContainer/File": {
-"id": "8e82e31dab59",
-"outputs_id": Array[String]([]),
-"resource": "game",
-"variation": 32768
-},
-"PanelContainer/MainContainer/Output": {
-"id": "a624e75426a2",
-"outputs_id": Array[String](["5981dd5ec807"]),
-"resource": "game",
-"variation": 73730
-}
-},
-"filename": "window_decryptor_bruteforce.tscn",
-"name": "decryptor_bruteforce2",
-"position": Vector2(6250, 5750),
-"window": "decryptor_bruteforce"
-}, {
-"container_data": {
-"PanelContainer/MainContainer/Clock": {
 "id": "89087b82999b",
 "outputs_id": Array[String]([]),
 "resource": "clock_speed",
@@ -7722,31 +7322,6 @@ windows=[{
 "name": "auto_collect1",
 "position": Vector2(7500, 6850),
 "window": "auto_collect"
-}, {
-"container_data": {
-"PanelContainer/MainContainer/Clock": {
-"id": "068fd1fc717f",
-"outputs_id": Array[String]([]),
-"resource": "clock_speed",
-"variation": 0
-},
-"PanelContainer/MainContainer/File": {
-"id": "4d865dce6f55",
-"outputs_id": Array[String]([]),
-"resource": "zip_game",
-"variation": 32768
-},
-"PanelContainer/MainContainer/Output": {
-"id": "0ac60f7acaef",
-"outputs_id": Array[String](["8e82e31dab59"]),
-"resource": "game",
-"variation": 32768
-}
-},
-"filename": "window_unzipper.tscn",
-"name": "unzipper5",
-"position": Vector2(6200, 5700),
-"window": "unzipper"
 }, {
 "color": 0,
 "container_data": {},
@@ -7817,6 +7392,431 @@ windows=[{
 "position": Vector2(800, 1500),
 "size": Vector2(2300, 4000),
 "window": "group"
+}, {
+"color": 6,
+"container_data": {},
+"custom_icon": "processor",
+"custom_name": "CPU/GPU",
+"filename": "window_group.tscn",
+"name": "group4",
+"position": Vector2(850, 1550),
+"size": Vector2(2250, 2150),
+"window": "group"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/File": {
+"id": "05c29fffb759",
+"outputs_id": Array[String]([]),
+"resource": "sound",
+"variation": 132124
+},
+"PanelContainer/MainContainer/GPU": {
+"id": "ce7bd5e8ee23",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Neurons": {
+"id": "e0026aa62b2e",
+"outputs_id": Array[String](["b77df95e74e5"]),
+"resource": "neuron_sound",
+"variation": 131100
+}
+},
+"filename": "window_trainer.tscn",
+"name": "_VBoxContainer_7893",
+"position": Vector2(5750, 4350),
+"window": "trainer"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/File": {
+"id": "3a30f06b89e7",
+"outputs_id": Array[String]([]),
+"resource": "image",
+"variation": 132124
+},
+"PanelContainer/MainContainer/GPU": {
+"id": "9f008adfef88",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Neurons": {
+"id": "c3d46f55f3d3",
+"outputs_id": Array[String](["c25e29208265"]),
+"resource": "neuron_image",
+"variation": 131100
+}
+},
+"filename": "window_trainer.tscn",
+"name": "_VBoxContainer_7899",
+"position": Vector2(5800, 4400),
+"window": "trainer"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/File": {
+"id": "cea8b0f1473e",
+"outputs_id": Array[String]([]),
+"resource": "text",
+"variation": 132124
+},
+"PanelContainer/MainContainer/GPU": {
+"id": "4900ea991e28",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Neurons": {
+"id": "0313f1e751c1",
+"outputs_id": Array[String](["1c4216146233"]),
+"resource": "neuron_text",
+"variation": 131100
+}
+},
+"filename": "window_trainer.tscn",
+"name": "_VBoxContainer_7898",
+"position": Vector2(5850, 4450),
+"window": "trainer"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Clock": {
+"id": "3d601bbccf99",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "e580849acaf1",
+"outputs_id": Array[String]([]),
+"resource": "game",
+"variation": 73730
+},
+"PanelContainer/MainContainer/Output": {
+"id": "a1932c7be34d",
+"outputs_id": Array[String](["90db6c3c7479"]),
+"resource": "game",
+"variation": 73758
+}
+},
+"filename": "window_compressor_max.tscn",
+"name": "compressor_max5",
+"position": Vector2(6650, 5700),
+"window": "compressor_max"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Clock": {
+"id": "09fd27bdf4e5",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "90db6c3c7479",
+"outputs_id": Array[String]([]),
+"resource": "game",
+"variation": 73758
+},
+"PanelContainer/MainContainer/Output": {
+"id": "81676624b073",
+"outputs_id": Array[String](["3c1e2d22ddf7"]),
+"resource": "game",
+"variation": 74270
+}
+},
+"filename": "window_refiner.tscn",
+"name": "refiner0",
+"position": Vector2(6700, 5750),
+"window": "refiner"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Clock": {
+"id": "acfbe8caff84",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input": {
+"id": "b673aa3afc52",
+"outputs_id": Array[String]([]),
+"resource": "game",
+"variation": 207390
+},
+"PanelContainer/MainContainer/Output": {
+"id": "e1bde1bd9644",
+"outputs_id": Array[String](["ae285ea4b806", "59c92384fb69"]),
+"resource": "video",
+"variation": 207390
+}
+},
+"filename": "window_scrapper.tscn",
+"name": "scrapper1",
+"position": Vector2(7100, 6050),
+"window": "scrapper"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Boost": {
+"id": "cc6ddd107181",
+"outputs_id": Array[String](["b8fc4fb48f3a", "56ea43841414", "66ae1333d201", "4fcc0ff61ca5", "2a67db376db5", "a5f65d76b2a2", "955c8813d8d3", "4fc75bd2f72e", "c25ccd17be73"]),
+"resource": "boost_component",
+"variation": 0
+},
+"PanelContainer/MainContainer/Infections": {
+"id": "4853c2f8dc40",
+"outputs_id": Array[String]([]),
+"resource": "infected_computer",
+"variation": 0
+}
+},
+"filename": "window_drain.tscn",
+"name": "drain0",
+"position": Vector2(7600, 2850),
+"window": "drain"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Boost": {
+"id": "60a405505912",
+"outputs_id": Array[String]([]),
+"resource": "boost_research",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "f1ed7992d52b",
+"outputs_id": Array[String]([]),
+"resource": "image",
+"variation": 207586
+},
+"PanelContainer/MainContainer/Points": {
+"id": "4a8783060fcc",
+"outputs_id": Array[String](["b038fc85df82", "5285f78a2bbe"]),
+"resource": "research",
+"variation": 0
+},
+"PanelContainer/MainContainer/ResearchPower": {
+"id": "a5f79302a1d0",
+"outputs_id": Array[String]([]),
+"resource": "research_power",
+"variation": 0
+}
+},
+"filename": "window_data_lab.tscn",
+"name": "_VBoxContainer_12654",
+"position": Vector2(7500, 6400),
+"window": "data_lab"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Clock": {
+"id": "068fd1fc717f",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "4d865dce6f55",
+"outputs_id": Array[String]([]),
+"resource": "zip_game",
+"variation": 32768
+},
+"PanelContainer/MainContainer/Output": {
+"id": "0ac60f7acaef",
+"outputs_id": Array[String](["8e82e31dab59"]),
+"resource": "game",
+"variation": 32768
+}
+},
+"filename": "window_unzipper.tscn",
+"name": "unzipper5",
+"position": Vector2(6200, 5700),
+"window": "unzipper"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Clock": {
+"id": "9e4ef191b183",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "8e82e31dab59",
+"outputs_id": Array[String]([]),
+"resource": "game",
+"variation": 32768
+},
+"PanelContainer/MainContainer/Output": {
+"id": "a624e75426a2",
+"outputs_id": Array[String](["5981dd5ec807"]),
+"resource": "game",
+"variation": 73730
+}
+},
+"filename": "window_decryptor_bruteforce.tscn",
+"name": "decryptor_bruteforce2",
+"position": Vector2(6250, 5750),
+"window": "decryptor_bruteforce"
+}, {
+"color": 0,
+"container_data": {},
+"custom_icon": "",
+"custom_name": "Factory",
+"filename": "window_group.tscn",
+"name": "group14",
+"position": Vector2(8050, 1500),
+"size": Vector2(1200, 4000),
+"window": "group"
+}, {
+"color": 0,
+"container_data": {},
+"custom_icon": "",
+"custom_name": "Master Toggle",
+"filename": "window_group.tscn",
+"name": "group26",
+"position": Vector2(8050, 1550),
+"size": Vector2(1150, 1850),
+"window": "group"
+}, {
+"color": 1,
+"container_data": {},
+"custom_icon": "",
+"custom_name": "Toggle A",
+"filename": "window_group.tscn",
+"name": "group2",
+"position": Vector2(8050, 1600),
+"size": Vector2(1150, 900),
+"window": "group"
+}, {
+"color": 1,
+"container_data": {},
+"custom_icon": "",
+"custom_name": "Toggle B",
+"filename": "window_group.tscn",
+"name": "group15",
+"position": Vector2(8050, 2550),
+"size": Vector2(1150, 800),
+"window": "group"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Materials/PCB": {
+"id": "dc585ce137da",
+"outputs_id": Array[String]([]),
+"resource": "pcb",
+"variation": 0
+},
+"PanelContainer/MainContainer/Product": {
+"id": "57dbb14f43a1",
+"outputs_id": Array[String](["88edb04b4e91"]),
+"resource": "router",
+"variation": 0
+},
+"PanelContainer/MainContainer/Speed": {
+"id": "ee375d3e4aa5",
+"outputs_id": Array[String]([]),
+"resource": "work_speed",
+"variation": 0
+}
+},
+"filename": "window_router_assembler.tscn",
+"name": "router_assembler0",
+"position": Vector2(8250, 4400),
+"window": "router_assembler"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Materials/PCB": {
+"id": "5abde54b1479",
+"outputs_id": Array[String]([]),
+"resource": "pcb",
+"variation": 0
+},
+"PanelContainer/MainContainer/Product": {
+"id": "0b27f9b2f3ad",
+"outputs_id": Array[String](["ef990cea88ce"]),
+"resource": "router",
+"variation": 0
+},
+"PanelContainer/MainContainer/Speed": {
+"id": "9dd9817a7c61",
+"outputs_id": Array[String]([]),
+"resource": "work_speed",
+"variation": 0
+}
+},
+"filename": "window_router_assembler.tscn",
+"name": "router_assembler1",
+"position": Vector2(8300, 4450),
+"window": "router_assembler"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Materials/PCB": {
+"id": "d8c1a219b462",
+"outputs_id": Array[String]([]),
+"resource": "pcb",
+"variation": 0
+},
+"PanelContainer/MainContainer/Product": {
+"id": "a0eb2be9cafd",
+"outputs_id": Array[String](["160b2550f758"]),
+"resource": "router",
+"variation": 0
+},
+"PanelContainer/MainContainer/Speed": {
+"id": "aa2301cf1056",
+"outputs_id": Array[String]([]),
+"resource": "work_speed",
+"variation": 0
+}
+},
+"filename": "window_router_assembler.tscn",
+"name": "router_assembler2",
+"position": Vector2(8350, 4500),
+"window": "router_assembler"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Materials/PCB": {
+"id": "b13de519de4e",
+"outputs_id": Array[String]([]),
+"resource": "pcb",
+"variation": 0
+},
+"PanelContainer/MainContainer/Product": {
+"id": "9af4e39518c9",
+"outputs_id": Array[String](["fcd1e6d34de4"]),
+"resource": "router",
+"variation": 0
+},
+"PanelContainer/MainContainer/Speed": {
+"id": "06abc57cd986",
+"outputs_id": Array[String]([]),
+"resource": "work_speed",
+"variation": 0
+}
+},
+"filename": "window_router_assembler.tscn",
+"name": "router_assembler3",
+"position": Vector2(8400, 4550),
+"window": "router_assembler"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Materials/PCB": {
+"id": "df2b8f07af69",
+"outputs_id": Array[String]([]),
+"resource": "pcb",
+"variation": 0
+},
+"PanelContainer/MainContainer/Product": {
+"id": "7cd1ec907177",
+"outputs_id": Array[String](["849007e6bb14"]),
+"resource": "router",
+"variation": 0
+},
+"PanelContainer/MainContainer/Speed": {
+"id": "0daed6788b24",
+"outputs_id": Array[String]([]),
+"resource": "work_speed",
+"variation": 0
+}
+},
+"filename": "window_router_assembler.tscn",
+"name": "router_assembler4",
+"position": Vector2(8450, 4600),
+"window": "router_assembler"
 }]
 connectors={
 "01c2091ada4e": {
@@ -8495,6 +8495,9 @@ connectors={
 "custom_points": Array[Vector2]([])
 },
 "8792f102447c": {
+"custom_points": Array[Vector2]([])
+},
+"88edb04b4e91": {
 "custom_points": Array[Vector2]([])
 },
 "89087b82999b": {
