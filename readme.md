@@ -1,5 +1,7 @@
 # Upload Labs Schematics
 
+<sub>Authored by Socretez. Special thanks to dominictyg for help with theorycrafting and keeping my sanity in check.</sub>
+
 A schematic database for **Upload Labs**, now focused on **version 2.1.x** builds and end-game progression.
 
 Please read `2.1/info.md` for instructions on how to use the schematics.
