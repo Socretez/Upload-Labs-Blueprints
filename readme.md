@@ -8,6 +8,10 @@ Please read `2.1/info.md` for instructions on how to use the schematics.
 
 If you have any further questions or issues, join the official [Upload Labs Discord](https://discord.com/invite/qPCBgfbMXT) and continue the discussion in `#lab-schematics`.
 
+### 2.1.10 vs 2.1.11
+
+V2.1.11 reduces Optimization Point cost to 1 per node. If you're on mobile (2.1.10) use the guide as is. If you're on PC/Steam (2.1.11) you only need `26` Optimization Points instead of `43`.
+
 ## Official Wiki
 
 Make sure you visit the [Upload Labs Wiki](https://labs-wiki.enigmastudio.dev/en/home)!
