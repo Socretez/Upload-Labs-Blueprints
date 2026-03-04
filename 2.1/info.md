@@ -1,6 +1,6 @@
 # Information
 
-## Version Check - v2.1.10 (February 9th, 2026)
+## Version Check - v2.1.11 (March 2nd, 2026)
 
 ## Schematics for Upload Labs v2.1.x
 
@@ -20,51 +20,49 @@ Download the text file associated with the schematic you want. Open text file â†
 - Brute-force Decryptor
 - Duplicator
 
-### Optimizations (43)
+### Optimizations (26)
 
-| Optimization | Points Needed |
-| :--- | :---: |
-| Optimized Debugging | 3 |
-| Antivirus Pro | 1 |
-| Compression | 2 |
-| Enhancement | 2 |
-| Refinement | 1 |
-| Pre-analysis | 2 |
-| Torrent Browsing | 3 |
-| Trojan Injection | 1 |
-| Learning | 4 |
-| Distillation | 1 |
-| Decompilation | 1 |
-| Decomposition | 1 |
-| Demux | 1 |
-| Scrapping | 1 |
-| Rip | 1 |
-| Unzipping | 1 |
-| Virus Extraction | 1 |
-| Obfuscation | 1 |
-| Redownload | 1 |
-| Torrent Filtering | 2 |
-| Brute-force | 2 |
-| Splicing | 1 |
-| Flipping | 3 |
-| Disassembling | 2 |
-| Imprinting | 2 |
-| Duplication | 2 |
+- Optimized Debugging
+- Antivirus Pro
+- Compression
+- Enhancement
+- Refinement
+- Pre-analysis
+- Torrent Browsing
+- Trojan Injection
+- Learning
+- Distillation
+- Decompilation
+- Decomposition
+- Demux
+- Scrapping
+- Rip
+- Unzipping
+- Virus Extraction
+- Obfuscation
+- Redownload
+- Torrent Filtering
+- Brute-force
+- Splicing
+- Flipping
+- Disassembling
+- Imprinting
+- Duplication
 
 ## Summary
 
 | Code | Points Needed |
 | :--- | :---: |
 | Application | 9 |
-| Optimization | 43 |
+| Optimization | 26 |
 
 ## Auxiliary Achievement Target
 
-`The Works` baseline is `43` Optimization Points.
+`The Works` baseline is `26` Optimization Points.
 
-`Back-End Dev` achievement target is `59` Optimization Points.
+`Back-End Dev` achievement target is `38` Optimization Points.
 
-- Additional Optimization Points needed above The Works baseline (`43 -> 59`): `16`
+- Additional Optimization Points needed above The Works baseline (`26 -> 38`): `12`
 - Standalone schematic path: `2.1/Aux/Back-End Dev.txt`
 - Intent: high-quality Optimization Code generation in an isolated coding schematic
 
@@ -72,8 +70,8 @@ Download the text file associated with the schematic you want. Open text file â†
 
 1. Turn on `Hacking` first (or second with `Coding`) after portal.
 2. In `The Works` hardware toggles, start with Toggle A `ON` and Toggle B `OFF`.
-3. Turn on `Coding` and build until you reach `9` Application Points and `43` Optimization Points.
-4. Purchase required coding/optimization upgrades as soon as they unlock (especially `Optimized Debugging` at 3 Optimization Points).
+3. Turn on `Coding` and build until you reach `9` Application Points and `26` Optimization Points.
+4. Purchase required coding/optimization upgrades as soon as they unlock (especially `Optimized Debugging` with your first Optimization Point).
 5. Once setup purchases are done, switch into production by toggling both A and B as directed in The Works.
 
 ## Recommended AR / Considerations
@@ -85,14 +83,14 @@ I would consider a 1:1:1 AR Offset Ratio. You may go with a +1 GPU Offset to inc
 **Hacking:Research**
 Overall these two should be higher than others; it's worth the extra cost in Advanced Research to increase Hack and Research Nodes by a few offsets from Hardware.
 **Coding**
-You need 9 Application Points and 43 Optimization Points for this setup. Once you are in a comfortable position to get these required points from building Applications and Optimizations, you are done here. You will not need to increase purchases in the future once you are happy with your coding speed (AGI considered, there may be a time down the road when you want to take some points out).
+You need 9 Application Points and 26 Optimization Points for this setup. Once you are in a comfortable position to get these required points from building Applications and Optimizations, you are done here. You will not need to increase purchases in the future once you are happy with your coding speed (AGI considered, there may be a time down the road when you want to take some points out).
 
 | CPU | Network | GPU | Hacking | Research | Coding |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | 1 | 1 | 3 | 3 | 1 |
 | 3 | 3 | 3 | 5 | 6 | 5 |
-| 5 | 5 | 5 | 8 | 8 | 8 |
-| 8 | 8 | 9 | 10 | 11 | 8 |
+| 5 | 5 | 5 | 8 | 8 | 5 |
+| 8 | 8 | 9 | 10 | 11 | 5 |
 
 Note: This chart is **not** a suggested progression path and is for **Reference Only**. It showcases ratio offsets at various Advanced Research investments.
 
@@ -180,7 +178,7 @@ Once reaching the desired Application Points: `9`, pause the whole Node Group.
 - Set Application's `0 / 1 (Build)` Toggle (1:1) to 0:1
 - Unpause Node Group
 
-Once reaching the desired Optimization Points: `43`, pause the whole Node Group.
+Once reaching the desired Optimization Points: `26`, pause the whole Node Group.
 
 - Set `17 / 34 (Build)` Toggle (34:16) to 17:16
   - Set Optimization's `0 / 1 (Build)` Toggle (1:1) to 0:1
