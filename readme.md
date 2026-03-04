@@ -8,10 +8,6 @@ Please read `2.1/info.md` for instructions on how to use the schematics.
 
 If you have any further questions or issues, join the official [Upload Labs Discord](https://discord.com/invite/qPCBgfbMXT) and continue the discussion in `#lab-schematics`.
 
-### 2.1.10 vs 2.1.11
-
-V2.1.11 reduces Optimization Point cost to 1 per node. If you're on mobile (2.1.10) use the guide as is. If you're on PC/Steam (2.1.11) you only need `26` Optimization Points instead of `43`.
-
 ## Official Wiki
 
 Make sure you visit the [Upload Labs Wiki](https://labs-wiki.enigmastudio.dev/en/home)!
@@ -61,7 +57,7 @@ These schematics are not part of `The Works` and are maintained as isolated buil
 ## Version Focus
 
 - **Version Target:** Upload Labs 2.1.x
-  - Current Version: 2.1.10
+  - Current Version: 2.1.11
 
 ## Strategy Shift: 2.0 to 2.1
 
@@ -87,7 +83,7 @@ This architecture is easier to tune, scales better for end-game throughput, and 
 | Code | Points Needed |
 | :--- | :---: |
 | Application | 9 |
-| Optimization | 43 |
+| Optimization | 26 |
 
 ### Applications Tracked in 2.1
 
@@ -103,32 +99,32 @@ This architecture is easier to tune, scales better for end-game throughput, and 
 
 ### Optimization Unlocks Tracked in 2.1
 
-- Optimized Debugging (3)
-- Antivirus Pro (1)
-- Compression (2)
-- Enhancement (2)
-- Refinement (1)
-- Pre-analysis (2)
-- Torrent Browsing (3)
-- Trojan Infection (1)
-- Learning (4)
-- Distillation (1)
-- Decompilation (1)
-- Decomposition (1)
-- Demux (1)
-- Scrapping (1)
-- Rip (1)
-- Unzipping (1)
-- Virus Extraction (1)
-- Obfuscation (1)
-- Redownload (1)
-- Torrent Filtering (2)
-- Brute-force (2)
-- Splicing (1)
-- Flipping (3)
-- Disassembling (2)
-- Imprinting (2)
-- Duplication (2)
+- Optimized Debugging
+- Antivirus Pro
+- Compression
+- Enhancement
+- Refinement
+- Pre-analysis
+- Torrent Browsing
+- Trojan Infection
+- Learning
+- Distillation
+- Decompilation
+- Decomposition
+- Demux
+- Scrapping
+- Rip
+- Unzipping
+- Virus Extraction
+- Obfuscation
+- Redownload
+- Torrent Filtering
+- Brute-force
+- Splicing
+- Flipping
+- Disassembling
+- Imprinting
+- Duplication
 
 ## How to Use Schematics
 
