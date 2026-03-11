@@ -1,0 +1,921 @@
+[schematic]
+
+windows=[{
+"color": 0,
+"container_data": {},
+"custom_icon": "brain",
+"custom_name": "AGI Basic",
+"filename": "window_group.tscn",
+"name": "group44",
+"position": Vector2(5050, 8000),
+"size": Vector2(2150, 1650),
+"window": "group"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/AI": {
+"id": "cd79c6b7ce55",
+"outputs_id": Array[String](["eda05f0d8ca7", "e8543c0bc66e", "a03d0cd94c50"]),
+"resource": "ai",
+"variation": 0
+},
+"PanelContainer/MainContainer/GameNeuron": {
+"id": "86e87999c535",
+"outputs_id": Array[String]([]),
+"resource": "neuron_game",
+"variation": 28
+},
+"PanelContainer/MainContainer/ImageNeuron": {
+"id": "bfa61993ba8d",
+"outputs_id": Array[String]([]),
+"resource": "neuron_image",
+"variation": 28
+},
+"PanelContainer/MainContainer/ProgramNeuron": {
+"id": "91d5156541a9",
+"outputs_id": Array[String]([]),
+"resource": "neuron_program",
+"variation": 28
+},
+"PanelContainer/MainContainer/SoundNeuron": {
+"id": "59864b189496",
+"outputs_id": Array[String]([]),
+"resource": "neuron_sound",
+"variation": 28
+},
+"PanelContainer/MainContainer/TextNeuron": {
+"id": "035f35797dcc",
+"outputs_id": Array[String]([]),
+"resource": "neuron_text",
+"variation": 28
+},
+"PanelContainer/MainContainer/VideoNeuron": {
+"id": "d64291f38ef4",
+"outputs_id": Array[String]([]),
+"resource": "neuron_video",
+"variation": 28
+}
+},
+"filename": "window_agi.tscn",
+"name": "agi1",
+"position": Vector2(6850, 8100),
+"window": "agi"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Output1/Splitted": {
+"id": "7f8d52a47da3",
+"outputs_id": Array[String](["c6fd1ec6bc92", "990eb466996e", "8605f3d0c54e", "71a826ff896f", "26399de8e36e", "8d359f39781f"]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output2/Splitted": {
+"id": "dc2de99b1252",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Splitting": {
+"id": "9c86347d18f9",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+}
+},
+"filename": "window_thread_manager.tscn",
+"name": "thread_manager22",
+"position": Vector2(5050, 8100),
+"ratio": 1.0,
+"ratio2": 1.0,
+"window": "thread_manager"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Output1/Splitted": {
+"id": "1e0e6c0e3495",
+"outputs_id": Array[String](["3cd4c9f85f07", "973aafde2d7d", "a5418aba6622", "a9c42ed53821", "49c101be0d8c", "d0d1bc4da643"]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output2/Splitted": {
+"id": "3c0f95c641ff",
+"outputs_id": Array[String](["a5988638b354", "0fc5c3f05cf0", "6cffe8348b5c", "dbb0a123380f", "396f8bcccecc", "b9f04adf7fad"]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Splitting": {
+"id": "1b72f1282b98",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+}
+},
+"filename": "window_gpu_manager.tscn",
+"name": "gpu_manager1",
+"position": Vector2(5050, 8400),
+"ratio": 1.0,
+"ratio2": 4.0,
+"window": "gpu_manager"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Download": {
+"id": "382b82a45944",
+"outputs_id": Array[String]([]),
+"resource": "download_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "d8c3c077c33c",
+"outputs_id": Array[String](["3e601c1c21e3"]),
+"resource": "text",
+"variation": 0
+}
+},
+"filename": "window_download_text.tscn",
+"name": "download_text0",
+"position": Vector2(5450, 8100),
+"window": "download_text"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Output1/Splitted": {
+"id": "2cba4490aab9",
+"outputs_id": Array[String](["382b82a45944", "94201b5bbace", "de8f682a5142", "eb3457550046", "81b3e7dd66ee", "c4b83c5c5ca9"]),
+"resource": "download_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output2/Splitted": {
+"id": "ce0f69b212e0",
+"outputs_id": Array[String]([]),
+"resource": "download_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Splitting": {
+"id": "da3636a8b0b1",
+"outputs_id": Array[String]([]),
+"resource": "download_speed",
+"variation": 0
+}
+},
+"filename": "window_download_limiter.tscn",
+"name": "download_limiter0",
+"position": Vector2(5050, 8700),
+"ratio": 1.0,
+"ratio2": 0.0,
+"window": "download_limiter"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Clock": {
+"id": "8605f3d0c54e",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "3649aa288a81",
+"outputs_id": Array[String]([]),
+"resource": "sound",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "839fbfb2feb7",
+"outputs_id": Array[String](["b43d87bf3451"]),
+"resource": "sound",
+"variation": 28
+}
+},
+"filename": "window_compressor_max.tscn",
+"name": "compressor_max7",
+"position": Vector2(5850, 9000),
+"window": "compressor_max"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Clock": {
+"id": "71a826ff896f",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "3cddd904acb5",
+"outputs_id": Array[String]([]),
+"resource": "video",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "02eee4db92a2",
+"outputs_id": Array[String](["1a5aec71e0c7"]),
+"resource": "video",
+"variation": 28
+}
+},
+"filename": "window_compressor_max.tscn",
+"name": "compressor_max8",
+"position": Vector2(6350, 8100),
+"window": "compressor_max"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Clock": {
+"id": "26399de8e36e",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "173b9a999270",
+"outputs_id": Array[String]([]),
+"resource": "program",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "8fa8f080b269",
+"outputs_id": Array[String](["459b8145a9cf"]),
+"resource": "program",
+"variation": 28
+}
+},
+"filename": "window_compressor_max.tscn",
+"name": "compressor_max9",
+"position": Vector2(6350, 8550),
+"window": "compressor_max"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Clock": {
+"id": "8d359f39781f",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "4d6864ee668b",
+"outputs_id": Array[String]([]),
+"resource": "game",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "c6e6427b117b",
+"outputs_id": Array[String](["106fc721125a"]),
+"resource": "game",
+"variation": 28
+}
+},
+"filename": "window_compressor_max.tscn",
+"name": "compressor_max10",
+"position": Vector2(6350, 9000),
+"window": "compressor_max"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/AI": {
+"id": "e8543c0bc66e",
+"outputs_id": Array[String]([]),
+"resource": "ai",
+"variation": 0
+},
+"PanelContainer/MainContainer/Boost": {
+"id": "92472182fa1e",
+"outputs_id": Array[String]([]),
+"resource": "boost_hack",
+"variation": 0
+}
+},
+"filename": "window_boost_hack.tscn",
+"name": "hack1",
+"position": Vector2(6850, 8900),
+"window": "hack"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/AI": {
+"id": "eda05f0d8ca7",
+"outputs_id": Array[String]([]),
+"resource": "ai",
+"variation": 0
+},
+"PanelContainer/MainContainer/Boost": {
+"id": "60d7f75b512f",
+"outputs_id": Array[String]([]),
+"resource": "boost_research",
+"variation": 0
+}
+},
+"filename": "window_boost_research.tscn",
+"name": "research1",
+"position": Vector2(6850, 8700),
+"window": "research"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Download": {
+"id": "94201b5bbace",
+"outputs_id": Array[String]([]),
+"resource": "download_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "658de036bd9c",
+"outputs_id": Array[String](["71b125e74de0"]),
+"resource": "image",
+"variation": 0
+}
+},
+"filename": "window_download_image.tscn",
+"name": "download_image0",
+"position": Vector2(5450, 8350),
+"window": "download_image"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Download": {
+"id": "de8f682a5142",
+"outputs_id": Array[String]([]),
+"resource": "download_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "c0d55dc3150a",
+"outputs_id": Array[String](["3649aa288a81"]),
+"resource": "sound",
+"variation": 0
+}
+},
+"filename": "window_download_sound.tscn",
+"name": "download_sound0",
+"position": Vector2(5450, 8600),
+"window": "download_sound"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Download": {
+"id": "eb3457550046",
+"outputs_id": Array[String]([]),
+"resource": "download_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "8680c65d8f2b",
+"outputs_id": Array[String](["3cddd904acb5"]),
+"resource": "video",
+"variation": 0
+}
+},
+"filename": "window_download_video.tscn",
+"name": "download_video0",
+"position": Vector2(5450, 8850),
+"window": "download_video"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Download": {
+"id": "81b3e7dd66ee",
+"outputs_id": Array[String]([]),
+"resource": "download_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "4cb1ad680b78",
+"outputs_id": Array[String](["173b9a999270"]),
+"resource": "program",
+"variation": 0
+}
+},
+"filename": "window_download_program.tscn",
+"name": "download_program0",
+"position": Vector2(5450, 9100),
+"window": "download_program"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Download": {
+"id": "c4b83c5c5ca9",
+"outputs_id": Array[String]([]),
+"resource": "download_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "d72f2d0f47ea",
+"outputs_id": Array[String](["4d6864ee668b"]),
+"resource": "game",
+"variation": 0
+}
+},
+"filename": "window_download_game.tscn",
+"name": "download_game0",
+"position": Vector2(5450, 9350),
+"window": "download_game"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Clock": {
+"id": "990eb466996e",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "71b125e74de0",
+"outputs_id": Array[String]([]),
+"resource": "image",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "f376247d47bc",
+"outputs_id": Array[String](["6ff2507b46ea"]),
+"resource": "image",
+"variation": 28
+}
+},
+"filename": "window_compressor_max.tscn",
+"name": "compressor_max6",
+"position": Vector2(5850, 8550),
+"window": "compressor_max"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Clock": {
+"id": "973aafde2d7d",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "6ff2507b46ea",
+"outputs_id": Array[String]([]),
+"resource": "image",
+"variation": 28
+},
+"PanelContainer/MainContainer/Output": {
+"id": "00e7eb78c8e0",
+"outputs_id": Array[String](["91c42d2292ac"]),
+"resource": "image",
+"variation": 1052
+}
+},
+"filename": "window_distillator.tscn",
+"name": "distillator3",
+"position": Vector2(5900, 8600),
+"window": "distillator"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/File": {
+"id": "91c42d2292ac",
+"outputs_id": Array[String]([]),
+"resource": "image",
+"variation": 1052
+},
+"PanelContainer/MainContainer/GPU": {
+"id": "0fc5c3f05cf0",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Neurons": {
+"id": "9658803a38a3",
+"outputs_id": Array[String](["bfa61993ba8d"]),
+"resource": "neuron_image",
+"variation": 28
+}
+},
+"filename": "window_trainer.tscn",
+"name": "trainer4",
+"position": Vector2(5950, 8650),
+"window": "trainer"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Clock": {
+"id": "a5418aba6622",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "b43d87bf3451",
+"outputs_id": Array[String]([]),
+"resource": "sound",
+"variation": 28
+},
+"PanelContainer/MainContainer/Output": {
+"id": "2376a0448a54",
+"outputs_id": Array[String](["ba019152c592"]),
+"resource": "sound",
+"variation": 1052
+}
+},
+"filename": "window_distillator.tscn",
+"name": "distillator4",
+"position": Vector2(5900, 9050),
+"window": "distillator"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/File": {
+"id": "ba019152c592",
+"outputs_id": Array[String]([]),
+"resource": "sound",
+"variation": 1052
+},
+"PanelContainer/MainContainer/GPU": {
+"id": "6cffe8348b5c",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Neurons": {
+"id": "bc9de714f54c",
+"outputs_id": Array[String](["59864b189496"]),
+"resource": "neuron_sound",
+"variation": 28
+}
+},
+"filename": "window_trainer.tscn",
+"name": "trainer6",
+"position": Vector2(5950, 9100),
+"window": "trainer"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Clock": {
+"id": "a9c42ed53821",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "1a5aec71e0c7",
+"outputs_id": Array[String]([]),
+"resource": "video",
+"variation": 28
+},
+"PanelContainer/MainContainer/Output": {
+"id": "255068f3db25",
+"outputs_id": Array[String](["f85ba8684a6a"]),
+"resource": "video",
+"variation": 1052
+}
+},
+"filename": "window_distillator.tscn",
+"name": "distillator5",
+"position": Vector2(6400, 8150),
+"window": "distillator"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/File": {
+"id": "f85ba8684a6a",
+"outputs_id": Array[String]([]),
+"resource": "video",
+"variation": 1052
+},
+"PanelContainer/MainContainer/GPU": {
+"id": "dbb0a123380f",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Neurons": {
+"id": "9828071d08de",
+"outputs_id": Array[String](["d64291f38ef4"]),
+"resource": "neuron_video",
+"variation": 28
+}
+},
+"filename": "window_trainer.tscn",
+"name": "trainer5",
+"position": Vector2(6450, 8200),
+"window": "trainer"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Clock": {
+"id": "49c101be0d8c",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "459b8145a9cf",
+"outputs_id": Array[String]([]),
+"resource": "program",
+"variation": 28
+},
+"PanelContainer/MainContainer/Output": {
+"id": "a027fe83fbc5",
+"outputs_id": Array[String](["62248cd2407b"]),
+"resource": "program",
+"variation": 1052
+}
+},
+"filename": "window_distillator.tscn",
+"name": "distillator6",
+"position": Vector2(6400, 8600),
+"window": "distillator"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/File": {
+"id": "62248cd2407b",
+"outputs_id": Array[String]([]),
+"resource": "program",
+"variation": 1052
+},
+"PanelContainer/MainContainer/GPU": {
+"id": "396f8bcccecc",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Neurons": {
+"id": "f31400c1ac0b",
+"outputs_id": Array[String](["91d5156541a9"]),
+"resource": "neuron_program",
+"variation": 28
+}
+},
+"filename": "window_trainer.tscn",
+"name": "trainer7",
+"position": Vector2(6450, 8650),
+"window": "trainer"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Clock": {
+"id": "d0d1bc4da643",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "106fc721125a",
+"outputs_id": Array[String]([]),
+"resource": "game",
+"variation": 28
+},
+"PanelContainer/MainContainer/Output": {
+"id": "0c66db8a3fc9",
+"outputs_id": Array[String](["9b83d34d3907"]),
+"resource": "game",
+"variation": 1052
+}
+},
+"filename": "window_distillator.tscn",
+"name": "distillator7",
+"position": Vector2(6400, 9050),
+"window": "distillator"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/File": {
+"id": "9b83d34d3907",
+"outputs_id": Array[String]([]),
+"resource": "game",
+"variation": 1052
+},
+"PanelContainer/MainContainer/GPU": {
+"id": "b9f04adf7fad",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Neurons": {
+"id": "6a387a0f8103",
+"outputs_id": Array[String](["86e87999c535"]),
+"resource": "neuron_game",
+"variation": 28
+}
+},
+"filename": "window_trainer.tscn",
+"name": "trainer8",
+"position": Vector2(6450, 9100),
+"window": "trainer"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/AI": {
+"id": "a03d0cd94c50",
+"outputs_id": Array[String]([]),
+"resource": "ai",
+"variation": 0
+},
+"PanelContainer/MainContainer/Boost": {
+"id": "04925e818a96",
+"outputs_id": Array[String]([]),
+"resource": "boost_code",
+"variation": 0
+}
+},
+"filename": "window_boost_code.tscn",
+"name": "code1",
+"position": Vector2(6850, 9100),
+"window": "code"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Clock": {
+"id": "c6fd1ec6bc92",
+"outputs_id": Array[String]([]),
+"resource": "clock_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "3e601c1c21e3",
+"outputs_id": Array[String]([]),
+"resource": "text",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "7baf9deb9e91",
+"outputs_id": Array[String](["489be0eed84c"]),
+"resource": "text",
+"variation": 28
+}
+},
+"filename": "window_compressor_max.tscn",
+"name": "compressor_max0",
+"position": Vector2(5850, 8100),
+"window": "compressor_max"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Clock": {
+"id": "3cd4c9f85f07",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/File": {
+"id": "489be0eed84c",
+"outputs_id": Array[String]([]),
+"resource": "text",
+"variation": 28
+},
+"PanelContainer/MainContainer/Output": {
+"id": "625f4523d1a4",
+"outputs_id": Array[String](["fb7061ceb996"]),
+"resource": "text",
+"variation": 1052
+}
+},
+"filename": "window_distillator.tscn",
+"name": "distillator0",
+"position": Vector2(5900, 8150),
+"window": "distillator"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/File": {
+"id": "fb7061ceb996",
+"outputs_id": Array[String]([]),
+"resource": "text",
+"variation": 1052
+},
+"PanelContainer/MainContainer/GPU": {
+"id": "a5988638b354",
+"outputs_id": Array[String]([]),
+"resource": "gpu_speed",
+"variation": 0
+},
+"PanelContainer/MainContainer/Neurons": {
+"id": "edf6539460b6",
+"outputs_id": Array[String](["035f35797dcc"]),
+"resource": "neuron_text",
+"variation": 28
+}
+},
+"filename": "window_trainer.tscn",
+"name": "trainer0",
+"position": Vector2(5950, 8200),
+"window": "trainer"
+}]
+connectors={
+"035f35797dcc": {
+"custom_points": Array[Vector2]([])
+},
+"0fc5c3f05cf0": {
+"custom_points": Array[Vector2]([])
+},
+"106fc721125a": {
+"custom_points": Array[Vector2]([])
+},
+"173b9a999270": {
+"custom_points": Array[Vector2]([])
+},
+"1a5aec71e0c7": {
+"custom_points": Array[Vector2]([])
+},
+"26399de8e36e": {
+"custom_points": Array[Vector2]([])
+},
+"3649aa288a81": {
+"custom_points": Array[Vector2]([])
+},
+"382b82a45944": {
+"custom_points": Array[Vector2]([])
+},
+"396f8bcccecc": {
+"custom_points": Array[Vector2]([])
+},
+"3cd4c9f85f07": {
+"custom_points": Array[Vector2]([])
+},
+"3cddd904acb5": {
+"custom_points": Array[Vector2]([])
+},
+"3e601c1c21e3": {
+"custom_points": Array[Vector2]([])
+},
+"459b8145a9cf": {
+"custom_points": Array[Vector2]([])
+},
+"489be0eed84c": {
+"custom_points": Array[Vector2]([])
+},
+"49c101be0d8c": {
+"custom_points": Array[Vector2]([])
+},
+"4d6864ee668b": {
+"custom_points": Array[Vector2]([])
+},
+"59864b189496": {
+"custom_points": Array[Vector2]([])
+},
+"62248cd2407b": {
+"custom_points": Array[Vector2]([])
+},
+"6cffe8348b5c": {
+"custom_points": Array[Vector2]([])
+},
+"6ff2507b46ea": {
+"custom_points": Array[Vector2]([])
+},
+"71a826ff896f": {
+"custom_points": Array[Vector2]([])
+},
+"71b125e74de0": {
+"custom_points": Array[Vector2]([])
+},
+"81b3e7dd66ee": {
+"custom_points": Array[Vector2]([])
+},
+"8605f3d0c54e": {
+"custom_points": Array[Vector2]([])
+},
+"86e87999c535": {
+"custom_points": Array[Vector2]([])
+},
+"8d359f39781f": {
+"custom_points": Array[Vector2]([])
+},
+"91c42d2292ac": {
+"custom_points": Array[Vector2]([])
+},
+"91d5156541a9": {
+"custom_points": Array[Vector2]([])
+},
+"94201b5bbace": {
+"custom_points": Array[Vector2]([])
+},
+"973aafde2d7d": {
+"custom_points": Array[Vector2]([])
+},
+"990eb466996e": {
+"custom_points": Array[Vector2]([])
+},
+"9b83d34d3907": {
+"custom_points": Array[Vector2]([])
+},
+"a03d0cd94c50": {
+"custom_points": Array[Vector2]([])
+},
+"a5418aba6622": {
+"custom_points": Array[Vector2]([])
+},
+"a5988638b354": {
+"custom_points": Array[Vector2]([])
+},
+"a9c42ed53821": {
+"custom_points": Array[Vector2]([])
+},
+"b43d87bf3451": {
+"custom_points": Array[Vector2]([])
+},
+"b9f04adf7fad": {
+"custom_points": Array[Vector2]([])
+},
+"ba019152c592": {
+"custom_points": Array[Vector2]([])
+},
+"bfa61993ba8d": {
+"custom_points": Array[Vector2]([])
+},
+"c4b83c5c5ca9": {
+"custom_points": Array[Vector2]([])
+},
+"c6fd1ec6bc92": {
+"custom_points": Array[Vector2]([])
+},
+"d0d1bc4da643": {
+"custom_points": Array[Vector2]([])
+},
+"d64291f38ef4": {
+"custom_points": Array[Vector2]([])
+},
+"dbb0a123380f": {
+"custom_points": Array[Vector2]([])
+},
+"de8f682a5142": {
+"custom_points": Array[Vector2]([])
+},
+"e8543c0bc66e": {
+"custom_points": Array[Vector2]([])
+},
+"eb3457550046": {
+"custom_points": Array[Vector2]([])
+},
+"eda05f0d8ca7": {
+"custom_points": Array[Vector2]([])
+},
+"f85ba8684a6a": {
+"custom_points": Array[Vector2]([])
+},
+"fb7061ceb996": {
+"custom_points": Array[Vector2]([])
+}
+}
+rect=Rect2(5050, 8000, 2150, 1650)
+icon="brain"
