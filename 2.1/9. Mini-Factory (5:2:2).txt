@@ -32,49 +32,6 @@ windows=[{
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Input/0": {
-"id": "88edb04b4e91",
-"outputs_id": Array[String]([]),
-"resource": "router",
-"variation": 0
-},
-"PanelContainer/MainContainer/Input/1": {
-"id": "ef990cea88ce",
-"outputs_id": Array[String]([]),
-"resource": "router",
-"variation": 0
-},
-"PanelContainer/MainContainer/Input/2": {
-"id": "160b2550f758",
-"outputs_id": Array[String]([]),
-"resource": "router",
-"variation": 0
-},
-"PanelContainer/MainContainer/Input/3": {
-"id": "fcd1e6d34de4",
-"outputs_id": Array[String]([]),
-"resource": "router",
-"variation": 0
-},
-"PanelContainer/MainContainer/Input/4": {
-"id": "849007e6bb14",
-"outputs_id": Array[String]([]),
-"resource": "router",
-"variation": 0
-},
-"PanelContainer/MainContainer/Output": {
-"id": "41ee95ab06b0",
-"outputs_id": Array[String](["e60adb25e048"]),
-"resource": "router",
-"variation": 0
-}
-},
-"filename": "window_container.tscn",
-"name": "container2",
-"position": Vector2(8850, 4400),
-"window": "container"
-}, {
-"container_data": {
-"PanelContainer/MainContainer/Input/0": {
 "id": "99c5867bff7b",
 "outputs_id": Array[String]([]),
 "resource": "gpu",
@@ -113,7 +70,7 @@ windows=[{
 },
 "filename": "window_container.tscn",
 "name": "container1",
-"position": Vector2(8850, 3900),
+"position": Vector2(8900, 3900),
 "window": "container"
 }, {
 "container_data": {
@@ -393,33 +350,6 @@ windows=[{
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Output1/Splitted": {
-"id": "6011abe45588",
-"outputs_id": Array[String](["b690f0b1f46f"]),
-"resource": "money",
-"variation": 0
-},
-"PanelContainer/MainContainer/Output2/Splitted": {
-"id": "85eaf1133e4d",
-"outputs_id": Array[String](["266ec6bfb540"]),
-"resource": "money",
-"variation": 0
-},
-"PanelContainer/MainContainer/Splitting": {
-"id": "33df159df445",
-"outputs_id": Array[String]([]),
-"resource": "money",
-"variation": 0
-}
-},
-"filename": "window_splitter.tscn",
-"name": "splitter1",
-"position": Vector2(8050, 1650),
-"ratio": 75.0,
-"ratio2": 25.0,
-"window": "splitter"
-}, {
-"container_data": {
-"PanelContainer/MainContainer/Output1/Splitted": {
 "id": "fff3c2c4fac5",
 "outputs_id": Array[String](["1d63e82976fa"]),
 "resource": "money",
@@ -441,9 +371,282 @@ windows=[{
 "filename": "window_splitter.tscn",
 "name": "_VBoxContainer_18979",
 "position": Vector2(8050, 2600),
-"ratio": 75.0,
-"ratio2": 25.0,
+"ratio": 1.0,
+"ratio2": 0.0,
 "window": "splitter"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Materials/PCB": {
+"id": "ef42f3777a64",
+"outputs_id": Array[String]([]),
+"resource": "pcb",
+"variation": 0
+},
+"PanelContainer/MainContainer/Materials/Transistor": {
+"id": "152758c4875a",
+"outputs_id": Array[String]([]),
+"resource": "transistor",
+"variation": 0
+},
+"PanelContainer/MainContainer/Product": {
+"id": "e8c996387b95",
+"outputs_id": Array[String](["99c5867bff7b"]),
+"resource": "gpu",
+"variation": 0
+},
+"PanelContainer/MainContainer/Speed": {
+"id": "1c8aa11893b7",
+"outputs_id": Array[String]([]),
+"resource": "work_speed",
+"variation": 0
+}
+},
+"filename": "window_gpu_assembler.tscn",
+"name": "gpu_assembler0",
+"position": Vector2(8250, 3900),
+"window": "gpu_assembler"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Materials/PCB": {
+"id": "4fa717956d06",
+"outputs_id": Array[String]([]),
+"resource": "pcb",
+"variation": 0
+},
+"PanelContainer/MainContainer/Materials/Transistor": {
+"id": "7c4261049a5f",
+"outputs_id": Array[String]([]),
+"resource": "transistor",
+"variation": 0
+},
+"PanelContainer/MainContainer/Product": {
+"id": "f4da7c311953",
+"outputs_id": Array[String](["2616a0a7409c"]),
+"resource": "gpu",
+"variation": 0
+},
+"PanelContainer/MainContainer/Speed": {
+"id": "c34c97430eb6",
+"outputs_id": Array[String]([]),
+"resource": "work_speed",
+"variation": 0
+}
+},
+"filename": "window_gpu_assembler.tscn",
+"name": "gpu_assembler1",
+"position": Vector2(8300, 3950),
+"window": "gpu_assembler"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input/0": {
+"id": "7ec81ef53c05",
+"outputs_id": Array[String]([]),
+"resource": "cpu_core",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/1": {
+"id": "f8b3a153cfcc",
+"outputs_id": Array[String]([]),
+"resource": "cpu_core",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/2": {
+"id": "7a307050f3d6",
+"outputs_id": Array[String]([]),
+"resource": "cpu_core",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/3": {
+"id": "547c2928d3a8",
+"outputs_id": Array[String]([]),
+"resource": "cpu_core",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/4": {
+"id": "0743e9c93690",
+"outputs_id": Array[String]([]),
+"resource": "cpu_core",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "aab49f9b78c3",
+"outputs_id": Array[String]([]),
+"resource": "cpu_core",
+"variation": 0
+}
+},
+"filename": "window_container.tscn",
+"name": "container0",
+"position": Vector2(8900, 3450),
+"window": "container"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Materials/Transistor": {
+"id": "d0a751dac552",
+"outputs_id": Array[String]([]),
+"resource": "transistor",
+"variation": 0
+},
+"PanelContainer/MainContainer/Product": {
+"id": "7f6d69fa088f",
+"outputs_id": Array[String](["f8b3a153cfcc"]),
+"resource": "cpu_core",
+"variation": 0
+},
+"PanelContainer/MainContainer/Speed": {
+"id": "d9943fc64482",
+"outputs_id": Array[String]([]),
+"resource": "work_speed",
+"variation": 0
+}
+},
+"filename": "window_cpu_core_assembler.tscn",
+"name": "cpu_core_assembler1",
+"position": Vector2(8300, 3500),
+"window": "cpu_core_assembler"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Output1/Splitted": {
+"id": "6011abe45588",
+"outputs_id": Array[String](["b690f0b1f46f"]),
+"resource": "money",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output2/Splitted": {
+"id": "85eaf1133e4d",
+"outputs_id": Array[String](["266ec6bfb540"]),
+"resource": "money",
+"variation": 0
+},
+"PanelContainer/MainContainer/Splitting": {
+"id": "33df159df445",
+"outputs_id": Array[String]([]),
+"resource": "money",
+"variation": 0
+}
+},
+"filename": "window_splitter.tscn",
+"name": "splitter1",
+"position": Vector2(8050, 1650),
+"ratio": 50.0,
+"ratio2": 50.0,
+"window": "splitter"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input/0": {
+"id": "88edb04b4e91",
+"outputs_id": Array[String]([]),
+"resource": "router",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/1": {
+"id": "ef990cea88ce",
+"outputs_id": Array[String]([]),
+"resource": "router",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/2": {
+"id": "160b2550f758",
+"outputs_id": Array[String]([]),
+"resource": "router",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/3": {
+"id": "fcd1e6d34de4",
+"outputs_id": Array[String]([]),
+"resource": "router",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/4": {
+"id": "849007e6bb14",
+"outputs_id": Array[String]([]),
+"resource": "router",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "41ee95ab06b0",
+"outputs_id": Array[String](["e60adb25e048"]),
+"resource": "router",
+"variation": 0
+}
+},
+"filename": "window_container.tscn",
+"name": "container2",
+"position": Vector2(8900, 4400),
+"window": "container"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input/0": {
+"id": "e60adb25e048",
+"outputs_id": Array[String]([]),
+"resource": "router",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/1": {
+"id": "d4bd8fa80ce8",
+"outputs_id": Array[String]([]),
+"resource": "router",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/2": {
+"id": "d744d05fbbd5",
+"outputs_id": Array[String]([]),
+"resource": "router",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/3": {
+"id": "42f9c6276488",
+"outputs_id": Array[String]([]),
+"resource": "router",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input/4": {
+"id": "4152616ee515",
+"outputs_id": Array[String]([]),
+"resource": "router",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output": {
+"id": "08baee27605e",
+"outputs_id": Array[String]([]),
+"resource": "router",
+"variation": 0
+}
+},
+"filename": "window_container.tscn",
+"name": "container3",
+"position": Vector2(8900, 4900),
+"window": "container"
+}, {
+"color": 0,
+"container_data": {},
+"custom_icon": "",
+"custom_name": "Master Toggle",
+"filename": "window_group.tscn",
+"name": "group26",
+"position": Vector2(8050, 1550),
+"size": Vector2(1150, 1850),
+"window": "group"
+}, {
+"color": 1,
+"container_data": {},
+"custom_icon": "",
+"custom_name": "Toggle A",
+"filename": "window_group.tscn",
+"name": "group2",
+"position": Vector2(8050, 1600),
+"size": Vector2(1150, 900),
+"window": "group"
+}, {
+"color": 1,
+"container_data": {},
+"custom_icon": "",
+"custom_name": "Toggle B",
+"filename": "window_group.tscn",
+"name": "group15",
+"position": Vector2(8050, 2550),
+"size": Vector2(1150, 800),
+"window": "group"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Materials/PCB": {
@@ -569,209 +772,6 @@ windows=[{
 "name": "router_assembler4",
 "position": Vector2(8450, 4600),
 "window": "router_assembler"
-}, {
-"container_data": {
-"PanelContainer/MainContainer/Materials/PCB": {
-"id": "ef42f3777a64",
-"outputs_id": Array[String]([]),
-"resource": "pcb",
-"variation": 0
-},
-"PanelContainer/MainContainer/Materials/Transistor": {
-"id": "152758c4875a",
-"outputs_id": Array[String]([]),
-"resource": "transistor",
-"variation": 0
-},
-"PanelContainer/MainContainer/Product": {
-"id": "e8c996387b95",
-"outputs_id": Array[String](["99c5867bff7b"]),
-"resource": "gpu",
-"variation": 0
-},
-"PanelContainer/MainContainer/Speed": {
-"id": "1c8aa11893b7",
-"outputs_id": Array[String]([]),
-"resource": "work_speed",
-"variation": 0
-}
-},
-"filename": "window_gpu_assembler.tscn",
-"name": "gpu_assembler0",
-"position": Vector2(8250, 3900),
-"window": "gpu_assembler"
-}, {
-"container_data": {
-"PanelContainer/MainContainer/Materials/PCB": {
-"id": "4fa717956d06",
-"outputs_id": Array[String]([]),
-"resource": "pcb",
-"variation": 0
-},
-"PanelContainer/MainContainer/Materials/Transistor": {
-"id": "7c4261049a5f",
-"outputs_id": Array[String]([]),
-"resource": "transistor",
-"variation": 0
-},
-"PanelContainer/MainContainer/Product": {
-"id": "f4da7c311953",
-"outputs_id": Array[String](["2616a0a7409c"]),
-"resource": "gpu",
-"variation": 0
-},
-"PanelContainer/MainContainer/Speed": {
-"id": "c34c97430eb6",
-"outputs_id": Array[String]([]),
-"resource": "work_speed",
-"variation": 0
-}
-},
-"filename": "window_gpu_assembler.tscn",
-"name": "gpu_assembler1",
-"position": Vector2(8300, 3950),
-"window": "gpu_assembler"
-}, {
-"container_data": {
-"PanelContainer/MainContainer/Input/0": {
-"id": "7ec81ef53c05",
-"outputs_id": Array[String]([]),
-"resource": "cpu_core",
-"variation": 0
-},
-"PanelContainer/MainContainer/Input/1": {
-"id": "f8b3a153cfcc",
-"outputs_id": Array[String]([]),
-"resource": "cpu_core",
-"variation": 0
-},
-"PanelContainer/MainContainer/Input/2": {
-"id": "7a307050f3d6",
-"outputs_id": Array[String]([]),
-"resource": "cpu_core",
-"variation": 0
-},
-"PanelContainer/MainContainer/Input/3": {
-"id": "547c2928d3a8",
-"outputs_id": Array[String]([]),
-"resource": "cpu_core",
-"variation": 0
-},
-"PanelContainer/MainContainer/Input/4": {
-"id": "0743e9c93690",
-"outputs_id": Array[String]([]),
-"resource": "cpu_core",
-"variation": 0
-},
-"PanelContainer/MainContainer/Output": {
-"id": "aab49f9b78c3",
-"outputs_id": Array[String]([]),
-"resource": "cpu_core",
-"variation": 0
-}
-},
-"filename": "window_container.tscn",
-"name": "container0",
-"position": Vector2(8850, 3450),
-"window": "container"
-}, {
-"container_data": {
-"PanelContainer/MainContainer/Input/0": {
-"id": "e60adb25e048",
-"outputs_id": Array[String]([]),
-"resource": "router",
-"variation": 0
-},
-"PanelContainer/MainContainer/Input/1": {
-"id": "d4bd8fa80ce8",
-"outputs_id": Array[String]([]),
-"resource": "router",
-"variation": 0
-},
-"PanelContainer/MainContainer/Input/2": {
-"id": "d744d05fbbd5",
-"outputs_id": Array[String]([]),
-"resource": "router",
-"variation": 0
-},
-"PanelContainer/MainContainer/Input/3": {
-"id": "42f9c6276488",
-"outputs_id": Array[String]([]),
-"resource": "router",
-"variation": 0
-},
-"PanelContainer/MainContainer/Input/4": {
-"id": "4152616ee515",
-"outputs_id": Array[String]([]),
-"resource": "router",
-"variation": 0
-},
-"PanelContainer/MainContainer/Output": {
-"id": "08baee27605e",
-"outputs_id": Array[String]([]),
-"resource": "router",
-"variation": 0
-}
-},
-"filename": "window_container.tscn",
-"name": "container3",
-"position": Vector2(8850, 4900),
-"window": "container"
-}, {
-"color": 0,
-"container_data": {},
-"custom_icon": "",
-"custom_name": "Master Toggle",
-"filename": "window_group.tscn",
-"name": "group26",
-"position": Vector2(8050, 1550),
-"size": Vector2(1150, 1850),
-"window": "group"
-}, {
-"container_data": {
-"PanelContainer/MainContainer/Materials/Transistor": {
-"id": "d0a751dac552",
-"outputs_id": Array[String]([]),
-"resource": "transistor",
-"variation": 0
-},
-"PanelContainer/MainContainer/Product": {
-"id": "7f6d69fa088f",
-"outputs_id": Array[String](["f8b3a153cfcc"]),
-"resource": "cpu_core",
-"variation": 0
-},
-"PanelContainer/MainContainer/Speed": {
-"id": "d9943fc64482",
-"outputs_id": Array[String]([]),
-"resource": "work_speed",
-"variation": 0
-}
-},
-"filename": "window_cpu_core_assembler.tscn",
-"name": "cpu_core_assembler1",
-"position": Vector2(8300, 3500),
-"window": "cpu_core_assembler"
-}, {
-"color": 1,
-"container_data": {},
-"custom_icon": "",
-"custom_name": "Toggle A",
-"filename": "window_group.tscn",
-"name": "group2",
-"position": Vector2(8050, 1600),
-"size": Vector2(1150, 900),
-"window": "group"
-}, {
-"color": 1,
-"container_data": {},
-"custom_icon": "",
-"custom_name": "Toggle B",
-"filename": "window_group.tscn",
-"name": "group15",
-"position": Vector2(8050, 2550),
-"size": Vector2(1150, 800),
-"window": "group"
 }]
 connectors={
 "152758c4875a": {
