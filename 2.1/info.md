@@ -8,6 +8,8 @@ The following information is a companion guide to the text file schematics locat
 
 Download the text file associated with the schematic you want. Open text file → Select All / Copy → In-Game Import. If you fail to copy the whole text file contents into your clipboard, your import will fail.
 
+**Note:** If you are chosing to use the Works 1.0 or 2.0, there may be different instructions.
+
 ### Applications (9)
 
 - Virus Extractor
@@ -68,6 +70,8 @@ Download the text file associated with the schematic you want. Open text file �
 
 ## First-Run Order (Quick Start)
 
+### The Works 1.0 - 5:2:2 Setup
+
 1. Turn on `Hacking` first (or second with `Coding`) after portal.
 2. In `The Works` hardware toggles, start with Toggle A `ON` and Toggle B `OFF`.
 3. Turn on `Coding` and build until you reach `9` Application Points and `26` Optimization Points.
@@ -111,11 +115,13 @@ Note: This chart is **not** a suggested progression path and is for **Reference 
 1. `2.1/Aux/Back-End Dev.txt`
 2. `AGI Auxiliary Starter Kit` (WIP)
 
-### The Works (292 Nodes)
+### The Works (305 Nodes)
 
 This schematic holds all others. Specific Works-Wide notes can be found in individual sections below.
 
 #### Hardware
+
+### The Works 1.0 - 5:2:2 Setup
 
 This Node Group houses the resource generating nodes for Network(5), CPU(2), and GPU(2). It features overclocking for 5:2:2 Hardware setup and CPU Processing Seller/ GPU Mine Tether for early-game ramp up.
 
@@ -125,6 +131,8 @@ This Node Group houses the resource generating nodes for Network(5), CPU(2), and
 The Works: Toggle Group A exports money to Main Production's Inventory (and then to Mini-Factory). Start the Run with Toggle A `ON` and Toggle B `OFF`. Once all your applications, optimizations, upgrade menu purchases are completed, you can toggle both A and B to turn on Production.
 
 #### Main Production
+
+### The Works 1.0 - 5:2:2 Setup
 
 This Node Group generates, processes, and uploads files for Money and Infected Computers. It consists of two sections:
 
@@ -187,6 +195,8 @@ Once reaching the desired Optimization Points: `26`, pause the whole Node Group.
 The Works: This Node Group receives Code Boost from the AGI Node Group. The default state of this schematic is in "running mode" which would be the mode you would be using for the majority of the run. **Consider the instructions above when starting a run.**
 
 #### Mini Factory
+
+### The Works 1.0 - 5:2:2 Setup
 
 This factory has two Toggle Groups.
 **Ensure you are using ONE Toggle Group at a time**
