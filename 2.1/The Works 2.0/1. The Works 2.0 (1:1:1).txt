@@ -767,7 +767,7 @@ windows=[{
 "filename": "window_if.tscn",
 "name": "if00000000000",
 "position": Vector2(700, 5700),
-"ratio": 17.0,
+"ratio": 34.0,
 "ratio2": 16.0,
 "window": "if"
 }, {
@@ -794,7 +794,7 @@ windows=[{
 "filename": "window_if.tscn",
 "name": "if0000100000",
 "position": Vector2(1100, 4500),
-"ratio": 0.0,
+"ratio": 4.0,
 "ratio2": 75.0,
 "window": "if"
 }, {
@@ -846,7 +846,7 @@ windows=[{
 "filename": "window_segmenter.tscn",
 "name": "segmenter0",
 "position": Vector2(3500, 5650),
-"ratio": 0.0,
+"ratio": 1.0,
 "ratio2": 1.0,
 "window": "segmenter"
 }, {
