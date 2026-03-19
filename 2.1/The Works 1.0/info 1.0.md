@@ -76,7 +76,7 @@ Download the text file associated with the schematic you want. Open text file �
 2. In `The Works` hardware toggles, start with Toggle A `ON` and Toggle B `OFF`.
 3. Turn on `Coding` and build until you reach `9` Application Points and `26` Optimization Points.
 4. Purchase required coding/optimization upgrades as soon as they unlock (especially `Optimized Debugging` with your first Optimization Point).
-5. Once setup purchases are done, switch into production by toggling both A and B as directed in The Works.
+5. Once setup purchases are done, switch into production by toggling both A and B as directed in The Works 1.0.
 
 ## Recommended AR / Considerations
 
@@ -92,36 +92,29 @@ You need 9 Application Points and 26 Optimization Points for this setup. Once yo
 | CPU | Network | GPU | Hacking | Research | Coding |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 | 1 | 1 | 1 | 3 | 3 | 1 |
-| 3 | 3 | 3 | 5 | 6 | 5 |
-| 5 | 5 | 5 | 8 | 8 | 5 |
-| 8 | 8 | 9 | 10 | 11 | 5 |
+| 3 | 3 | 3 | 5 | 6 | 3 |
+| 5 | 5 | 5 | 8 | 8 | 3 |
+| 8 | 8 | 9 | 10 | 11 | 3 |
 
 Note: This chart is **not** a suggested progression path and is for **Reference Only**. It showcases ratio offsets at various Advanced Research investments.
 
 ## 2.1 Schematic Index
 
-1. `2.1/1. The Works.txt`
-2. `2.1/2. Hardware.txt`
-3. `2.1/3. Main Production.txt`
+1. `2.1/1. The Works (5:2:2).txt`
+2. `2.1/2. Hardware (5:2:2).txt`
+3. `2.1/3. Main Production (5:2:2).txt`
 4. `2.1/4. Virus.txt`
 5. `2.1/5. AGI.txt`
-6. `2.1/6. Research.txt`
+6. `2.1/6. Research (5:2:2).txt`
 7. `2.1/7. Hacking.txt`
-8. `2.1/8. Coding.txt`
-9. `2.1/9. Mini-Factory.txt`
+8. `2.1/8. Coding 1.0.txt`
+9. `2.1/9. Mini-Factory (5:2:2).txt`
 
-## 2.1 Auxiliary Schematic Index (Standalone)
-
-1. `2.1/Aux/Back-End Dev.txt`
-2. `AGI Auxiliary Starter Kit` (WIP)
-
-### The Works (305 Nodes)
+### The Works 1.0 - 305 Nodes
 
 This schematic holds all others. Specific Works-Wide notes can be found in individual sections below.
 
-#### Hardware
-
-### The Works 1.0 - 5:2:2 Setup
+#### Hardware 5:2:2 - Setup
 
 This Node Group houses the resource generating nodes for Network(5), CPU(2), and GPU(2). It features overclocking for 5:2:2 Hardware setup and CPU Processing Seller/ GPU Mine Tether for early-game ramp up.
 
@@ -130,9 +123,7 @@ This Node Group houses the resource generating nodes for Network(5), CPU(2), and
 
 The Works: Toggle Group A exports money to Main Production's Inventory (and then to Mini-Factory). Start the Run with Toggle A `ON` and Toggle B `OFF`. Once all your applications, optimizations, upgrade menu purchases are completed, you can toggle both A and B to turn on Production.
 
-#### Main Production
-
-### The Works 1.0 - 5:2:2 Setup
+#### Main Production - 5:2:2 Setup
 
 This Node Group generates, processes, and uploads files for Money and Infected Computers. It consists of two sections:
 
@@ -145,9 +136,9 @@ The Works: This Node Group is fed Network and CPU resources from Hardware. It al
 
 #### Virus
 
-This Node Group generates, processes, and exports a specified ratio of virus to the Imprinter Line. It generates virus using programs, while any can realistically be used, game virus requires real CPU usage (approx `1/16th` of Main Line). Using Decomp apps down to Video, Sound, Images, or Texts would make it cheaper, but it's already running off of virtually nothing (`1/3200th`). Text, for example requires `1/(6.4e11)` (about 1 in 640 billion), etc. Since ratios cannot go that low, you'll end up with surplus Virus and wasted CPU, which considering how low the usage is, the surplus Virus and wasted CPU is fine.
+This Node Group generates, processes, and exports a specified ratio of virus to the Imprinter Line. It generates virus using texts, while any can realistically be used except Games. Game bsaed virus generation requires real CPU usage (approx `1/16th` of Main Line). Using Decomp apps down to Programs, Video, Sound, Images, or Texts would make it cheaper. Even as large as programs, it will be running off of virtually nothing (`1/3200th`). Text, for example requires `1/(6.4e11)` (about 1 in 640 billion), etc. Since ratios cannot go that low, you'll end up with surplus Virus and wasted CPU, which considering how low the usage is, the surplus Virus and wasted CPU is fine.
 
-The Works: It is fed the exact Network and CPU resources needed to generate enough virus with a small, negligible surplus of Virus.
+The Works: It is fed the exact Network and CPU resources needed to generate virus using negliable DL and CPU Speeds. Extra Virus can safely be ignored.
 
 #### AGI
 
@@ -171,7 +162,7 @@ Recommended Hack Point Purchases: `Spoil x1` → `Sneak Attack x5` → `Infectio
 
 The Works: This Node Group receives Hack Boost from the AGI Node Group.
 
-### Coding
+### Coding 1.0
 
 This Node Group Builds Application Points (unmodified), Optimization Points (Optimized 3x + Debug), and Drivers (Optimized 3x + Debug).
 
@@ -194,15 +185,13 @@ Once reaching the desired Optimization Points: `26`, pause the whole Node Group.
 
 The Works: This Node Group receives Code Boost from the AGI Node Group. The default state of this schematic is in "running mode" which would be the mode you would be using for the majority of the run. **Consider the instructions above when starting a run.**
 
-#### Mini Factory
-
-### The Works 1.0 - 5:2:2 Setup
+#### Mini Factory - 5:2:2 Setup
 
 This factory has two Toggle Groups.
 **Ensure you are using ONE Toggle Group at a time**
 
-- Toggle Group A: Main Factory - 9 Machines (5:2:2). Useful later in the run when income/boosts stabilize.
-- Toggle Group B: Import - 0 Machines (5:2:2). Straight cash for boost. Useful early in run to avoid micromanagement.
+- Toggle Group A: Import - 0 Machines (5:2:2). Straight cash for boost. Useful early in run to avoid micromanagement.
+- Toggle Group B: Main Factory - 9 Machines (5:2:2). Useful later in the run when income/boosts stabilize.
 
 The Works: In The Works, the hardware section imports Clock Sellers cash to the Mini-Factory for early game hardware boost to help reduce portal early-game ramp up time.
 

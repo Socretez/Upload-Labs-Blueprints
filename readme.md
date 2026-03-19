@@ -27,24 +27,37 @@ Screenshots may not reflect the exact node ratios used in the current schematic 
 
 ## 2.1 Schematic Index
 
-1. `2.1/1. The Works.txt`
+Main Directory
+
+1. The Works 1.0
+   - 5:2:2 Hardware setup for end-game Advanced Research Farming
+   - Does not include a 3rd stage Factory due to node capacity limitations (400)
+2. The Works 2.0
+   - 1:1:1 Hardware setup for end-game Advanced Research Farming (Improved Efficiency)
+
+The Works - Components
+
+1. `/1. The Works.txt`
    - Full integrated layout that links every 2.1 node group into one coordinated factory.
-2. `2.1/2. Hardware.txt`
-   - Core 5:2:2 Network/CPU/GPU generation block with early-run seller/tether toggle flow.
-3. `2.1/3. Main Production.txt`
+2. `/2. Hardware.txt`
+   - Core Network/CPU/GPU generation block with early-run seller/tether toggle flow.
+3. `/3. Main Production.txt`
    - Primary money and infection pipeline with main and import lines feeding the imprinter path.
-4. `2.1/4. Virus.txt`
+4. `/4. Virus.txt`
    - Lightweight virus production lane tuned to supply imprinting at a fixed low-cost ratio.
-5. `2.1/5. AGI.txt`
+5. `/5. AGI.txt`
    - Self-contained AGI boost engine that distributes AI power to key production groups.
-6. `2.1/6. Research.txt`
+6. `/6. Research.txt`
    - Flexible research farm with selectable decomp paths and simple toggles for file-type scaling.
-7. `2.1/7. Hacking.txt`
+7. `/7. Hacking.txt`
    - Portal-ready hacking setup focused on fast early breaches and infection progression.
-8. `2.1/8. Coding.txt`
-   - Controlled application/optimization point builder with ratio toggles for 9/43 targets.
-9. `2.1/9. Mini-Factory.txt`
-   - Dual-mode factory cash module for early import boost or stabilized late-run machine output.
+8. `/8. Coding.txt`
+   - Controlled application/optimization point builder with ratio toggles for 9/26 targets.
+9. `/9. Mini-Factory.txt`
+   - 3 stage factory
+     - Early Stage - Direct Import
+     - Mid Stage - Mini-Factory
+     - Late Stage - Main Factory for maximum efficiency
 
 ## 2.1 Auxiliary Schematics (Standalone)
 
@@ -53,6 +66,10 @@ These schematics are not part of `The Works` and are maintained as isolated buil
 1. `2.1/Aux/Back-End Dev.txt`
    - Dedicated optimization-code generator for unlocking the `Back-End Dev` achievement requirement of `59` Optimization Points.
    - Uses a quality-first coding approach for stable optimization point progression.
+2. `2.1/Aux/AGI Basic.txt`
+   - Basic AGI Starter kit utilizing minimum requirements to get started.
+3. `2.1/Aux/AGI Intermediate.txt`
+   - Intermediate AGI Starter kit utilizing file quantity multipliers to increase efficiency.
 
 ## Version Focus
 
@@ -76,7 +93,7 @@ The new approach shifts to a **modular import pipeline**:
 
 This architecture is easier to tune, scales better for end-game throughput, and reduces the clocking/rebalancing pain of monolithic All-in-One designs.
 
-## 2.1 Requirements (from `2.1/info.md`)
+## 2.1 Requirements (from `2.1/The Works 2.0/info 2.0.md`)
 
 ### Code Points Needed
 
@@ -143,7 +160,10 @@ This repo is intended to be used as a **repository** for schematic imports.
 
 ## Changelog / WIP
 
-- [ ] Create AGI Auxiliary Starter Kit Schematics.
+- [x] The Works 2.0 Release
+  - Completed: 03/19/26
+- [x] Create AGI Auxiliary Starter Kit Schematics.
+  - Completed: 03/19/26
 - [x] Optimize Research Disassembly.
   - Completed: 02/24/26
 - [x] Optimize import lines to `Main Production:AGI`.

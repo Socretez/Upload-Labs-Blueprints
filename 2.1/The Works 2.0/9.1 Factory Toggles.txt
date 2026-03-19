@@ -1,0 +1,449 @@
+[schematic]
+
+windows=[{
+"color": 0,
+"container_data": {},
+"custom_icon": "",
+"custom_name": "Factory Toggles",
+"filename": "window_group.tscn",
+"name": "group14",
+"position": Vector2(8100, 250),
+"size": Vector2(1150, 2050),
+"window": "group"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Money": {
+"id": "fcfb49e888cd",
+"outputs_id": Array[String]([]),
+"resource": "money",
+"variation": 0
+},
+"PanelContainer/MainContainer/Product": {
+"id": "3ef1cf72d515",
+"outputs_id": Array[String]([]),
+"resource": "gpu",
+"variation": 0
+}
+},
+"filename": "window_importer_gpu.tscn",
+"name": "importer_gpu0",
+"position": Vector2(8900, 600),
+"window": "importer_gpu"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Money": {
+"id": "4ded777df29d",
+"outputs_id": Array[String]([]),
+"resource": "money",
+"variation": 0
+},
+"PanelContainer/MainContainer/Product": {
+"id": "2b04bbd7f319",
+"outputs_id": Array[String]([]),
+"resource": "pcb",
+"variation": 0
+}
+},
+"filename": "window_importer_pcb.tscn",
+"name": "importer_pcb0",
+"position": Vector2(8900, 1650),
+"window": "importer_pcb"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Output1/Splitted": {
+"id": "5a94efabe52d",
+"outputs_id": Array[String](["3a7d61907dda"]),
+"resource": "money",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output2/Splitted": {
+"id": "b3f1cdefbea0",
+"outputs_id": Array[String](["4ded777df29d"]),
+"resource": "money",
+"variation": 0
+},
+"PanelContainer/MainContainer/Splitting": {
+"id": "ef66a5f7115a",
+"outputs_id": Array[String]([]),
+"resource": "money",
+"variation": 0
+}
+},
+"filename": "window_splitter.tscn",
+"name": "splitter3",
+"position": Vector2(8500, 1500),
+"ratio": 4.0,
+"ratio2": 8.0,
+"window": "splitter"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Money": {
+"id": "899331494d97",
+"outputs_id": Array[String]([]),
+"resource": "money",
+"variation": 0
+},
+"PanelContainer/MainContainer/Product": {
+"id": "2d0bd2946604",
+"outputs_id": Array[String]([]),
+"resource": "cpu_core",
+"variation": 0
+}
+},
+"filename": "window_importer_cpu_core.tscn",
+"name": "importer_cpu_core0",
+"position": Vector2(8900, 350),
+"window": "importer_cpu_core"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Money": {
+"id": "392f2adb9952",
+"outputs_id": Array[String]([]),
+"resource": "money",
+"variation": 0
+},
+"PanelContainer/MainContainer/Product": {
+"id": "80be7a86a35e",
+"outputs_id": Array[String]([]),
+"resource": "router",
+"variation": 0
+}
+},
+"filename": "window_importer_router.tscn",
+"name": "importer_router0",
+"position": Vector2(8900, 850),
+"window": "importer_router"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Money": {
+"id": "8765dda0f5ba",
+"outputs_id": Array[String]([]),
+"resource": "money",
+"variation": 0
+},
+"PanelContainer/MainContainer/Product": {
+"id": "870a769c4fc0",
+"outputs_id": Array[String]([]),
+"resource": "transistor",
+"variation": 0
+}
+},
+"filename": "window_importer_transistor.tscn",
+"name": "importer_transistor1",
+"position": Vector2(8900, 1150),
+"window": "importer_transistor"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Money": {
+"id": "3a7d61907dda",
+"outputs_id": Array[String]([]),
+"resource": "money",
+"variation": 0
+},
+"PanelContainer/MainContainer/Product": {
+"id": "58f936e95e5b",
+"outputs_id": Array[String]([]),
+"resource": "transistor",
+"variation": 0
+}
+},
+"filename": "window_importer_transistor.tscn",
+"name": "importer_transistor0",
+"position": Vector2(8900, 1400),
+"window": "importer_transistor"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Output1/Splitted": {
+"id": "4d20def89ef7",
+"outputs_id": Array[String](["899331494d97", "fcfb49e888cd"]),
+"resource": "money",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output2/Splitted": {
+"id": "191ec7c4bf2a",
+"outputs_id": Array[String](["392f2adb9952"]),
+"resource": "money",
+"variation": 0
+},
+"PanelContainer/MainContainer/Splitting": {
+"id": "227622054b20",
+"outputs_id": Array[String]([]),
+"resource": "money",
+"variation": 0
+}
+},
+"filename": "window_splitter.tscn",
+"name": "splitter0",
+"position": Vector2(8500, 350),
+"ratio": 4.0,
+"ratio2": 1.0,
+"window": "splitter"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input": {
+"id": "485c87a13a65",
+"outputs_id": Array[String]([]),
+"resource": "money",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input2": {
+"id": "014548bba435",
+"outputs_id": Array[String]([]),
+"resource": "",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input3": {
+"id": "02dde7ea8c0f",
+"outputs_id": Array[String]([]),
+"resource": "",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input4": {
+"id": "0c652fcaf475",
+"outputs_id": Array[String]([]),
+"resource": "",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input5": {
+"id": "aaf5b909d820",
+"outputs_id": Array[String]([]),
+"resource": "",
+"variation": 0
+}
+},
+"filename": "window_auto_collect.tscn",
+"name": "_VBoxContainer_15327",
+"position": Vector2(8500, 650),
+"window": "auto_collect"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input": {
+"id": "3e98fbc76e03",
+"outputs_id": Array[String]([]),
+"resource": "money",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input2": {
+"id": "169d042478bf",
+"outputs_id": Array[String]([]),
+"resource": "",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input3": {
+"id": "d06dc2e86e47",
+"outputs_id": Array[String]([]),
+"resource": "",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input4": {
+"id": "597746c2535a",
+"outputs_id": Array[String]([]),
+"resource": "",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input5": {
+"id": "9f63b92005dd",
+"outputs_id": Array[String]([]),
+"resource": "",
+"variation": 0
+}
+},
+"filename": "window_auto_collect.tscn",
+"name": "auto_collect4",
+"position": Vector2(8500, 1800),
+"window": "auto_collect"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Input": {
+"id": "5788c3769844",
+"outputs_id": Array[String]([]),
+"resource": "money",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input2": {
+"id": "d9aa2bf32466",
+"outputs_id": Array[String]([]),
+"resource": "",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input3": {
+"id": "cc39ad213620",
+"outputs_id": Array[String]([]),
+"resource": "",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input4": {
+"id": "3515d60a3f8f",
+"outputs_id": Array[String]([]),
+"resource": "",
+"variation": 0
+},
+"PanelContainer/MainContainer/Input5": {
+"id": "e67cab5c3a4c",
+"outputs_id": Array[String]([]),
+"resource": "",
+"variation": 0
+}
+},
+"filename": "window_auto_collect.tscn",
+"name": "auto_collect5",
+"position": Vector2(8100, 2050),
+"window": "auto_collect"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Output1/Splitted": {
+"id": "ad61f8507bd1",
+"outputs_id": Array[String](["8765dda0f5ba"]),
+"resource": "money",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output2/Splitted": {
+"id": "41538477eedd",
+"outputs_id": Array[String](["ef66a5f7115a"]),
+"resource": "money",
+"variation": 0
+},
+"PanelContainer/MainContainer/Splitting": {
+"id": "9f97a318b416",
+"outputs_id": Array[String]([]),
+"resource": "money",
+"variation": 0
+}
+},
+"filename": "window_splitter.tscn",
+"name": "splitter2",
+"position": Vector2(8500, 1150),
+"ratio": 8.0,
+"ratio2": 12.0,
+"window": "splitter"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Output1/Splitted": {
+"id": "4b3557b46ed6",
+"outputs_id": Array[String](["227622054b20"]),
+"resource": "money",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output2/Splitted": {
+"id": "0df0655ac31a",
+"outputs_id": Array[String](["485c87a13a65"]),
+"resource": "money",
+"variation": 0
+},
+"PanelContainer/MainContainer/Splitting": {
+"id": "0004a3719615",
+"outputs_id": Array[String]([]),
+"resource": "money",
+"variation": 0
+}
+},
+"filename": "window_splitter.tscn",
+"name": "_VBoxContainer_18979",
+"position": Vector2(8100, 350),
+"ratio": 1.0,
+"ratio2": 1.0,
+"window": "splitter"
+}, {
+"color": 1,
+"container_data": {},
+"custom_icon": "",
+"custom_name": "Toggle A",
+"filename": "window_group.tscn",
+"name": "group15",
+"position": Vector2(8100, 300),
+"size": Vector2(1150, 800),
+"window": "group"
+}, {
+"color": 1,
+"container_data": {},
+"custom_icon": "",
+"custom_name": "Toggle B",
+"filename": "window_group.tscn",
+"name": "group2",
+"position": Vector2(8100, 1100),
+"size": Vector2(1150, 900),
+"window": "group"
+}, {
+"color": 1,
+"container_data": {},
+"custom_icon": "",
+"custom_name": "Toggle C",
+"filename": "window_group.tscn",
+"name": "group51",
+"position": Vector2(8100, 2000),
+"size": Vector2(1150, 250),
+"window": "group"
+}, {
+"container_data": {
+"PanelContainer/MainContainer/Output1/Splitted": {
+"id": "682f4183df3e",
+"outputs_id": Array[String](["9f97a318b416"]),
+"resource": "money",
+"variation": 0
+},
+"PanelContainer/MainContainer/Output2/Splitted": {
+"id": "7fcc3130efbf",
+"outputs_id": Array[String](["3e98fbc76e03"]),
+"resource": "money",
+"variation": 0
+},
+"PanelContainer/MainContainer/Splitting": {
+"id": "9c71dd21571b",
+"outputs_id": Array[String]([]),
+"resource": "money",
+"variation": 0
+}
+},
+"filename": "window_splitter.tscn",
+"name": "splitter1",
+"position": Vector2(8100, 1150),
+"ratio": 50.0,
+"ratio2": 50.0,
+"window": "splitter"
+}]
+connectors={
+"0004a3719615": {
+"custom_points": Array[Vector2]([])
+},
+"227622054b20": {
+"custom_points": Array[Vector2]([])
+},
+"392f2adb9952": {
+"custom_points": Array[Vector2]([])
+},
+"3a7d61907dda": {
+"custom_points": Array[Vector2]([])
+},
+"3e98fbc76e03": {
+"custom_points": Array[Vector2]([])
+},
+"485c87a13a65": {
+"custom_points": Array[Vector2]([])
+},
+"4ded777df29d": {
+"custom_points": Array[Vector2]([])
+},
+"5788c3769844": {
+"custom_points": Array[Vector2]([])
+},
+"8765dda0f5ba": {
+"custom_points": Array[Vector2]([])
+},
+"899331494d97": {
+"custom_points": Array[Vector2]([])
+},
+"9c71dd21571b": {
+"custom_points": Array[Vector2]([])
+},
+"9f97a318b416": {
+"custom_points": Array[Vector2]([])
+},
+"ef66a5f7115a": {
+"custom_points": Array[Vector2]([])
+},
+"fcfb49e888cd": {
+"custom_points": Array[Vector2]([])
+}
+}
+rect=Rect2(8100, 250, 1150, 2050)
+icon="blueprint"
