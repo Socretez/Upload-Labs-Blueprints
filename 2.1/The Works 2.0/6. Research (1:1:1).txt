@@ -7,49 +7,49 @@ windows=[{
 "custom_name": "Research Files",
 "filename": "window_group.tscn",
 "name": "group9",
-"position": Vector2(4350, 4300),
+"position": Vector2(3650, 3950),
 "size": Vector2(2100, 3100),
 "window": "group"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Download": {
-"id": "4674b3e63ccc",
+"id": "d64f64f108d0",
 "outputs_id": Array[String]([]),
 "resource": "download_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Torrents/Game": {
-"id": "15d65a452553",
-"outputs_id": Array[String](["efbc42f45193"]),
+"id": "83a6aedfd1ed",
+"outputs_id": Array[String](["49273a2783a7"]),
 "resource": "torrent_game",
 "variation": 32768
 },
 "PanelContainer/MainContainer/Torrents/Image": {
-"id": "f82ef95ec3e8",
+"id": "b37caacd4007",
 "outputs_id": Array[String]([]),
 "resource": "torrent_image",
 "variation": 32768
 },
 "PanelContainer/MainContainer/Torrents/Program": {
-"id": "a3987b3c9e75",
+"id": "66b3a0d9c831",
 "outputs_id": Array[String]([]),
 "resource": "torrent_program",
 "variation": 32768
 },
 "PanelContainer/MainContainer/Torrents/Sound": {
-"id": "33c4cbf824af",
+"id": "0e65b5923340",
 "outputs_id": Array[String]([]),
 "resource": "torrent_sound",
 "variation": 32768
 },
 "PanelContainer/MainContainer/Torrents/Text": {
-"id": "aac0eec8b0f1",
+"id": "e53328e4095b",
 "outputs_id": Array[String]([]),
 "resource": "torrent_text",
 "variation": 32768
 },
 "PanelContainer/MainContainer/Torrents/Video": {
-"id": "334bec9dc04b",
+"id": "efb74c8c76ca",
 "outputs_id": Array[String]([]),
 "resource": "torrent_video",
 "variation": 32768
@@ -57,124 +57,124 @@ windows=[{
 },
 "filename": "window_torrent_browser_encrypted.tscn",
 "name": "torrent_browser_encrypted2",
-"position": Vector2(5600, 4450),
+"position": Vector2(4900, 4100),
 "window": "torrent_browser_encrypted"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Clock": {
-"id": "72a9b9e7860f",
+"id": "b55a426fb05d",
 "outputs_id": Array[String]([]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/File": {
-"id": "5672fd416332",
+"id": "f63b1f7a9e0b",
 "outputs_id": Array[String]([]),
 "resource": "game",
 "variation": 74270
 },
 "PanelContainer/MainContainer/Output": {
-"id": "e896b15ba748",
-"outputs_id": Array[String](["9b02aebd90be"]),
+"id": "51cb0830f41f",
+"outputs_id": Array[String](["de9b68474a77"]),
 "resource": "game",
 "variation": 76318
 }
 },
 "filename": "window_analyzer.tscn",
 "name": "analyzer0",
-"position": Vector2(4400, 6000),
+"position": Vector2(3700, 5650),
 "window": "analyzer"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Clock": {
-"id": "00eb31ffda90",
+"id": "e5c59ef16f56",
 "outputs_id": Array[String]([]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/File": {
-"id": "b624c62ee241",
+"id": "3fab698cbc66",
 "outputs_id": Array[String]([]),
 "resource": "game",
 "variation": 73730
 },
 "PanelContainer/MainContainer/Output": {
-"id": "ad79bf0f5f64",
-"outputs_id": Array[String](["1cad2e7d061a"]),
+"id": "92c15503d81f",
+"outputs_id": Array[String](["c43f6cfcfc1b"]),
 "resource": "game",
 "variation": 73954
 }
 },
 "filename": "window_enhancer_max.tscn",
 "name": "enhancer_max1",
-"position": Vector2(6050, 4850),
+"position": Vector2(5350, 4500),
 "window": "enhancer_max"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Clock": {
-"id": "e7585839b218",
+"id": "f1c88922f713",
 "outputs_id": Array[String]([]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/File": {
-"id": "54380a61ad57",
+"id": "16f8b4ed97d8",
 "outputs_id": Array[String]([]),
 "resource": "game",
 "variation": 73730
 },
 "PanelContainer/MainContainer/Output": {
-"id": "9023ae716203",
-"outputs_id": Array[String](["77c231c83286"]),
+"id": "46a1248f417a",
+"outputs_id": Array[String](["de0c475de680"]),
 "resource": "game",
 "variation": 73954
 }
 },
 "filename": "window_enhancer_max.tscn",
 "name": "enhancer_max2",
-"position": Vector2(6050, 5250),
+"position": Vector2(5350, 4900),
 "window": "enhancer_max"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Clock": {
-"id": "b1ceccb82834",
+"id": "f5e731fb310b",
 "outputs_id": Array[String]([]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/File": {
-"id": "77c231c83286",
+"id": "de0c475de680",
 "outputs_id": Array[String]([]),
 "resource": "game",
 "variation": 73954
 },
 "PanelContainer/MainContainer/Output": {
-"id": "4dec4d133ed9",
-"outputs_id": Array[String](["8e22ec47db50"]),
+"id": "fe7bf6f2e404",
+"outputs_id": Array[String](["7fe4dca8136b"]),
 "resource": "game",
 "variation": 73730
 }
 },
 "filename": "window_disassembler.tscn",
 "name": "disassembler3",
-"position": Vector2(6100, 5300),
+"position": Vector2(5400, 4950),
 "window": "disassembler"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Output1/Splitted": {
-"id": "3ea995c5681d",
-"outputs_id": Array[String](["4693abdfff97"]),
+"id": "0707ac0b8f79",
+"outputs_id": Array[String](["e58bd1fb91f7"]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Output2/Splitted": {
-"id": "e0a89991a75d",
-"outputs_id": Array[String](["b9734880761f"]),
+"id": "0c1a20289f7f",
+"outputs_id": Array[String](["277053488e3b"]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Splitting": {
-"id": "8a0cfd9a407a",
+"id": "b728cb3947d7",
 "outputs_id": Array[String]([]),
 "resource": "clock_speed",
 "variation": 0
@@ -182,26 +182,26 @@ windows=[{
 },
 "filename": "window_thread_manager.tscn",
 "name": "thread_manager24",
-"position": Vector2(4800, 4750),
+"position": Vector2(4100, 4400),
 "ratio": 52.0,
 "ratio2": 43.0,
 "window": "thread_manager"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Output1/Splitted": {
-"id": "e5f6b060119b",
-"outputs_id": Array[String](["0cdfbf103d6b"]),
+"id": "cad49cf3fa2e",
+"outputs_id": Array[String](["9d160ee3ab1f"]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Output2/Splitted": {
-"id": "65caf0989282",
-"outputs_id": Array[String](["aea1c9870ee9"]),
+"id": "a82b51d43133",
+"outputs_id": Array[String](["6e0ef9ea534f"]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Splitting": {
-"id": "be5217a02cda",
+"id": "42579cfe0719",
 "outputs_id": Array[String]([]),
 "resource": "clock_speed",
 "variation": 0
@@ -209,26 +209,26 @@ windows=[{
 },
 "filename": "window_thread_manager.tscn",
 "name": "thread_manager18",
-"position": Vector2(4800, 5350),
+"position": Vector2(4100, 5000),
 "ratio": 16.0,
 "ratio2": 3.0,
 "window": "thread_manager"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Output1/Splitted": {
-"id": "2ed4d6da4108",
-"outputs_id": Array[String](["8821fcb968ca"]),
+"id": "adf39d80a2ec",
+"outputs_id": Array[String](["db7651d86aeb"]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Output2/Splitted": {
-"id": "1efbf84c2120",
-"outputs_id": Array[String](["72a9b9e7860f"]),
+"id": "f979d80c5338",
+"outputs_id": Array[String](["b55a426fb05d"]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Splitting": {
-"id": "aea1c9870ee9",
+"id": "6e0ef9ea534f",
 "outputs_id": Array[String]([]),
 "resource": "clock_speed",
 "variation": 0
@@ -236,26 +236,26 @@ windows=[{
 },
 "filename": "window_thread_manager.tscn",
 "name": "thread_manager23",
-"position": Vector2(4800, 5650),
+"position": Vector2(4100, 5300),
 "ratio": 1.0,
 "ratio2": 2.0,
 "window": "thread_manager"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Output1/Splitted": {
-"id": "a6c169edace3",
-"outputs_id": Array[String](["a420f951c0c2"]),
+"id": "21b9c6dcff0d",
+"outputs_id": Array[String](["27bed6e46d24"]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Output2/Splitted": {
-"id": "d153fc549336",
-"outputs_id": Array[String](["d360d64f7069"]),
+"id": "0b7b4b4225d2",
+"outputs_id": Array[String](["975d430a8d41"]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Splitting": {
-"id": "cb9a28459a4f",
+"id": "07f003cf0c6a",
 "outputs_id": Array[String]([]),
 "resource": "clock_speed",
 "variation": 0
@@ -263,26 +263,26 @@ windows=[{
 },
 "filename": "window_thread_manager.tscn",
 "name": "thread_manager13",
-"position": Vector2(4400, 5050),
+"position": Vector2(3700, 4700),
 "ratio": 100.0,
 "ratio2": 100.0,
 "window": "thread_manager"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Output1/Splitted": {
-"id": "804f3e654ad8",
-"outputs_id": Array[String](["00eb31ffda90"]),
+"id": "5eabf6fcb0ec",
+"outputs_id": Array[String](["e5c59ef16f56"]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Output2/Splitted": {
-"id": "84423691326e",
-"outputs_id": Array[String](["d412478d1837"]),
+"id": "0e3c5bb93418",
+"outputs_id": Array[String](["b52275199667"]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Splitting": {
-"id": "4693abdfff97",
+"id": "e58bd1fb91f7",
 "outputs_id": Array[String]([]),
 "resource": "clock_speed",
 "variation": 0
@@ -290,69 +290,69 @@ windows=[{
 },
 "filename": "window_thread_manager.tscn",
 "name": "thread_manager4",
-"position": Vector2(5200, 4750),
+"position": Vector2(4500, 4400),
 "ratio": 12.0,
 "ratio2": 40.0,
 "window": "thread_manager"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Input/0": {
-"id": "5d1c7dd6dbca",
+"id": "8424730e5540",
 "outputs_id": Array[String]([]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Input/1": {
-"id": "d6eee642523e",
+"id": "c13ad7fa33c3",
 "outputs_id": Array[String]([]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Input/2": {
-"id": "f82d89a514ff",
+"id": "fd86987aa6da",
 "outputs_id": Array[String]([]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Input/3": {
-"id": "eb72e4fed612",
+"id": "ad6a44793b69",
 "outputs_id": Array[String]([]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Input/4": {
-"id": "b6180c865b8f",
+"id": "7421ae85921d",
 "outputs_id": Array[String]([]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Output": {
-"id": "d8faf305feba",
-"outputs_id": Array[String](["cb9a28459a4f"]),
+"id": "1a00db1d5f5f",
+"outputs_id": Array[String](["07f003cf0c6a"]),
 "resource": "clock_speed",
 "variation": 0
 }
 },
 "filename": "window_synchronizer.tscn",
 "name": "synchronizer2",
-"position": Vector2(4400, 4450),
+"position": Vector2(3700, 4100),
 "window": "synchronizer"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Output1/Splitted": {
-"id": "5d86a25b8ff6",
-"outputs_id": Array[String](["3a4f92390878"]),
+"id": "1474a63afc41",
+"outputs_id": Array[String](["ed1be4002f55"]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Output2/Splitted": {
-"id": "84ea06558bee",
-"outputs_id": Array[String](["9def95b2e4c2"]),
+"id": "fa77c7942099",
+"outputs_id": Array[String](["12fc8f34840e"]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Splitting": {
-"id": "d360d64f7069",
+"id": "975d430a8d41",
 "outputs_id": Array[String]([]),
 "resource": "clock_speed",
 "variation": 0
@@ -360,26 +360,26 @@ windows=[{
 },
 "filename": "window_thread_manager.tscn",
 "name": "thread_manager12",
-"position": Vector2(4400, 5350),
+"position": Vector2(3700, 5000),
 "ratio": 20.0,
 "ratio2": 80.0,
 "window": "thread_manager"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Output1/Splitted": {
-"id": "4d5344f31ec1",
-"outputs_id": Array[String](["b1ceccb82834"]),
+"id": "0fcc7b2c8d62",
+"outputs_id": Array[String](["f5e731fb310b"]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Output2/Splitted": {
-"id": "136bec115787",
-"outputs_id": Array[String](["40a39fc48590"]),
+"id": "b706998ffd5a",
+"outputs_id": Array[String](["860c9052e938"]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Splitting": {
-"id": "9def95b2e4c2",
+"id": "12fc8f34840e",
 "outputs_id": Array[String]([]),
 "resource": "clock_speed",
 "variation": 0
@@ -387,26 +387,26 @@ windows=[{
 },
 "filename": "window_thread_manager.tscn",
 "name": "thread_manager7",
-"position": Vector2(4400, 5650),
+"position": Vector2(3700, 5300),
 "ratio": 32.0,
 "ratio2": 48.0,
 "window": "thread_manager"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Output1/Splitted": {
-"id": "1ba16243d73f",
-"outputs_id": Array[String](["0258499d265b"]),
+"id": "5cf3d299519d",
+"outputs_id": Array[String](["9e197bcf8081"]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Output2/Splitted": {
-"id": "3d6eac105688",
-"outputs_id": Array[String](["be5217a02cda"]),
+"id": "5b0c68297c78",
+"outputs_id": Array[String](["42579cfe0719"]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Splitting": {
-"id": "b9734880761f",
+"id": "277053488e3b",
 "outputs_id": Array[String]([]),
 "resource": "clock_speed",
 "variation": 0
@@ -414,26 +414,26 @@ windows=[{
 },
 "filename": "window_thread_manager.tscn",
 "name": "thread_manager16",
-"position": Vector2(4800, 5050),
+"position": Vector2(4100, 4700),
 "ratio": 24.0,
 "ratio2": 19.0,
 "window": "thread_manager"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Output1/Splitted": {
-"id": "f62917b778ba",
-"outputs_id": Array[String](["dc59255c3e7f"]),
+"id": "366610bf37d4",
+"outputs_id": Array[String](["ec536ef41312"]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Output2/Splitted": {
-"id": "41c65c45696f",
-"outputs_id": Array[String](["e7585839b218"]),
+"id": "d57fe67239f6",
+"outputs_id": Array[String](["f1c88922f713"]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Splitting": {
-"id": "d412478d1837",
+"id": "b52275199667",
 "outputs_id": Array[String]([]),
 "resource": "clock_speed",
 "variation": 0
@@ -441,26 +441,26 @@ windows=[{
 },
 "filename": "window_thread_manager.tscn",
 "name": "thread_manager5",
-"position": Vector2(5200, 5050),
+"position": Vector2(4500, 4700),
 "ratio": 16.0,
 "ratio2": 24.0,
 "window": "thread_manager"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Output1/Splitted": {
-"id": "8fb247d2001c",
-"outputs_id": Array[String](["f1b505b86fe0", "8eeddd120089", "9034a8ccea3d", "cd23297215bf", "4d3ec1fdd75f", "c4aafec940ac"]),
+"id": "8bba5c212c89",
+"outputs_id": Array[String](["cb7d1181c605", "42890b6d411d", "4a9b940d213e", "b5a1e82045d3", "80077d69a7da", "0c238fd5efff"]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Output2/Splitted": {
-"id": "24ac8c6d3358",
-"outputs_id": Array[String](["1979f56ee397", "90a3d4b75042", "6ff6b6cc8102"]),
+"id": "da2452f414ef",
+"outputs_id": Array[String](["579f3767fd2f", "f074fe520794", "d16a7127c697"]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Splitting": {
-"id": "0cdfbf103d6b",
+"id": "9d160ee3ab1f",
 "outputs_id": Array[String]([]),
 "resource": "clock_speed",
 "variation": 0
@@ -468,26 +468,26 @@ windows=[{
 },
 "filename": "window_thread_manager.tscn",
 "name": "thread_manager26",
-"position": Vector2(5200, 5350),
+"position": Vector2(4500, 5000),
 "ratio": 8.0,
 "ratio2": 8.0,
 "window": "thread_manager"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Output1/Splitted": {
-"id": "89b821d1c954",
-"outputs_id": Array[String](["4cf4c6804e45"]),
+"id": "db504b144bf7",
+"outputs_id": Array[String](["999144b41ea5"]),
 "resource": "download_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Output2/Splitted": {
-"id": "373d63704632",
-"outputs_id": Array[String](["4674b3e63ccc", "478f4964fa09", "a0e2e90f886e"]),
+"id": "08953f5447ef",
+"outputs_id": Array[String](["d64f64f108d0", "4ea2f971a4be", "8129fd71f044"]),
 "resource": "download_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Splitting": {
-"id": "2e10f8d6c91e",
+"id": "c56c0a0b1b3a",
 "outputs_id": Array[String]([]),
 "resource": "download_speed",
 "variation": 0
@@ -495,50 +495,50 @@ windows=[{
 },
 "filename": "window_download_limiter.tscn",
 "name": "download_limiter6",
-"position": Vector2(5200, 4450),
+"position": Vector2(4500, 4100),
 "ratio": 50.0,
 "ratio2": 3.0,
 "window": "download_limiter"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Download": {
-"id": "478f4964fa09",
+"id": "4ea2f971a4be",
 "outputs_id": Array[String]([]),
 "resource": "download_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Torrents/Game": {
-"id": "d3ea886b802a",
-"outputs_id": Array[String](["5f1e58de6251"]),
+"id": "476a058eeae2",
+"outputs_id": Array[String](["82b18859d2c1"]),
 "resource": "torrent_game",
 "variation": 131072
 },
 "PanelContainer/MainContainer/Torrents/Image": {
-"id": "6ac43bc72099",
+"id": "545d5a0bb014",
 "outputs_id": Array[String]([]),
 "resource": "torrent_image",
 "variation": 131072
 },
 "PanelContainer/MainContainer/Torrents/Program": {
-"id": "552c6248958a",
+"id": "edc7ba2d3936",
 "outputs_id": Array[String]([]),
 "resource": "torrent_program",
 "variation": 131072
 },
 "PanelContainer/MainContainer/Torrents/Sound": {
-"id": "97cc2be11923",
+"id": "2a8547fc797d",
 "outputs_id": Array[String]([]),
 "resource": "torrent_sound",
 "variation": 131072
 },
 "PanelContainer/MainContainer/Torrents/Text": {
-"id": "c31335df622b",
+"id": "e4ee942bfbf1",
 "outputs_id": Array[String]([]),
 "resource": "torrent_text",
 "variation": 131072
 },
 "PanelContainer/MainContainer/Torrents/Video": {
-"id": "3a7d8738e93d",
+"id": "8cb1822acd8f",
 "outputs_id": Array[String]([]),
 "resource": "torrent_video",
 "variation": 131072
@@ -546,105 +546,105 @@ windows=[{
 },
 "filename": "window_torrent_browser_zipped.tscn",
 "name": "torrent_browser_zipped5",
-"position": Vector2(5650, 4500),
+"position": Vector2(4950, 4150),
 "window": "torrent_browser_zipped"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Download": {
-"id": "a0e2e90f886e",
+"id": "8129fd71f044",
 "outputs_id": Array[String]([]),
 "resource": "download_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Input": {
-"id": "efbc42f45193",
+"id": "49273a2783a7",
 "outputs_id": Array[String]([]),
 "resource": "torrent_game",
 "variation": 32768
 },
 "PanelContainer/MainContainer/Input2": {
-"id": "5f1e58de6251",
+"id": "82b18859d2c1",
 "outputs_id": Array[String]([]),
 "resource": "torrent_game",
 "variation": 131072
 },
 "PanelContainer/MainContainer/Output": {
-"id": "045dc144e0b2",
-"outputs_id": Array[String](["ed430a24e9cf"]),
+"id": "fbbb81de4e15",
+"outputs_id": Array[String](["e6e7da17afd3"]),
 "resource": "torrent_game",
 "variation": 163840
 }
 },
 "filename": "window_torrent_filter.tscn",
 "name": "torrent_filter3",
-"position": Vector2(5650, 5150),
+"position": Vector2(4950, 4800),
 "window": "torrent_filter"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Clock": {
-"id": "dc59255c3e7f",
+"id": "ec536ef41312",
 "outputs_id": Array[String]([]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/File": {
-"id": "1cad2e7d061a",
+"id": "c43f6cfcfc1b",
 "outputs_id": Array[String]([]),
 "resource": "game",
 "variation": 73954
 },
 "PanelContainer/MainContainer/Output": {
-"id": "e5144e7c3da9",
-"outputs_id": Array[String](["54380a61ad57"]),
+"id": "1ef113b4658d",
+"outputs_id": Array[String](["16f8b4ed97d8"]),
 "resource": "game",
 "variation": 73730
 }
 },
 "filename": "window_disassembler.tscn",
 "name": "disassembler2",
-"position": Vector2(6100, 4900),
+"position": Vector2(5400, 4550),
 "window": "disassembler"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Clock": {
-"id": "c4aafec940ac",
+"id": "0c238fd5efff",
 "outputs_id": Array[String]([]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Input": {
-"id": "9573a97b65f1",
+"id": "5bce1564cac7",
 "outputs_id": Array[String]([]),
 "resource": "game",
 "variation": 207390
 },
 "PanelContainer/MainContainer/Output": {
-"id": "4d1075049429",
-"outputs_id": Array[String](["02652a52e5db"]),
+"id": "7c5fc78b9c5b",
+"outputs_id": Array[String](["aec78ec35bdf"]),
 "resource": "program",
 "variation": 207390
 }
 },
 "filename": "window_ripper.tscn",
 "name": "ripper6",
-"position": Vector2(5400, 6900),
+"position": Vector2(4700, 6550),
 "window": "ripper"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Clock": {
-"id": "8eeddd120089",
+"id": "42890b6d411d",
 "outputs_id": Array[String]([]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Input": {
-"id": "a111f97d7945",
+"id": "625b78c5d1cb",
 "outputs_id": Array[String]([]),
 "resource": "game",
 "variation": 207390
 },
 "PanelContainer/MainContainer/Output": {
-"id": "274e75af75c0",
+"id": "0fa7162f7899",
 "outputs_id": Array[String]([]),
 "resource": "program",
 "variation": 207390
@@ -652,24 +652,24 @@ windows=[{
 },
 "filename": "window_ripper.tscn",
 "name": "ripper3",
-"position": Vector2(4400, 6500),
+"position": Vector2(3700, 6150),
 "window": "ripper"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Clock": {
-"id": "6ff6b6cc8102",
+"id": "d16a7127c697",
 "outputs_id": Array[String]([]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Input": {
-"id": "02652a52e5db",
+"id": "aec78ec35bdf",
 "outputs_id": Array[String]([]),
 "resource": "program",
 "variation": 207390
 },
 "PanelContainer/MainContainer/Output": {
-"id": "295c5ad49839",
+"id": "29939fb82a41",
 "outputs_id": Array[String]([]),
 "resource": "text",
 "variation": 207390
@@ -677,49 +677,49 @@ windows=[{
 },
 "filename": "window_decompiler.tscn",
 "name": "decompiler5",
-"position": Vector2(5450, 6950),
+"position": Vector2(4750, 6600),
 "window": "decompiler"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Clock": {
-"id": "cd23297215bf",
+"id": "b5a1e82045d3",
 "outputs_id": Array[String]([]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Input": {
-"id": "9be7a2617a74",
+"id": "5e2fc71ff745",
 "outputs_id": Array[String]([]),
 "resource": "game",
 "variation": 207390
 },
 "PanelContainer/MainContainer/Output": {
-"id": "896331166cf4",
-"outputs_id": Array[String](["de684034571f"]),
+"id": "8b3f26868016",
+"outputs_id": Array[String](["54f49b8ae1eb"]),
 "resource": "video",
 "variation": 207390
 }
 },
 "filename": "window_scrapper.tscn",
 "name": "scrapper4",
-"position": Vector2(4400, 6900),
+"position": Vector2(3700, 6550),
 "window": "scrapper"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Clock": {
-"id": "1979f56ee397",
+"id": "579f3767fd2f",
 "outputs_id": Array[String]([]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Input": {
-"id": "de684034571f",
+"id": "54f49b8ae1eb",
 "outputs_id": Array[String]([]),
 "resource": "video",
 "variation": 207390
 },
 "PanelContainer/MainContainer/Output": {
-"id": "04656ba9ff98",
+"id": "c8aa2af237d3",
 "outputs_id": Array[String]([]),
 "resource": "sound",
 "variation": 207390
@@ -727,74 +727,74 @@ windows=[{
 },
 "filename": "window_demuxer.tscn",
 "name": "demuxer2",
-"position": Vector2(4450, 6950),
+"position": Vector2(3750, 6600),
 "window": "demuxer"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Clock": {
-"id": "4d3ec1fdd75f",
+"id": "80077d69a7da",
 "outputs_id": Array[String]([]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Input": {
-"id": "c87107682a49",
+"id": "a299b062ab5a",
 "outputs_id": Array[String]([]),
 "resource": "game",
 "variation": 207390
 },
 "PanelContainer/MainContainer/Output": {
-"id": "f6571721f2a3",
-"outputs_id": Array[String](["fbeb97deb50d"]),
+"id": "a4a4221b0db5",
+"outputs_id": Array[String](["c30fc14f9a22"]),
 "resource": "video",
 "variation": 207390
 }
 },
 "filename": "window_scrapper.tscn",
 "name": "scrapper3",
-"position": Vector2(4900, 6900),
+"position": Vector2(4200, 6550),
 "window": "scrapper"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Clock": {
-"id": "90a3d4b75042",
+"id": "f074fe520794",
 "outputs_id": Array[String]([]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Input": {
-"id": "fbeb97deb50d",
+"id": "c30fc14f9a22",
 "outputs_id": Array[String]([]),
 "resource": "video",
 "variation": 207390
 },
 "PanelContainer/MainContainer/Output": {
-"id": "455ea9b956cb",
-"outputs_id": Array[String]([]),
+"id": "1a655328dedd",
+"outputs_id": Array[String](["89e173b7d374"]),
 "resource": "image",
 "variation": 207390
 }
 },
 "filename": "window_decomposer.tscn",
 "name": "decomposer2",
-"position": Vector2(4950, 6950),
+"position": Vector2(4250, 6600),
 "window": "decomposer"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Download": {
-"id": "4cf4c6804e45",
+"id": "999144b41ea5",
 "outputs_id": Array[String]([]),
 "resource": "download_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/File": {
-"id": "b4fea34d8fca",
-"outputs_id": Array[String](["d17eed06b11e"]),
+"id": "b590e6e280da",
+"outputs_id": Array[String](["5a8fecf5eecb"]),
 "resource": "zip_game",
 "variation": 32768
 },
 "PanelContainer/MainContainer/Torrent": {
-"id": "ed430a24e9cf",
+"id": "e6e7da17afd3",
 "outputs_id": Array[String]([]),
 "resource": "torrent_game",
 "variation": 163840
@@ -802,24 +802,24 @@ windows=[{
 },
 "filename": "window_torrent_downloader.tscn",
 "name": "torrent_downloader5",
-"position": Vector2(5650, 5550),
+"position": Vector2(4950, 5200),
 "window": "torrent_downloader"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Output1/Splitted": {
-"id": "2163e827b87a",
-"outputs_id": Array[String](["84c309562852"]),
+"id": "a20e5a5fb523",
+"outputs_id": Array[String](["f0c671b49071"]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Output2/Splitted": {
-"id": "2d6552917143",
-"outputs_id": Array[String](["8a0cfd9a407a"]),
+"id": "a0e925327f10",
+"outputs_id": Array[String](["b728cb3947d7"]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Splitting": {
-"id": "a420f951c0c2",
+"id": "27bed6e46d24",
 "outputs_id": Array[String]([]),
 "resource": "clock_speed",
 "variation": 0
@@ -827,64 +827,64 @@ windows=[{
 },
 "filename": "window_thread_manager.tscn",
 "name": "thread_manager25",
-"position": Vector2(4800, 4450),
+"position": Vector2(4100, 4100),
 "ratio": 5.0,
 "ratio2": 92.0,
 "window": "thread_manager"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Clock": {
-"id": "f1b505b86fe0",
+"id": "cb7d1181c605",
 "outputs_id": Array[String]([]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/File": {
-"id": "9b02aebd90be",
+"id": "de9b68474a77",
 "outputs_id": Array[String]([]),
 "resource": "game",
 "variation": 76318
 },
 "PanelContainer/MainContainer/Output": {
-"id": "a7d39568f42b",
-"outputs_id": Array[String](["a111f97d7945", "b2b6c2056784", "9be7a2617a74", "c87107682a49", "9573a97b65f1"]),
+"id": "e3f190b43e7c",
+"outputs_id": Array[String](["625b78c5d1cb", "b345ed7d62e5", "5e2fc71ff745", "a299b062ab5a", "5bce1564cac7"]),
 "resource": "game",
 "variation": 207390
 }
 },
 "filename": "window_duplicator.tscn",
 "name": "duplicator3",
-"position": Vector2(4450, 6050),
+"position": Vector2(3750, 5700),
 "window": "duplicator"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Clock": {
-"id": "9034a8ccea3d",
+"id": "4a9b940d213e",
 "outputs_id": Array[String]([]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/Input": {
-"id": "b2b6c2056784",
+"id": "b345ed7d62e5",
 "outputs_id": Array[String]([]),
 "resource": "game",
 "variation": 207390
 },
 "PanelContainer/MainContainer/Output": {
-"id": "18e71f79f0f2",
-"outputs_id": Array[String](["87bf085a0d29"]),
+"id": "9ae73734f42a",
+"outputs_id": Array[String]([]),
 "resource": "video",
 "variation": 207390
 }
 },
 "filename": "window_scrapper.tscn",
 "name": "scrapper2",
-"position": Vector2(4900, 6500),
+"position": Vector2(4200, 6150),
 "window": "scrapper"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Research": {
-"id": "2fb6907bb890",
+"id": "90d946b0e1fa",
 "outputs_id": Array[String]([]),
 "resource": "research",
 "variation": 0
@@ -892,36 +892,36 @@ windows=[{
 },
 "filename": "window_research_advanced.tscn",
 "name": "research_advanced0",
-"position": Vector2(6050, 6850),
+"position": Vector2(5350, 6500),
 "window": "research_advanced"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Input": {
-"id": "5357491feeee",
+"id": "fe8fcc451cfc",
 "outputs_id": Array[String]([]),
 "resource": "research",
 "variation": 0
 },
 "PanelContainer/MainContainer/Input2": {
-"id": "4b0cdf9eaf29",
+"id": "623fc6c8037b",
 "outputs_id": Array[String]([]),
 "resource": "research",
 "variation": 0
 },
 "PanelContainer/MainContainer/Input3": {
-"id": "7b11432c194f",
+"id": "a94bc38e0468",
 "outputs_id": Array[String]([]),
 "resource": "research",
 "variation": 0
 },
 "PanelContainer/MainContainer/Input4": {
-"id": "c50bf2d803b8",
+"id": "1d42cc688a53",
 "outputs_id": Array[String]([]),
 "resource": "research",
 "variation": 0
 },
 "PanelContainer/MainContainer/Input5": {
-"id": "bc6864e3455e",
+"id": "0fcdb3cf91aa",
 "outputs_id": Array[String]([]),
 "resource": "research",
 "variation": 0
@@ -929,7 +929,7 @@ windows=[{
 },
 "filename": "window_auto_collect.tscn",
 "name": "auto_collect1",
-"position": Vector2(6050, 7100),
+"position": Vector2(5350, 6750),
 "window": "auto_collect"
 }, {
 "color": 0,
@@ -938,7 +938,7 @@ windows=[{
 "custom_name": "Pre-Selector",
 "filename": "window_group.tscn",
 "name": "group53",
-"position": Vector2(4400, 5950),
+"position": Vector2(3700, 5600),
 "size": Vector2(400, 450),
 "window": "group"
 }, {
@@ -948,7 +948,7 @@ windows=[{
 "custom_name": "File Selector",
 "filename": "window_group.tscn",
 "name": "group40",
-"position": Vector2(4400, 6400),
+"position": Vector2(3700, 6050),
 "size": Vector2(1450, 900),
 "window": "group"
 }, {
@@ -958,7 +958,7 @@ windows=[{
 "custom_name": "Post-Selector",
 "filename": "window_group.tscn",
 "name": "group52",
-"position": Vector2(6000, 6300),
+"position": Vector2(5300, 5950),
 "size": Vector2(400, 1000),
 "window": "group"
 }, {
@@ -968,7 +968,7 @@ windows=[{
 "custom_name": "Text",
 "filename": "window_group.tscn",
 "name": "group39",
-"position": Vector2(5400, 6850),
+"position": Vector2(4700, 6500),
 "size": Vector2(400, 450),
 "window": "group"
 }, {
@@ -978,7 +978,7 @@ windows=[{
 "custom_name": "Image",
 "filename": "window_group.tscn",
 "name": "group38",
-"position": Vector2(4900, 6850),
+"position": Vector2(4200, 6500),
 "size": Vector2(400, 450),
 "window": "group"
 }, {
@@ -988,7 +988,7 @@ windows=[{
 "custom_name": "Program",
 "filename": "window_group.tscn",
 "name": "group35",
-"position": Vector2(4400, 6450),
+"position": Vector2(3700, 6100),
 "size": Vector2(350, 400),
 "window": "group"
 }, {
@@ -998,131 +998,131 @@ windows=[{
 "custom_name": "Weight: 200",
 "filename": "window_group.tscn",
 "name": "group28",
-"position": Vector2(4400, 5000),
+"position": Vector2(3700, 4650),
 "size": Vector2(350, 350),
 "window": "group"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Clock": {
-"id": "84c309562852",
+"id": "f0c671b49071",
 "outputs_id": Array[String]([]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/File": {
-"id": "d17eed06b11e",
+"id": "5a8fecf5eecb",
 "outputs_id": Array[String]([]),
 "resource": "zip_game",
 "variation": 32768
 },
 "PanelContainer/MainContainer/Output": {
-"id": "e462b870c87f",
-"outputs_id": Array[String](["b36b32694252"]),
+"id": "f2ecf9153385",
+"outputs_id": Array[String](["9b351414ef37"]),
 "resource": "game",
 "variation": 32768
 }
 },
 "filename": "window_unzipper.tscn",
 "name": "unzipper5",
-"position": Vector2(6050, 4450),
+"position": Vector2(5350, 4100),
 "window": "unzipper"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Clock": {
-"id": "3a4f92390878",
+"id": "ed1be4002f55",
 "outputs_id": Array[String]([]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/File": {
-"id": "b36b32694252",
+"id": "9b351414ef37",
 "outputs_id": Array[String]([]),
 "resource": "game",
 "variation": 32768
 },
 "PanelContainer/MainContainer/Output": {
-"id": "5947844b533c",
-"outputs_id": Array[String](["b624c62ee241"]),
+"id": "70a96943b326",
+"outputs_id": Array[String](["3fab698cbc66"]),
 "resource": "game",
 "variation": 73730
 }
 },
 "filename": "window_decryptor_bruteforce.tscn",
 "name": "decryptor_bruteforce2",
-"position": Vector2(6100, 4500),
+"position": Vector2(5400, 4150),
 "window": "decryptor_bruteforce"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Clock": {
-"id": "40a39fc48590",
+"id": "860c9052e938",
 "outputs_id": Array[String]([]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/File": {
-"id": "8e22ec47db50",
+"id": "7fe4dca8136b",
 "outputs_id": Array[String]([]),
 "resource": "game",
 "variation": 73730
 },
 "PanelContainer/MainContainer/Output": {
-"id": "a0391aff555a",
-"outputs_id": Array[String](["be143d2ef477"]),
+"id": "1c489ff3c380",
+"outputs_id": Array[String](["c7afd9097b2d"]),
 "resource": "game",
 "variation": 73758
 }
 },
 "filename": "window_compressor_max.tscn",
 "name": "compressor_max5",
-"position": Vector2(6050, 5650),
+"position": Vector2(5350, 5300),
 "window": "compressor_max"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Clock": {
-"id": "8821fcb968ca",
+"id": "db7651d86aeb",
 "outputs_id": Array[String]([]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/File": {
-"id": "be143d2ef477",
+"id": "c7afd9097b2d",
 "outputs_id": Array[String]([]),
 "resource": "game",
 "variation": 73758
 },
 "PanelContainer/MainContainer/Output": {
-"id": "72fcd8f72b81",
-"outputs_id": Array[String](["5672fd416332"]),
+"id": "5203f099618c",
+"outputs_id": Array[String](["f63b1f7a9e0b"]),
 "resource": "game",
 "variation": 74270
 }
 },
 "filename": "window_refiner.tscn",
 "name": "refiner0",
-"position": Vector2(6100, 5700),
+"position": Vector2(5400, 5350),
 "window": "refiner"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Boost": {
-"id": "7eca2fbcdcf2",
+"id": "61c3f37b159f",
 "outputs_id": Array[String]([]),
 "resource": "boost_research",
 "variation": 0
 },
 "PanelContainer/MainContainer/File": {
-"id": "9d14dc95965a",
+"id": "caeae31c96a6",
 "outputs_id": Array[String]([]),
-"resource": "video",
+"resource": "image",
 "variation": 207586
 },
 "PanelContainer/MainContainer/Points": {
-"id": "d67133b71d82",
-"outputs_id": Array[String](["5357491feeee", "2fb6907bb890"]),
+"id": "7999ab88de8d",
+"outputs_id": Array[String](["fe8fcc451cfc", "90d946b0e1fa"]),
 "resource": "research",
 "variation": 0
 },
 "PanelContainer/MainContainer/ResearchPower": {
-"id": "ab66c6d09645",
+"id": "27490442605f",
 "outputs_id": Array[String]([]),
 "resource": "research_power",
 "variation": 0
@@ -1130,32 +1130,32 @@ windows=[{
 },
 "filename": "window_data_lab.tscn",
 "name": "_VBoxContainer_12654",
-"position": Vector2(6050, 6400),
+"position": Vector2(5350, 6050),
 "window": "data_lab"
 }, {
 "container_data": {
 "PanelContainer/MainContainer/Clock": {
-"id": "0258499d265b",
+"id": "9e197bcf8081",
 "outputs_id": Array[String]([]),
 "resource": "clock_speed",
 "variation": 0
 },
 "PanelContainer/MainContainer/File": {
-"id": "87bf085a0d29",
+"id": "89e173b7d374",
 "outputs_id": Array[String]([]),
-"resource": "video",
+"resource": "image",
 "variation": 207390
 },
 "PanelContainer/MainContainer/Output": {
-"id": "31259680b8c6",
-"outputs_id": Array[String](["9d14dc95965a"]),
-"resource": "video",
+"id": "934315a2e906",
+"outputs_id": Array[String](["caeae31c96a6"]),
+"resource": "image",
 "variation": 207586
 }
 },
 "filename": "window_flipper.tscn",
 "name": "flipper0",
-"position": Vector2(6000, 6350),
+"position": Vector2(5300, 6000),
 "window": "flipper"
 }, {
 "color": 3,
@@ -1164,7 +1164,7 @@ windows=[{
 "custom_name": "Video",
 "filename": "window_group.tscn",
 "name": "group36",
-"position": Vector2(4900, 6450),
+"position": Vector2(4200, 6100),
 "size": Vector2(350, 400),
 "window": "group"
 }, {
@@ -1174,200 +1174,188 @@ windows=[{
 "custom_name": "Sound",
 "filename": "window_group.tscn",
 "name": "group37",
-"position": Vector2(4400, 6850),
+"position": Vector2(3700, 6500),
 "size": Vector2(400, 450),
 "window": "group"
 }]
 connectors={
-"00eb31ffda90": {
+"07f003cf0c6a": {
 "custom_points": Array[Vector2]([])
 },
-"0258499d265b": {
+"0c238fd5efff": {
 "custom_points": Array[Vector2]([])
 },
-"02652a52e5db": {
+"12fc8f34840e": {
 "custom_points": Array[Vector2]([])
 },
-"0cdfbf103d6b": {
+"16f8b4ed97d8": {
 "custom_points": Array[Vector2]([])
 },
-"1979f56ee397": {
+"277053488e3b": {
 "custom_points": Array[Vector2]([])
 },
-"1cad2e7d061a": {
+"27bed6e46d24": {
 "custom_points": Array[Vector2]([])
 },
-"2e10f8d6c91e": {
-"custom_points": Array[Vector2]([Vector2(4175, 2525), Vector2(2975, 4275)])
-},
-"2fb6907bb890": {
+"3fab698cbc66": {
 "custom_points": Array[Vector2]([])
 },
-"3a4f92390878": {
+"42579cfe0719": {
 "custom_points": Array[Vector2]([])
 },
-"40a39fc48590": {
+"42890b6d411d": {
 "custom_points": Array[Vector2]([])
 },
-"4674b3e63ccc": {
+"49273a2783a7": {
 "custom_points": Array[Vector2]([])
 },
-"4693abdfff97": {
+"4a9b940d213e": {
 "custom_points": Array[Vector2]([])
 },
-"478f4964fa09": {
+"4ea2f971a4be": {
 "custom_points": Array[Vector2]([])
 },
-"4cf4c6804e45": {
+"54f49b8ae1eb": {
 "custom_points": Array[Vector2]([])
 },
-"4d3ec1fdd75f": {
+"579f3767fd2f": {
 "custom_points": Array[Vector2]([])
 },
-"5357491feeee": {
+"5a8fecf5eecb": {
 "custom_points": Array[Vector2]([])
 },
-"54380a61ad57": {
+"5bce1564cac7": {
 "custom_points": Array[Vector2]([])
 },
-"5672fd416332": {
+"5e2fc71ff745": {
 "custom_points": Array[Vector2]([])
 },
-"5d1c7dd6dbca": {
-"custom_points": Array[Vector2]([Vector2(4325, 4275)])
-},
-"5f1e58de6251": {
+"625b78c5d1cb": {
 "custom_points": Array[Vector2]([])
 },
-"6ff6b6cc8102": {
+"6e0ef9ea534f": {
 "custom_points": Array[Vector2]([])
 },
-"72a9b9e7860f": {
+"7fe4dca8136b": {
 "custom_points": Array[Vector2]([])
 },
-"77c231c83286": {
+"80077d69a7da": {
 "custom_points": Array[Vector2]([])
 },
-"7eca2fbcdcf2": {
-"custom_points": Array[Vector2]([Vector2(5550, 4275)])
-},
-"84c309562852": {
+"8129fd71f044": {
 "custom_points": Array[Vector2]([])
 },
-"87bf085a0d29": {
+"82b18859d2c1": {
 "custom_points": Array[Vector2]([])
 },
-"8821fcb968ca": {
+"860c9052e938": {
 "custom_points": Array[Vector2]([])
 },
-"8a0cfd9a407a": {
+"89e173b7d374": {
 "custom_points": Array[Vector2]([])
 },
-"8e22ec47db50": {
+"90d946b0e1fa": {
 "custom_points": Array[Vector2]([])
 },
-"8eeddd120089": {
+"975d430a8d41": {
 "custom_points": Array[Vector2]([])
 },
-"9034a8ccea3d": {
+"999144b41ea5": {
 "custom_points": Array[Vector2]([])
 },
-"90a3d4b75042": {
+"9b351414ef37": {
 "custom_points": Array[Vector2]([])
 },
-"9573a97b65f1": {
+"9d160ee3ab1f": {
 "custom_points": Array[Vector2]([])
 },
-"9b02aebd90be": {
+"9e197bcf8081": {
 "custom_points": Array[Vector2]([])
 },
-"9be7a2617a74": {
+"a299b062ab5a": {
 "custom_points": Array[Vector2]([])
 },
-"9d14dc95965a": {
+"aec78ec35bdf": {
 "custom_points": Array[Vector2]([])
 },
-"9def95b2e4c2": {
+"b345ed7d62e5": {
 "custom_points": Array[Vector2]([])
 },
-"a0e2e90f886e": {
+"b52275199667": {
 "custom_points": Array[Vector2]([])
 },
-"a111f97d7945": {
+"b55a426fb05d": {
 "custom_points": Array[Vector2]([])
 },
-"a420f951c0c2": {
+"b5a1e82045d3": {
 "custom_points": Array[Vector2]([])
 },
-"aea1c9870ee9": {
+"b728cb3947d7": {
 "custom_points": Array[Vector2]([])
 },
-"b1ceccb82834": {
+"c30fc14f9a22": {
 "custom_points": Array[Vector2]([])
 },
-"b2b6c2056784": {
+"c43f6cfcfc1b": {
 "custom_points": Array[Vector2]([])
 },
-"b36b32694252": {
+"c7afd9097b2d": {
 "custom_points": Array[Vector2]([])
 },
-"b624c62ee241": {
+"caeae31c96a6": {
 "custom_points": Array[Vector2]([])
 },
-"b9734880761f": {
+"cb7d1181c605": {
 "custom_points": Array[Vector2]([])
 },
-"be143d2ef477": {
+"d16a7127c697": {
 "custom_points": Array[Vector2]([])
 },
-"be5217a02cda": {
+"d64f64f108d0": {
 "custom_points": Array[Vector2]([])
 },
-"c4aafec940ac": {
+"db7651d86aeb": {
 "custom_points": Array[Vector2]([])
 },
-"c87107682a49": {
+"de0c475de680": {
 "custom_points": Array[Vector2]([])
 },
-"cb9a28459a4f": {
+"de9b68474a77": {
 "custom_points": Array[Vector2]([])
 },
-"cd23297215bf": {
+"e58bd1fb91f7": {
 "custom_points": Array[Vector2]([])
 },
-"d17eed06b11e": {
+"e5c59ef16f56": {
 "custom_points": Array[Vector2]([])
 },
-"d360d64f7069": {
+"e6e7da17afd3": {
 "custom_points": Array[Vector2]([])
 },
-"d412478d1837": {
+"ec536ef41312": {
 "custom_points": Array[Vector2]([])
 },
-"d6eee642523e": {
-"custom_points": Array[Vector2]([Vector2(4175, 2525), Vector2(2975, 4275), Vector2(4325, 4609)])
-},
-"dc59255c3e7f": {
+"ed1be4002f55": {
 "custom_points": Array[Vector2]([])
 },
-"de684034571f": {
+"f074fe520794": {
 "custom_points": Array[Vector2]([])
 },
-"e7585839b218": {
+"f0c671b49071": {
 "custom_points": Array[Vector2]([])
 },
-"ed430a24e9cf": {
+"f1c88922f713": {
 "custom_points": Array[Vector2]([])
 },
-"efbc42f45193": {
+"f5e731fb310b": {
 "custom_points": Array[Vector2]([])
 },
-"f1b505b86fe0": {
+"f63b1f7a9e0b": {
 "custom_points": Array[Vector2]([])
 },
-"fbeb97deb50d": {
+"fe8fcc451cfc": {
 "custom_points": Array[Vector2]([])
 }
 }
-rect=Rect2(4350, 4300, 2100, 3100)
+rect=Rect2(3650, 3950, 2100, 3100)
 icon="research"
