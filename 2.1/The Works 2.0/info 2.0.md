@@ -84,9 +84,12 @@ Minimum AR Recommendation: ~150 Advanced Research Spent
 
 **CPU:Network:GPU**
 I would consider a 1:2:1 AR Offset Ratio. You may go with a +1 Network Offset to fully balance The Works 2.0. Alternatively, you may make adjustments to the resource allocation to AGI. By default AGI:Main Production is 1:1 (for files/second) and can be modified to adjust overall Network and CPU usage.
+
 **Hacking:Research**
+
 Overall these two should be close to but sub-leveled to Hardware.
 **Coding**
+
 You need 9 Application Points and 26 Optimization Points for this setup. Once you are in a comfortable position to get these required points from building Applications and Optimizations, you are done here. You will not need to increase purchases in the future once you are happy with your coding speed (AGI considered, there may be a time down the road when you want to take some points out).
 
 | CPU | Network | GPU | Hacking | Research | Coding |
