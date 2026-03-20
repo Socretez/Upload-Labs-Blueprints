@@ -170,7 +170,7 @@ Recommended Hack Point Purchases: `Spoil x1` → `Sneak Attack x5` → `Infectio
 
 The Works: This Node Group receives Hack Boost from the AGI Node Group.
 
-### Coding 2.0 Instructions
+#### Coding 2.0 Instructions
 
 This Node Group Builds Application Points (Optimized 3x + Debug), Optimization Points (Optimized 3x + Debug), and Drivers (Optimized 3x + Debug).
 
