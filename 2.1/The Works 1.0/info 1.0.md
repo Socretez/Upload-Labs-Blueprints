@@ -8,7 +8,7 @@ The following information is a companion guide to the text file schematics locat
 
 Download the text file associated with the schematic you want. Open text file → Select All / Copy → In-Game Import. If you fail to copy the whole text file contents into your clipboard, your import will fail.
 
-**Note:** If you are chosing to use the Works 1.0 or 2.0, there may be different instructions.
+**Note:** If you are choosing to use the Works 1.0 or 2.0, there may be different instructions.
 
 ### Applications (9)
 
@@ -136,9 +136,9 @@ The Works: This Node Group is fed Network and CPU resources from Hardware. It al
 
 #### Virus
 
-This Node Group generates, processes, and exports a specified ratio of virus to the Imprinter Line. It generates virus using texts, while any can realistically be used except Games. Game bsaed virus generation requires real CPU usage (approx `1/16th` of Main Line). Using Decomp apps down to Programs, Video, Sound, Images, or Texts would make it cheaper. Even as large as programs, it will be running off of virtually nothing (`1/3200th`). Text, for example requires `1/(6.4e11)` (about 1 in 640 billion), etc. Since ratios cannot go that low, you'll end up with surplus Virus and wasted CPU, which considering how low the usage is, the surplus Virus and wasted CPU is fine.
+This Node Group generates, processes, and exports a specified ratio of virus to the Imprinter Line. It generates virus using texts, while any can realistically be used except Games. Game based virus generation requires real CPU usage (approx `1/16th` of Main Line). Using Decomp apps down to Programs, Video, Sound, Images, or Texts would make it cheaper. Even as large as programs, it will be running off of virtually nothing (`1/3200th`). Text, for example requires `1/(6.4e11)` (about 1 in 640 billion), etc. Since ratios cannot go that low, you'll end up with surplus Virus and wasted CPU, which considering how low the usage is, the surplus Virus and wasted CPU is fine.
 
-The Works: It is fed the exact Network and CPU resources needed to generate virus using negliable DL and CPU Speeds. Extra Virus can safely be ignored.
+The Works: It is fed the exact Network and CPU resources needed to generate virus using negligible DL and CPU Speeds. Extra Virus can safely be ignored.
 
 #### AGI
 
