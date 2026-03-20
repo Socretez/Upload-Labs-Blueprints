@@ -4,7 +4,7 @@
 
 A schematic database for **Upload Labs**, now focused on **version 2.1.x** builds and end-game progression.
 
-Please read `2.1/info.md` for instructions on how to use the schematics.
+Please read `2.1/The Works 2.0/info 2.0.md` for instructions on how to use the schematics.
 
 If you have any further questions or issues, join the official [Upload Labs Discord](https://discord.com/invite/qPCBgfbMXT) and continue the discussion in `#lab-schematics`.
 
@@ -32,7 +32,7 @@ Main Directory
 1. The Works 1.0
    - 5:2:2 Hardware setup for end-game Advanced Research Farming
    - Does not include a 3rd stage Factory due to node capacity limitations (400)
-2. The Works 2.0
+2. The Works 2.0 - Current Version
    - 1:1:1 Hardware setup for end-game Advanced Research Farming (Improved Efficiency)
 
 The Works - Components
@@ -53,7 +53,7 @@ The Works - Components
    - Portal-ready hacking setup focused on fast early breaches and infection progression.
 8. `/8. Coding.txt`
    - Controlled application/optimization point builder with ratio toggles for 9/26 targets.
-9. `/9. Mini-Factory.txt`
+9. `/9. Factory.txt`
    - 3 stage factory
      - Early Stage - Direct Import
      - Mid Stage - Mini-Factory
