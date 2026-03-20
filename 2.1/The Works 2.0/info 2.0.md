@@ -113,7 +113,7 @@ Note: This chart is **not** a suggested progression path and is for **Reference 
 6. `2.1/6. Research (1:1:1).txt`
 7. `2.1/7. Hacking.txt`
 8. `2.1/8. Coding 2.0.txt`
-9. `2.1/9. Mini-Factory (1:1:1).txt`
+9. `2.1/9. Factory (1:1:1).txt`
 
 ### The Works 2.0 - 339 Nodes
 
