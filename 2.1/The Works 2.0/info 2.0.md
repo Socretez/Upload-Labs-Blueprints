@@ -154,7 +154,7 @@ The Works: This Node Group receives ratioed Network and CPU resources from Hardw
 
 #### Research
 
-This Node Group generates, processes, and collects all research. It features an auto-collector and an Advanced Research Node. Simply toggle `OFF` the node you do not need at the time. Make sure you only turn on the relevant File Selector Nodes (Decomp Apps). First attempts with this should use Text File (Duplicator → `Ripper → Decompiler` → Flipper). If it's generating more than `1.00e2` files, or more files than your Data Labs Node can handle (once your income and boosts stabilize), consider moving from text to images (Duplicator → `Scrapper → Decomposer` → Flipper) and so on. When using the File Selector, make sure you do not have multiple files toggled on. Toggle one on at time and reconnect the output of the file selector to the Flipper in the "Post Selector" Node Group located in the bottom right.
+This Node Group generates, processes, and collects all research. It features an auto-collector and an Advanced Research Node. Simply toggle `OFF` the node you do not need at the time. Make sure you only turn on the relevant File Selector Nodes (Decomp Apps). First attempts with this should use Text File (Duplicator → `Ripper → Decompiler` → Flipper). If it's generating more than `1.00e2` files, or more files than your Data Labs Node can handle (once your income and boosts stabilize), consider moving from text to images (Duplicator → `Scrapper → Decomposer` → Flipper) and so on. When using the File Selector, make sure you do not have multiple files toggled on. Toggle one on at a time and reconnect the output of the file selector to the Flipper in the "Post Selector" Node Group located in the bottom right.
 
 Flow: (DL → Quantity Multipliers and Compression → Refined + Analyzed → Duplicator) → **File Selector** → (Flipper → Data Lab)
 
@@ -195,7 +195,7 @@ This factory has two Toggle Groups.
 **Ensure you are using ONE Toggle Group at a time**
 
 - Toggle Group A: Direct Import - 0 Machines (1:1:1). Straight cash for boost. Useful early in run to avoid micromanagement. Utilize the default 1:1 ratio to acquire early upgrades during a portal run. After you make the relevant purchases, swap the auto-collector's allocation to 0 (1:0).
-- Toggle Group B: Mini Factory - 9 Machines (1:1:1). Useful later in the run when income/boosts stabilize. Utilize 50:50 income split to generate the same amount of Modules as the Direct Importer (but now with spendable money!)
+- Toggle Group B: Mini Factory - 3 Machines (1:1:1). Useful later in the run when income/boosts stabilize. Utilize 50:50 income split to generate the same amount of Modules as the Direct Importer (but now with spendable money!)
 - Toggle Group C: Main Factory - 34 Machines (4:4:4). For swapping to when the mini-factory's efficiency drops to approximately 17.65% on average while using a 50:50 income ratio with the mini-factory. This will send all income to the wallet.
 
 The Works: In The Works, the hardware section imports Clock Sellers cash to the Mini-Factory for early game hardware boost to help reduce portal early-game ramp up time.
