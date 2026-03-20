@@ -1,6 +1,6 @@
 # Information
 
-## Version Check - v2.1.10 (February 9th, 2026)
+## Version Check - v2.1.11 (March 2nd, 2026)
 
 ## Auxiliary Schematics for Upload Labs v2.1.x
 
@@ -10,9 +10,9 @@ Download the text file associated with the schematic you want. Open text file ->
 
 ## 2.1 Auxiliary Schematic Index (Standalone)
 
-1. `2.1/Aux/Examples/Back-End Dev.txt`
-2. `2.1/Aux/Examples/AGI Basic.txt`
-3. `2.1/Aux/Examples/AGI Intermediate.txt`
+1. `2.1/Aux/Back-End Dev.txt`
+2. `2.1/Aux/AGI Basic.txt`
+3. `2.1/Aux/AGI Intermediate.txt`
 
 ## 2.1 Auxiliary Example Index
 
@@ -48,7 +48,7 @@ Standalone AGI schematic starter kit (Basic).
 
 - Isolated AGI Starter Kit schematic (separate from `The Works`)
 - 6 Way Network/CPU/GPU split
-  - Standard Downloader → Distilator → Trainer → AGI Core
+  - Standard Downloader → Distillator → Trainer → AGI Core
 
 #### AGI Basic Requirements
 
@@ -64,7 +64,7 @@ Standalone AGI schematic starter kit (Intermediate).
 
 - Isolated AGI Starter Kit schematic (separate from `The Works`)
 - Curated Network/CPU/GPU split
-  - Zipped Game Torrent Downloader → Compressor Max → Distilator → Decomposition + Splicer → Trainer → AGI Core
+  - Zipped Game Torrent Downloader → Compressor Max → Distillator → Decomposition + Splicer → Trainer → AGI Core
 - Generates 2.4x more neurons per cycle, requires more CPU/GPU per Download than the basic kit to account for increased file quantity.
 
 #### AGI Intermediate Requirements
