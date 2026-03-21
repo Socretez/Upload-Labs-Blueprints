@@ -70,7 +70,7 @@ Download the text file associated with the schematic you want. Open text file â†
 
 ## First-Run Order (Quick Start)
 
-### The Works 1.0 - 5:2:2 Setup
+### The Works 2.0 - 1:1:1 Setup
 
 1. Turn on `Hacking` first (or second with `Coding`) after portal.
 2. In `The Works` hardware toggles, start with Toggle A `ON` and Toggle B `OFF`.
@@ -142,7 +142,7 @@ The Works: This Node Group is fed Network and CPU resources from Hardware. It al
 
 #### Virus
 
-This Node Group generates, processes, and exports a specified ratio of virus to the Imprinter Line. It generates virus using texts, while any can realistically be used except Games. Game based virus generation requires real CPU usage (approx `1/16th` of Main Line). Using Decomp apps down to Programs, Video, Sound, Images, or Texts would make it cheaper. Even as large as programs, it will be running off of virtually nothing (`1/3200th`). Text, for example requires `1/(6.4e11)` (about 1 in 640 billion), etc. Since ratios cannot go that low, you'll end up with surplus Virus and wasted CPU, which considering how low the usage is, the surplus Virus and wasted CPU is fine.
+This Node Group generates, processes, and exports a specified ratio of virus to the Imprinter Line. It generates viruses using texts, while any can realistically be used except Games. Game based virus generation requires real CPU usage (approx `1/16th` of Main Line). Using Decomp apps down to Programs, Video, Sound, Images, or Texts would make it cheaper. Even as large as programs, it will be running off of virtually nothing (`1/3200th`). Text, for example, requires `1/(6.4e11)` (about 1 in 640 billion), etc. Since ratios cannot go that low, you'll end up with surplus Virus and wasted CPU, which considering how low the usage is, the surplus Virus and wasted CPU is fine.
 
 The Works: It is fed the exact Network and CPU resources needed to generate virus using negligible DL and CPU Speeds. Extra Virus can safely be ignored.
 
@@ -180,6 +180,7 @@ Once reaching the desired Application Points: `9`, pause the whole Node Group.
 
 - Set Application's `0 / 4 (Build)` Toggle (4:75) to 0:75
 - Unpause Node Group
+- Note: I've added Code Optimize to help create applications faster. Toggle the Application Code group off or disconnect the input to avoid wasting Optimization Code when finished making Application Points. 
 
 Once reaching the desired Optimization Points: `26`, pause the whole Node Group.
 
@@ -194,8 +195,8 @@ The Works: This Node Group receives Code Boost from the AGI Node Group. The defa
 This factory has two Toggle Groups.
 **Ensure you are using ONE Toggle Group at a time**
 
-- Toggle Group A: Direct Import - 0 Machines (1:1:1). Straight cash for boost. Useful early in run to avoid micromanagement. Utilize the default 1:1 ratio to acquire early upgrades during a portal run. After you make the relevant purchases, swap the auto-collector's allocation to 0 (1:0).
-- Toggle Group B: Mini Factory - 3 Machines (1:1:1). Useful later in the run when income/boosts stabilize. Utilize 50:50 income split to generate the same amount of Modules as the Direct Importer (but now with spendable money!)
+- Toggle Group A: Direct Import - 0 Machines (1:1:1). Straight cash for boost. Useful early in the run to avoid micromanagement. Utilize the default 1:1 ratio to acquire early upgrades during a portal run. After you make the relevant purchases, swap the auto-collector's allocation to 0 (1:0).
+- Toggle Group B: Mini Factory - 3 Machines (1:1:1). Useful later in the run when income/boosts stabilize. Utilize a 50:50 income split to generate the same amount of Modules as the Direct Importer (but now with spendable money!)
 - Toggle Group C: Main Factory - 34 Machines (4:4:4). For swapping to when the mini-factory's efficiency drops to approximately 17.65% on average while using a 50:50 income ratio with the mini-factory. This will send all income to the wallet.
 
 The Works: In The Works, the hardware section imports Clock Sellers cash to the Mini-Factory for early game hardware boost to help reduce portal early-game ramp up time.
@@ -228,3 +229,4 @@ Main Factory Machines (34 Machines):
   - 1x Excavator
   - 2x Miner
   - 1x Extractor
+  - 
