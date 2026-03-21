@@ -12,16 +12,26 @@ If you have any further questions or issues, join the official [Upload Labs Disc
 
 Make sure you visit the [Upload Labs Wiki](https://labs-wiki.enigmastudio.dev/en/home)!
 
+## How to Use Schematics
+
+This repo is intended to be used as a **repository** for schematic imports.
+
+1. Open the repository page in your browser.
+2. Open the `2.1` schematic `.txt` file you want to use.
+3. Copy the full text contents.
+4. In Upload Labs, use the in-game import tool and paste.
+
 ## Repository Layout
 
 - `2.1/` - Active Schematics and notes for version 2.1.
-  - 2.1/Examples - Screenshots
-  - 2.1/Aux - Standalone schematics that are intentionally isolated from `The Works`
+  - `2.1/The Works *.0` - Schematics for 5:2:2 (Works 1.0) and 1:1:1 (Works 2.0) Hardware setups.
+  - `2.1/The Works *.0/Examples` - Screenshots
+  - `2.1/Aux` - Standalone schematics that are intentionally isolated from `The Works`
 - `Archive/` - Legacy reference materials and older schematic structure.
 
 ## Examples
 
-The `2.1/Examples/` directory contains screenshot references for each 2.1 schematic.
+The `2.1/The Works *.0/Examples/` directory contains screenshot references for each 2.1 schematic.
 
 Screenshots may not reflect the exact node ratios used in the current schematic revision and should be treated as visual reference only.
 
@@ -29,35 +39,37 @@ Screenshots may not reflect the exact node ratios used in the current schematic 
 
 Main Directory
 
-1. The Works 1.0
+1. `2.1/The Works 1.0` - Prior Version, Active - Deprecated
    - 5:2:2 Hardware setup for end-game Advanced Research Farming
    - Does not include a 3rd stage Factory due to node capacity limitations (400)
-2. The Works 2.0 - Current Version
+2. `2.1/The Works 2.0` - Current Version, Active
    - 1:1:1 Hardware setup for end-game Advanced Research Farming (Improved Efficiency)
 
 The Works - Components
 
-1. `/1. The Works.txt`
+1. `/1. The Works 2.0.txt`
    - Full integrated layout that links every 2.1 node group into one coordinated factory.
-2. `/2. Hardware.txt`
+2. `/2. Hardware (1:1:1).txt`
    - Core Network/CPU/GPU generation block with early-run seller/tether toggle flow.
-3. `/3. Main Production.txt`
+3. `/3. Main Production (1:1:1).txt`
    - Primary money and infection pipeline with main and import lines feeding the imprinter path.
 4. `/4. Virus.txt`
    - Lightweight virus production lane tuned to supply imprinting at a fixed low-cost ratio.
 5. `/5. AGI.txt`
    - Self-contained AGI boost engine that distributes AI power to key production groups.
-6. `/6. Research.txt`
+6. `/6. Research (1:1:1).txt`
    - Flexible research farm with selectable decomp paths and simple toggles for file-type scaling.
 7. `/7. Hacking.txt`
    - Portal-ready hacking setup focused on fast early breaches and infection progression.
-8. `/8. Coding.txt`
+8. `/8. Coding 2.0.txt`
    - Controlled application/optimization point builder with ratio toggles for 9/26 targets.
-9. `/9. Factory.txt`
+9. `/9. Factory (1:1:1).txt`
    - 3 stage factory
      - Early Stage - Direct Import
      - Mid Stage - Mini-Factory
      - Late Stage - Main Factory for maximum efficiency
+   - `/9.1 Factory Toggles.txt`
+      - Toggles to go from each of the 3 Factory Stages for ease of use.  
 
 ## 2.1 Auxiliary Schematics (Standalone)
 
@@ -142,15 +154,6 @@ This architecture is easier to tune, scales better for end-game throughput, and 
 - Disassembling
 - Imprinting
 - Duplication
-
-## How to Use Schematics
-
-This repo is intended to be used as a **repository** for schematic imports.
-
-1. Open the repository page in your browser.
-2. Open the `2.1` schematic `.txt` file you want to use.
-3. Copy the full text contents.
-4. In Upload Labs, use the in-game import tool and paste.
 
 ## Migration Notes
 
