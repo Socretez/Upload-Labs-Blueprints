@@ -1,6 +1,8 @@
 # Upload Labs Schematics
 
-## Version 2.2.x: __**IMPORTANT NOTICE:**__ Consider most schematics deprecated until further notice.
+## Version 2.2.x: __**IMPORTANT NOTICE:**__
+
+### Consider most schematics deprecated until further notice.
 
 <sub>Authored by Socretez. Special thanks to dominictyg for help with theorycrafting and keeping my sanity in check.</sub>
 
